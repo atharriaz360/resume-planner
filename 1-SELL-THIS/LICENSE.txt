@@ -1,24 +1,13 @@
-Career Hub
-Personal Use Licence · v2.0
-© DigiDesignLab1. All rights reserved.
+Career Hub - Personal & Household Use Licence
+Copyright DigiDesignLab1. All rights reserved.
 
-YOU MAY
-• Use Career Hub for yourself and your own household, on any devices you own.
-• Keep backup copies of the file for your own use.
+You may use Career Hub for yourself and your household on devices you own and keep personal backups.
+You may not resell, redistribute, publish, sublicense, or share the app or guide outside your household. Do not remove copyright notices or use its code/design to create a product for sale.
 
-YOU MAY NOT
-• Share, give away, resell, sublicense or redistribute the Career Hub file, the Start Here guide or the online link, in whole or in part, free or paid.
-• Upload the file or link to any website, marketplace, file-sharing service or group.
-• Use Career Hub's design, code, icons or branding to make a product for sale.
-• Remove or alter copyright notices.
+Your entries are stored in your browser. There is no automatic cloud sync. Keep JSON backups; clearing browser storage or switching browser, device, or app location can make entries unavailable. The seller does not receive your entries through the app.
 
-YOUR DATA
-Everything you enter stays in your own web browser, on your own device. Career Hub sends nothing to the internet and the seller cannot see your data. You are responsible for backups (Settings → Download backup).
+Career Hub is an organisation and preparation tool, not a recruitment service. It does not guarantee jobs, interviews, or compatibility with every hiring system. Review resume exports and follow each employer's requirements.
 
-NOT ACCOUNTING ADVICE
-Career Hub is a planning tool. Calculations are estimates based on the numbers you enter. It is not financial, legal or tax advice, does not connect to any bank or accounting software and does not move money.
+The public website is https://resume-planner-rouge.vercel.app/ . The website and downloaded file have separate browser storage; use backup/restore to transfer your workspace. Access to the public website does not include permission to redistribute the downloadable product.
 
-NO WARRANTY
-Career Hub is provided "as is". We will gladly help through Etsy messages, but we are not responsible for data lost by clearing browser data, private browsing, or changing browsers or devices without a backup.
-
-Questions? Message us on Etsy.
+Provided as is, subject to applicable consumer rights. For product issues, contact the seller through Etsy. This licence does not limit rights provided by law or Etsy policies.

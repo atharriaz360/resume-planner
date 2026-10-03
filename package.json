@@ -1,25 +1,26 @@
 {
   "name": "resume-planner",
   "version": "1.0.0",
-  "description": "",
+  "description": "Career Hub resume builder and job search tracker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:release": "python3 5-SOURCE/build-release.py"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atharriaz360/stress-release.git"
+    "url": "https://github.com/atharriaz360/resume-planner.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/atharriaz360/stress-release/issues"
+    "url": "https://github.com/atharriaz360/resume-planner/issues"
   },
-  "homepage": "https://github.com/atharriaz360/stress-release#readme",
+  "homepage": "https://resume-planner-rouge.vercel.app/",
   "dependencies": {
     "express": "^5.2.1",
     "puppeteer": "^25.12.0"
-  }
+  },
+  "private": true
 }
