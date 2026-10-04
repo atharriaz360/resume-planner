@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "consoleErrors": [],
+  "migrations": "v3 to v5",
+  "storage": [
+    "IndexedDB priority",
+    "localStorage fallback",
+    "memory fallback"
+  ],
+  "screenshots": 34
+}

@@ -9,7 +9,7 @@ Release rebuilt on 3 October 2026 and checked on 4 October 2026. Career-Hub.html
 ## Listing title — ready to paste
 
 ```text
-Job Search Tracker & Resume Builder App, PDF Export and Interview Planner
+Resume Builder and Cover Letter App with Job Tracker, 3 Professional Templates
 ```
 
 This title identifies the product and its main functions without repeating search phrases. It is under 140 characters and under 15 words.
@@ -17,7 +17,7 @@ This title identifies the product and its main functions without repeating searc
 ## Tags — comma separated, ready to paste
 
 ```text
-job search tracker, application tracker, resume builder, interview planner, career planner, job hunt organizer, resume organizer, interview prep, career change, networking tracker, follow up planner, digital planner app, pdf resume
+job search tracker, application tracker, resume builder, cover letter, career planner, job hunt organizer, resume organizer, interview prep, career change, networking tracker, follow up planner, digital planner app, pdf resume
 ```
 
 13 distinct tags; each is at most 20 characters including spaces. These are relevant search phrases, not verified high-volume keywords or a ranking guarantee. Enter them as separate tags if Etsy does not split the pasted line.
@@ -48,6 +48,12 @@ Keep a reusable record of your roles, achievements, training, and projects. Brin
 
 WHAT’S INSIDE CAREER HUB
 
+COVER LETTER — MATCH YOUR APPLICATION
+Use your contact details, choose tracked-job details if useful, and write a personal opening, evidence and closing. Preview in either resume style and save as PDF through your browser. Your current draft saves in the workspace.
+
+AWARDS & EDITABLE SECTION ORDER
+Add Awards & Honours. Drag resume sections or use arrow buttons to reorder them. Mint Modern supports moving sections between columns. Use Edit in the builder or preview to update content. Name and headline remain at the top.
+
 🏠 HUB — YOUR SEARCH AT A GLANCE
 See application, interview, offer, and contact counts, plus upcoming application follow-ups. A suggested next action highlights incomplete setup, a due application follow-up, or a wishlist opportunity. The resume-readiness checklist tracks completed setup steps; it is not a hiring score or an assessment of your resume’s quality.
 
@@ -55,7 +61,7 @@ See application, interview, offer, and contact counts, plus upcoming application
 Keep your profile, work experience, projects, education, certifications, and skills together. Add achievement bullets and update them as you gain experience. Reuse that information when selecting content for a resume.
 
 📄 RESUME BUILDER — TWO LAYOUTS, YOUR CONTENT
-Choose Executive for a single-column layout or Mint Modern for a two-column design. Include or exclude experience and projects, choose the available sections, and review your live preview. Mint Modern offers seven resume accent colours.
+Choose Executive for one column, Mint Modern for two columns, or Professional Sidebar for a coloured right column. Include or exclude experience and projects, choose the available sections, and review your live preview. All three templates use plain-text contacts and standard headings. Mint Modern offers five resume accent colours.
 
 Use the PDF action to open your browser’s print dialog, then choose Save as PDF. The export uses the preview’s design, with page breaks handled by the browser. Review the saved pages before sending. Word/DOCX export is not included.
 
@@ -131,7 +137,7 @@ Designed by DigiDesignLab1 with AI assistance in development and listing copy. L
 | Attributes | Use only available attributes that accurately describe the app/screenshots |
 | Price | Seller choice; price for the actual package and support offered |
 
-Do not use unrelated tags such as Excel, Google Sheets, Notion, Word template, or AI resume writer. Describe functionality accurately and avoid privacy absolutes, risk-free language, automatic reminders, and hiring promises. App accent colours are Indigo, Emerald, Amber, Rose, and Slate; Mint Modern has its own seven resume accent choices.
+Do not use unrelated tags such as Excel, Google Sheets, Notion, Word template, or AI resume writer. Describe functionality accurately and avoid privacy absolutes, risk-free language, automatic reminders, and hiring promises. App accent colours are Indigo, Emerald, Amber, Rose, and Slate; Mint Modern has its own five resume accent choices.
 
 ## Note to buyers — ready to paste
 
@@ -141,14 +147,14 @@ Thank you for choosing Career Hub. Download through Etsy in a web browser, unzip
 
 ## Listing photos and video plan
 
-Use images/01-hero.png as the primary hero: an AI-assisted product mockup, exported at 3000 x 2400 pixels (5:4). The native generated image was 1402 x 1122; resizing does not add native detail. Small interface text is AI-rendered, so pair this mockup with accurate screenshots. Alt text: Career Hub browser app mockup showing two resume layouts and application tracking for students, job seekers, and professionals.
+Use studio-refresh/01-hero.jpg as the primary hero. It uses actual product screenshots at 3000 × 2400 pixels. Use studio-refresh/02-templates.jpg to show all three layouts. The refreshed assets replace the older mockup. Preview the thumbnail crop before publishing.
 
 The newly added supporting images contain screenshots and product graphics. See RELEASE-AUDIT.md for required wording fixes before publishing. All ten are 3000 x 2400 pixels. Add current app screenshots if you want more visual evidence of the interface. Keep all captions factual.
 
 | Image | Alt text |
 |---|---|
 | 01-hero.png | Career Hub product information graphic explaining resume builder and job tracking. |
-| 02-two-templates.png | Career Hub product information graphic explaining executive and mint modern layouts. |
+| 02-two-templates.png | Career Hub product information graphic explaining Executive, Mint Modern and Professional Sidebar layouts. |
 | 03-colours-dark-mobile.png | Career Hub product information graphic explaining workspace appearance controls. |
 | 04-hub-dashboard.png | Career Hub product information graphic explaining hub counts and suggested steps. |
 | 05-job-tracker.png | Career Hub product information graphic explaining application stages and follow-up dates. |
@@ -241,4 +247,4 @@ No search-volume study, competitor price comparison, Etsy ranking forecast, or e
 
 ## Current release check — 4 October 2026
 
-Both local HTML files match byte-for-byte. Every ZIP member matches its loose release file and the archive integrity check passed. All 24 automated storage/action checks passed. The guide has two pages and the correct website, filenames, licence, and PDF instructions. Supporting listing images still need the corrections in RELEASE-AUDIT.md. This is not approval to publish the current image set. The live Vercel deployment was not verified in this audit.
+Both local HTML files match byte-for-byte. Every ZIP member matches its loose release file and the archive integrity check passed. All 24 automated storage/action checks passed. The guide has two pages and the correct website, filenames, licence, and PDF instructions. See the latest 5-SOURCE/ARCHITECTURE-AUDIT.md for current validation and refreshed assets. The live Vercel deployment was not verified in this audit.

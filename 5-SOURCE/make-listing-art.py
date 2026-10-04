@@ -12,8 +12,8 @@ def para(c,text,x,y,w,size=9,color=MUTED,bold=False):
 def box(c,x,y,w,h,title,text):
  c.setFillColor(colors.white);c.setStrokeColor(colors.HexColor(LINE));c.roundRect(x,y-h,w,h,12,fill=1,stroke=1);para(c,title,x+14,y-13,w-28,12,TEAL,True);para(c,text,x+14,y-39,w-28)
 slides=[
-('Resume Builder + Job Tracker','Career Hub browser app','Build your professional record. Choose resume content. Track application stages.','Two resume layouts | PDF via browser print','01-hero-resume-builder'),
-('Two resume layouts','Choose the structure for your content','Executive: single column. Mint Modern: two columns with seven accent choices.','Review the saved PDF before applying.','02-two-templates'),
+('Resume Builder + Job Tracker','Career Hub browser app','Build your professional record. Choose resume content. Track application stages.','Three resume layouts | PDF via browser print','01-hero-resume-builder'),
+('Three resume layouts','Choose the structure for your content','Executive: one column. Mint Modern: two columns. Professional Sidebar: coloured right column. Five resume accents.','Review the saved PDF before applying.','02-two-templates'),
 ('Choose your workspace look','Light, dark, and colour controls','Five app accents: Indigo, Emerald, Amber, Rose, Slate. Focus mode and a sticky header.','Responsive layout | Browser app','03-colours-dark-mobile'),
 ('Keep your next step in view','Hub dashboard','See application counts, upcoming application follow-ups, and a suggested next step.','Readiness measures setup completion.','04-hub-dashboard'),
 ('Organise your applications','Five recorded stages','Wishlist / Applied / Interviewing / Offer / Rejected. Keep salary notes, contact details, and follow-up dates.','Applications are submitted outside the app.','05-job-tracker'),

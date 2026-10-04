@@ -10,13 +10,13 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%234f46e5'/%3E%3Cpath d='M9 12h14M9 16h14M9 20h9' stroke='white' stroke-width='2.2' stroke-linecap='round'/%3E%3C/svg%3E">
 <script>(function(){try{var r=localStorage.getItem("careerhub.v1");if(!r)return;var s=(JSON.parse(r)||{}).settings||{};var a=["indigo","emerald","amber","rose","slate"];var e=document.documentElement;e.dataset.theme=s.theme==="dark"?"dark":"light";e.dataset.accent=a.indexOf(s.accent)>=0?s.accent:"indigo";if(s.focus)e.dataset.focus="true";}catch(e){}})();</script>
 <style>
-:root{--bg:#f9f9f8;--bg-grad:radial-gradient(900px 500px at 88% -18%,rgba(79,70,229,.06),transparent 60%);--panel:#fff;--raise:#f3f4f6;--sunken:#fafaf9;--line:#e5e7eb;--line-2:#d1d5db;--text:#1f2937;--text-2:#4b5563;--muted:#6b7280;--brand:#4f46e5;--brand-2:#6366f1;--on-brand:#fff;--brand-soft:rgba(79,70,229,.08);--ok:#10b981;--ok-soft:rgba(16,185,129,.10);--warn:#f59e0b;--warn-soft:rgba(245,158,11,.12);--bad:#ef4444;--bad-soft:rgba(239,68,68,.10);--fu:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--fr:"Lora","Iowan Old Style",Palatino,Georgia,serif;--r:14px;--ease:cubic-bezier(.2,.7,.2,1);--sh:0 1px 2px rgba(15,23,42,.04),0 6px 20px -12px rgba(15,23,42,.10)}
+:root{--bg:#f9f9f8;--bg-grad:radial-gradient(900px 500px at 88% -18%,rgba(79,70,229,.06),transparent 60%);--panel:#fff;--raise:#f3f4f6;--sunken:#fafaf9;--line:#e5e7eb;--line-2:#d1d5db;--text:#1f2937;--text-2:#4b5563;--muted:#6b7280;--brand:#4f46e5;--brand-2:#6366f1;--on-brand:#fff;--brand-soft:rgba(79,70,229,.08);--ok:#047857;--ok-soft:rgba(16,185,129,.10);--warn:#92400e;--warn-soft:rgba(245,158,11,.12);--bad:#b91c1c;--bad-soft:rgba(239,68,68,.10);--fu:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--fr:"Lora","Iowan Old Style",Palatino,Georgia,serif;--r:14px;--ease:cubic-bezier(.2,.7,.2,1);--sh:0 1px 2px rgba(15,23,42,.04),0 6px 20px -12px rgba(15,23,42,.10)}
 [data-theme=dark]{--bg:#0f172a;--bg-grad:radial-gradient(900px 500px at 88% -18%,rgba(129,140,248,.08),transparent 60%);--panel:#1e293b;--raise:#334155;--sunken:#0b1220;--line:rgba(255,255,255,.08);--line-2:rgba(255,255,255,.18);--text:#f1f5f9;--text-2:#cbd5e1;--muted:#94a3b8;--brand:#818cf8;--brand-2:#a5b4fc;--on-brand:#0f172a;--brand-soft:rgba(129,140,248,.14);--ok:#34d399;--ok-soft:rgba(52,211,153,.14);--warn:#fbbf24;--warn-soft:rgba(251,191,36,.14);--bad:#f87171;--bad-soft:rgba(248,113,113,.14)}
 [data-accent=indigo]{--brand:#4f46e5;--brand-2:#6366f1;--brand-soft:rgba(79,70,229,.08)}
 [data-theme=dark][data-accent=indigo]{--brand:#818cf8;--brand-2:#a5b4fc;--brand-soft:rgba(129,140,248,.14)}
-[data-accent=emerald]{--brand:#059669;--brand-2:#10b981;--brand-soft:rgba(5,150,105,.08)}
+[data-accent=emerald]{--brand:#047857;--brand-2:#10b981;--brand-soft:rgba(5,150,105,.08)}
 [data-theme=dark][data-accent=emerald]{--brand:#34d399;--brand-2:#6ee7b7;--brand-soft:rgba(52,211,153,.14)}
-[data-accent=amber]{--brand:#d97706;--brand-2:#f59e0b;--brand-soft:rgba(217,119,6,.10)}
+[data-accent=amber]{--brand:#b45309;--brand-2:#f59e0b;--brand-soft:rgba(217,119,6,.10)}
 [data-theme=dark][data-accent=amber]{--brand:#fbbf24;--brand-2:#fcd34d;--brand-soft:rgba(251,191,36,.14)}
 [data-accent=rose]{--brand:#e11d48;--brand-2:#f43f5e;--brand-soft:rgba(225,29,72,.08)}
 [data-theme=dark][data-accent=rose]{--brand:#fb7185;--brand-2:#fda4af;--brand-soft:rgba(251,113,133,.14)}
@@ -70,7 +70,7 @@ main{padding:26px clamp(18px,3.6vw,48px) 72px;max-width:1400px;width:100%;margin
 .hero{padding:4px 0 24px}
 .hero-eyebrow{font:600 11px/1 var(--fu);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
 .hero-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:20px;align-items:center}
-.action-card{background:linear-gradient(135deg,var(--brand) 0%,var(--brand-2) 100%);color:var(--on-brand);border-radius:var(--r);padding:26px 28px;box-shadow:0 12px 32px -12px rgba(79,70,229,.4);position:relative;overflow:hidden}
+.action-card{background:var(--brand);color:var(--on-brand);border-radius:var(--r);padding:26px 28px;box-shadow:0 12px 32px -12px rgba(79,70,229,.4);position:relative;overflow:hidden}
 .action-card::after{content:"";position:absolute;top:-40%;right:-10%;width:220px;height:220px;border-radius:50%;background:rgba(255,255,255,.08)}
 .action-eyebrow{font:600 11px/1 var(--fu);letter-spacing:.16em;text-transform:uppercase;opacity:.85;margin:0 0 10px}
 .action-card h2{font:600 22px/1.25 var(--fu);letter-spacing:-.02em;color:var(--on-brand);margin:0 0 8px;position:relative}
@@ -78,7 +78,7 @@ main{padding:26px clamp(18px,3.6vw,48px) 72px;max-width:1400px;width:100%;margin
 .action-card .row-actions{display:flex;gap:8px;flex-wrap:wrap;position:relative}
 .action-card button{background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.24);color:var(--on-brand);backdrop-filter:blur(8px)}
 .action-card button:hover{background:rgba(255,255,255,.28);border-color:rgba(255,255,255,.4)}
-.action-card button.solid{background:#fff;color:var(--brand);border-color:transparent}
+.action-card button.solid{background:var(--panel);color:var(--text);border-color:transparent}
 .action-card button.solid:hover{background:#f3f4f6;color:var(--brand)}
 .ring-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:20px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;box-shadow:var(--sh)}
 .ring-wrap{position:relative;width:132px;height:132px}
@@ -130,7 +130,7 @@ ul.bullets{margin:9px 0 0;padding-left:18px;font-size:13.5px;line-height:1.55}ul
 .check-row .lbl{flex:1;min-width:0}
 .check-row .lbl b{display:block;font-size:13.5px;font-weight:600;line-height:1.35}
 .check-row .lbl small{display:block;font-size:12px;color:var(--muted);margin-top:2px}
-.tpl-row{display:flex;gap:6px;flex-wrap:wrap}
+.tpl-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.tpl-row .tpl-btn{min-width:0;padding:12px 6px;font-size:12px;white-space:normal;line-height:1.3;min-height:82px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:6px;text-align:center}.tpl-btn strong{font-size:12px}.tpl-btn small{font-size:11px;font-weight:400;opacity:1;color:inherit}.resume-actions{display:grid;gap:10px}.resume-actions button{width:100%;text-align:left;min-height:44px}.resume-export>.primary{width:100%;min-height:46px}.resume-help{font-size:12px;line-height:1.5;margin:12px 0 0;color:var(--muted)}.resume-export details{margin-top:12px;font-size:12px;color:var(--muted)}.resume-export summary{cursor:pointer;padding:5px 0}.resume-export details p{line-height:1.6;margin:8px 0 0}
 .tpl-btn{padding:8px 14px;border-radius:9px;border:1px solid var(--line);background:var(--panel);font-size:12.5px;font-weight:600;cursor:pointer;transition:all .13s var(--ease)}
 .tpl-btn[aria-pressed=true]{background:var(--brand);color:var(--on-brand);border-color:var(--brand)}
 .tpl-btn:hover{border-color:var(--brand)}
@@ -140,35 +140,7 @@ ul.bullets{margin:9px 0 0;padding-left:18px;font-size:13.5px;line-height:1.55}ul
 .preview-sticky{position:sticky;top:16px;min-width:0}
 .paper-wrap{background:var(--raise);border-radius:var(--r);padding:20px;border:1px solid var(--line);overflow:auto;max-height:calc(100vh - 60px)}
 .paper{background:#fff;color:#111;border-radius:6px;box-shadow:0 20px 50px -20px rgba(15,23,42,.25);max-width:820px;margin:0 auto;min-height:1100px}
-.tpl-mint{font:13.5px/1.55 var(--fu);padding:48px 52px;color:#111}
-.tpl-mint h1{font:700 32px/1.1 var(--fu);letter-spacing:-.01em;text-transform:uppercase;margin:0 0 6px;color:#111}
-.tpl-mint .ph{font:600 12px var(--fu);letter-spacing:.16em;text-transform:uppercase;color:var(--rc,#0d9488);margin:0 0 14px}
-.tpl-mint .pc{font-size:12px;color:#555;padding-bottom:16px;border-bottom:1px solid #e5e7eb;margin:0 0 8px;line-height:1.7}
-.tpl-mint h2{font:700 12px/1 var(--fu);letter-spacing:.14em;text-transform:uppercase;color:var(--rc,#0d9488);margin:20px 0 10px;padding-bottom:4px;border-bottom:1px solid #e5e7eb}
-.tpl-mint h2:before{content:"# ";color:var(--rc,#0d9488);font-weight:700;margin-right:2px}
-.tpl-mint p{margin:0 0 8px;font-size:13px;line-height:1.6;color:#333}
-.tpl-mint .job{margin-bottom:14px}
-.tpl-mint .job:last-child{margin-bottom:0}
-.tpl-mint .job>b{font:700 14px var(--fu);color:#111;display:block;letter-spacing:-.01em}
-.tpl-mint .job .sub{font-size:12.5px;color:#555;font-weight:500}
-.tpl-mint .meta{font-size:11.5px;color:#666;margin:3px 0 6px;letter-spacing:.02em}
-.tpl-mint ul{margin:6px 0 0;padding-left:16px;font-size:12.5px;line-height:1.55}
-.tpl-mint li{margin-bottom:3px;color:#333}
-.tpl-mint section{display:block}
-.tpl-executive{font:13.5px/1.55 var(--fr);padding:48px 56px;color:#111}
-.tpl-executive h1{font:600 28px/1.1 var(--fr);letter-spacing:.06em;text-transform:uppercase;margin:0 0 6px;text-align:center;color:#111}
-.tpl-executive .ph{font:400 13px var(--fr);font-style:italic;color:#444;text-align:center;margin:0 0 10px}
-.tpl-executive .pc{font-size:12px;color:#555;text-align:center;margin:0 0 20px;padding-bottom:14px;border-bottom:1.5px solid #111;line-height:1.7}
-.tpl-executive h2{font:700 11.5px/1 var(--fu);letter-spacing:.2em;text-transform:uppercase;color:#111;margin:20px 0 10px;padding-bottom:5px;border-bottom:1px solid #111}
-.tpl-executive p{margin:0 0 8px;font-size:13px;line-height:1.6;color:#333}
-.tpl-executive .job{margin-bottom:14px}
-.tpl-executive .job:last-child{margin-bottom:0}
-.tpl-executive .job>b{font:700 14px var(--fr);color:#111}
-.tpl-executive .job .sub{font-size:12.5px;color:#333;font-style:italic}
-.tpl-executive .meta{font-size:12px;color:#555;margin:3px 0 5px;font-style:italic;font-family:var(--fr)}
-.tpl-executive ul{margin:5px 0 0;padding-left:18px;font-size:12.5px;line-height:1.6}
-.tpl-executive li{margin-bottom:4px;color:#333}
-.tpl-executive section{display:block}
+
 .contact-row .avatar{width:38px;height:38px;border-radius:50%;background:var(--brand-soft);color:var(--brand);display:grid;place-items:center;font-weight:600;font-size:14px;flex:none}
 details.pb{border-bottom:1px solid var(--line);padding:1px 0}details.pb:last-child{border-bottom:0}
 details.pb summary{cursor:pointer;padding:13px 0;font-weight:600;font-size:14px;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center;color:var(--text)}
@@ -221,86 +193,40 @@ main{padding:0!important;max-width:none!important;margin:0!important;width:100%!
 .paper{box-shadow:none!important;border-radius:0!important;max-width:none!important;min-height:0!important;width:100%!important;margin:0!important}
 }
 
-/* Reference resume layouts, self-contained system fonts. */
+/* Both templates keep the same linear text order for resume readers. */
 .focus-toggle{display:none}html[data-focus="true"] .focus-toggle{display:inline-flex;margin-bottom:16px}
-.paper{width:794px;max-width:none;min-height:1123px;border-radius:0;overflow-wrap:anywhere;--fu:Arial,Helvetica,sans-serif;--fr:Georgia,"Times New Roman",serif}
-.tpl-executive{padding:60px 64px;font:13px/1.45 Arial,Helvetica,sans-serif;color:#333}
-.tpl-executive .resume-header{border-bottom:2.5px solid #192c4d;padding:8px 0 12px;margin-bottom:30px;text-align:center}
-.tpl-executive h1{font:700 37px/1.1 Georgia,serif;color:#192c4d;letter-spacing:.025em;overflow-wrap:anywhere}
-.tpl-executive .ph{font:400 14px/1.5 Arial,sans-serif;letter-spacing:.3em;color:#bb923f;font-style:normal;margin:4px 0}
-.tpl-executive .pc{border:0;padding:0;margin:4px 0 0;font:12px/1.6 Arial,sans-serif;color:#555}
-.tpl-executive h2{font:700 16px/1.2 Georgia,serif;color:#192c4d;letter-spacing:.065em;border-bottom:1px solid #bb923f;padding-bottom:3px;margin:18px 0 8px}
-.tpl-executive .job-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
-.tpl-executive .job-head b{font:700 14px/1.35 Arial,sans-serif;color:#192c4d}
-.tpl-executive .meta{font:12px/1.4 Arial,sans-serif;color:#777;font-style:normal;white-space:nowrap}
-.tpl-executive .sub{font:italic 13px/1.4 Arial,sans-serif;color:#bb923f}
-.tpl-executive .job{margin-bottom:9px}.tpl-executive li::marker{color:#bb923f}
-.tpl-executive p{font:13px/1.45 Arial,sans-serif;white-space:pre-line}
-.tpl-executive ul{font:13px/1.5 Arial,sans-serif;margin:4px 0;padding-left:19px}
-.tpl-mint{padding:0 48px 48px;border-top:24px solid color-mix(in srgb,var(--rc) 23%,white);font:12.5px/1.55 Arial,sans-serif;color:#292929}
-.tpl-mint .resume-header{text-align:center;border-bottom:2px solid #333;padding:48px 0 45px;margin-bottom:0}
-.tpl-mint h1{font:700 40px/1.3 "Arial Narrow","Liberation Sans Narrow",Arial,sans-serif;letter-spacing:.16em;color:#252525;margin:0 0 8px}
-.tpl-mint .ph{font:400 12px/1.6 Arial,sans-serif;letter-spacing:.32em;color:#222;margin:0}
-.resume-columns{border-collapse:collapse;width:100%;table-layout:fixed}
-.resume-columns td{vertical-align:top;padding-top:32px;padding-bottom:32px}
-.resume-columns tr+tr{border-top:2px solid #333}
-.resume-left{width:32%;padding-right:36px;text-align:right}
-.resume-right{width:68%;padding-left:40px}
-.resume-columns .resume-left{border-right:1.5px solid #333}
-.tpl-mint h2{font:400 15px/1.3 Arial,sans-serif;letter-spacing:.22em;color:#222;border-bottom:2px solid #555;padding-bottom:2px;margin:0 0 25px}
-.tpl-mint h2:before{content:none}.tpl-mint section+section{margin-top:35px}
-.tpl-mint .job{margin-bottom:24px}.tpl-mint .job-head b{font:400 13px/1.4 Arial,sans-serif;letter-spacing:.13em;text-transform:uppercase}
-.tpl-mint .job>.meta{display:block;font:700 10px/1.4 Arial,sans-serif;color:#222;margin-bottom:4px}
-.tpl-mint .sub{display:block;font:15px/1.4 Arial,sans-serif;color:#777;margin-bottom:10px}
-.tpl-mint .resume-left .job-head{display:flex;flex-direction:column-reverse;gap:4px}
-.tpl-mint .resume-left .meta{font:700 10px/1.4 Arial,sans-serif;color:#222}
-.tpl-mint .resume-left ul{padding-left:0;list-style:none}.tpl-mint .resume-left li:after{content:" •";margin-left:6px}
-.tpl-mint .contact-line{border-bottom:1px solid #bbb;padding-bottom:6px;font-size:11px}
-.tpl-mint .contact-line:last-child{border:0}.tpl-mint p{white-space:pre-line}
-.job{break-inside:avoid} .paper h2{break-after:avoid}
+.paper{width:794px;max-width:none;min-height:1123px;border-radius:0;overflow-wrap:anywhere;background:white;color:#202733;--fu:Arial,Helvetica,sans-serif;--fr:Georgia,"Times New Roman",serif}
+.tpl-executive,.tpl-mint{padding:48px 56px;font:14px/1.45 Arial,Helvetica,sans-serif;border:0}
+.paper .resume-header{border-bottom:2px solid #233650;padding:0 0 16px;margin:0 0 20px;text-align:left;break-inside:avoid}
+.paper h1{font:700 34px/1.15 Georgia,"Times New Roman",serif;letter-spacing:0;text-transform:none;text-align:left;color:#20334d;margin:0 0 8px}
+.paper .ph{font:600 14px/1.4 Arial,Helvetica,sans-serif;letter-spacing:0;text-transform:none;color:#364152;margin:0 0 9px}
+.paper .pc{display:block;border:0;margin:0;padding:0;text-align:left;font:12px/1.5 Arial,Helvetica,sans-serif;color:#364152}
+.paper .contact-item{display:block;overflow-wrap:anywhere}.paper .contact-item+.contact-item{margin-top:2px}
+.paper h2{font:700 14px/1.25 Arial,Helvetica,sans-serif;letter-spacing:0;text-transform:uppercase;color:#20334d;margin:19px 0 9px;padding:0 0 5px;border-bottom:1px solid #c7cdd4;break-after:avoid}
+.paper h2:before{content:none}.paper section+section{margin-top:0}
+.paper .job{margin:0 0 14px;break-inside:avoid}.paper .job:last-child{margin-bottom:0}
+.paper .job-head{display:block;break-after:avoid}.paper .job-head b,.paper .job>b{display:block;font:700 14px/1.4 Arial,Helvetica,sans-serif;letter-spacing:0;text-transform:none;color:#202733}
+.paper .sub{display:block;font:400 13px/1.4 Arial,Helvetica,sans-serif;color:#364152;font-style:normal;margin:2px 0;break-after:avoid}
+.paper .meta{display:block;font:400 12px/1.4 Arial,Helvetica,sans-serif;color:#455163;letter-spacing:0;white-space:normal;font-style:normal;margin:2px 0 5px;break-after:avoid}
+.paper p{font:14px/1.45 Arial,Helvetica,sans-serif;color:#202733;white-space:pre-line;margin:0 0 7px;orphans:2;widows:2}
+.paper ul{font:14px/1.45 Arial,Helvetica,sans-serif;margin:5px 0 0;padding-left:19px}.paper li{margin:0 0 4px;color:#202733;orphans:2;widows:2}.paper li::marker{color:#455163}
+.tpl-mint{padding:0 48px 48px;border-top:18px solid color-mix(in srgb,var(--rc,#0d9488) 23%,white)}
+.tpl-mint .resume-header{text-align:center;border-bottom:1.5px solid #42474b;padding:40px 0 30px;margin-bottom:24px}
+.tpl-mint h1{font:700 37px/1.2 Arial,Helvetica,sans-serif;text-align:center;color:#252525;letter-spacing:.02em;margin-bottom:10px}
+.tpl-mint .ph{font:400 12px/1.6 Arial,Helvetica,sans-serif;text-align:center;letter-spacing:.03em;color:#222}
+.resume-grid{display:flow-root}.resume-main{margin-left:223px;padding-left:30px;border-left:1px solid #737a7e;min-width:0}
+.resume-side{float:left;width:223px;min-width:0;padding-right:28px;text-align:right}
+.tpl-mint h2{font:500 13px/1.3 Arial,Helvetica,sans-serif;letter-spacing:.02em;border-bottom:1.25px solid #737a7e;padding-bottom:5px;margin:25px 0 17px;color:#222}
+.tpl-mint .resume-grid>div>section:first-child h2{margin-top:0}
+.tpl-mint p,.tpl-mint ul{font-size:12.5px;line-height:1.5}.tpl-mint .job{margin-bottom:18px}
+.tpl-mint .job-head b,.tpl-mint .job>b{font-size:12.5px;line-height:1.45;font-weight:600}
+.tpl-mint .sub{font-size:13px;line-height:1.4;color:#505963;margin:3px 0 7px}
+.tpl-mint .meta{font-size:11px;line-height:1.45;margin-bottom:5px}
+.tpl-mint .contact-item{display:block;border-bottom:1px solid #d0d5d7;font:11px/1.5 Arial,Helvetica,sans-serif;padding-bottom:8px;margin-bottom:8px;overflow-wrap:anywhere}
+.tpl-mint .contact-item:last-child{border-bottom:0}
+.tpl-mint .resume-side p{font-size:12px;line-height:1.5}
 @media(max-width:900px){.builder{grid-template-columns:minmax(0,1fr)}.preview-sticky{position:static}.paper-wrap{max-height:none}}
-@media print{.focus-toggle{display:none!important}.paper{width:100%!important}.tpl-mint{padding:0 12mm 12mm!important}.tpl-executive{padding:15mm 17mm!important} .resume-columns td{padding-top:8mm;padding-bottom:8mm}.resume-left{padding-right:8mm}.resume-right{padding-left:9mm} .paper-wrap{overflow:visible!important}}
-
-/* Shared template polish, also copied into the PDF print frame. */
-.paper{--resume-row-gap:24px;--resume-left-gap:28px;--resume-right-gap:30px}
-.tpl-executive{padding:52px 60px;line-height:1.5}
-.tpl-executive .resume-header{padding:4px 0 14px;margin-bottom:22px;border-bottom-width:2px}
-.tpl-executive h1{font-size:35px;letter-spacing:.035em;margin:0 0 7px}
-.tpl-executive .ph{font-size:12px;letter-spacing:.19em;margin:0 0 9px}
-.tpl-executive .pc{display:flex;flex-wrap:wrap;justify-content:center;gap:5px 13px;font-size:11px;line-height:1.5;margin:0;color:#505968}
-.tpl-executive h2{font-size:14px;letter-spacing:.075em;margin:17px 0 8px;padding-bottom:5px;border-color:#bca16b}
-.tpl-executive .job{margin-bottom:12px}
-.tpl-executive .job-head{gap:16px;flex-wrap:wrap}
-.tpl-executive .job-head b{font-size:13.5px}
-.tpl-executive .meta{font-size:11px;color:#626b77;white-space:normal}
-.tpl-executive .sub{font-size:12.5px;color:#9b792f;margin:2px 0 4px}
-.tpl-executive p{font-size:12.5px;line-height:1.5;margin:0 0 7px}
-.tpl-executive ul{font-size:12.5px;line-height:1.5;margin:4px 0 0;padding-left:18px}
-.tpl-executive li{margin-bottom:3px}
-.tpl-mint{border-top-width:18px;line-height:1.5}
-.tpl-mint .resume-header{padding:40px 0 30px;border-bottom:1.5px solid #42474b}
-.tpl-mint h1{font-size:37px;line-height:1.2;letter-spacing:.12em;margin-bottom:10px}
-.tpl-mint .ph{font-size:11px;letter-spacing:.23em}
-.resume-columns td{padding-top:var(--resume-row-gap);padding-bottom:var(--resume-row-gap)}
-.resume-columns tr+tr{border-top:1.5px solid #42474b}
-.resume-left{padding-right:var(--resume-left-gap)}
-.resume-right{padding-left:var(--resume-right-gap)}
-.resume-columns .resume-left{border-right:1px solid #737a7e}
-.tpl-mint h2{font-size:13px;letter-spacing:.2em;border-bottom:1.25px solid #737a7e;padding-bottom:5px;margin-bottom:17px}
-.tpl-mint section+section{margin-top:25px}
-.tpl-mint .job{margin-bottom:18px}
-.tpl-mint .job-head b{font-size:12px;line-height:1.45;letter-spacing:.09em}
-.tpl-mint .job>.meta,.tpl-mint .resume-left .meta{font-size:10.5px;line-height:1.45;margin-bottom:5px}
-.tpl-mint .sub{font-size:13px;line-height:1.4;color:#697177;margin:3px 0 7px}
-.tpl-mint p{margin:0 0 8px;line-height:1.5}
-.tpl-mint ul{margin:5px 0 0;padding-left:17px;line-height:1.5}
-.tpl-mint li{margin-bottom:3px}
-.tpl-mint .resume-left ul{padding-left:0}
-.tpl-mint .contact-line{display:flex;align-items:flex-start;justify-content:flex-end;gap:8px;border-bottom:1px solid #d0d5d7;font-size:10.5px;line-height:1.5;padding-bottom:8px;margin-bottom:8px}
-.contact-text{min-width:0;overflow-wrap:anywhere}
-.contact-item{display:inline-flex;align-items:flex-start;gap:5px;max-width:100%;text-align:left}
-.resume-contact-icon{width:12px;height:12px;min-width:12px;flex:none;margin-top:2px;color:#697177}
-.tpl-executive .resume-contact-icon{color:#9b792f}
+@media print{.focus-toggle{display:none!important}.paper{padding:12mm 14mm!important;width:100%!important}.paper .resume-header{padding-top:0!important}}
 
 .top{align-items:center}.top h1{min-width:0;overflow-wrap:anywhere}.top-actions{display:flex;align-items:center;justify-content:flex-end;gap:12px;flex-wrap:wrap;margin-left:auto}.top-actions .acts:empty{display:none}
 .appearance{position:relative;display:flex;align-items:center;gap:6px;flex:none;padding:4px;border:1px solid var(--line);border-radius:15px;background:var(--panel);box-shadow:var(--sh);z-index:20}
@@ -326,11 +252,37 @@ main{padding:0!important;max-width:none!important;margin:0!important;width:100%!
 .preview-sticky{top:calc(var(--sticky-header-height,80px) + 16px)}
 @media(max-width:820px){.top{top:var(--mobile-nav-height,64px);z-index:14}html[data-focus="true"] .top{top:0}}
 @media print{.top{position:static!important}.preview-sticky{top:0!important}}
+/* Resume arrangement controls stay out of printed documents. */
+.section-zone{padding:8px 0;min-height:60px}.section-zone h4{margin:8px 0;color:var(--muted)}
+.section-sort{display:flex;flex-wrap:wrap;align-items:center;gap:8px;border:1px solid var(--line);border-radius:10px;padding:10px;margin:7px 0;background:var(--panel)}
+.section-sort label{display:flex;align-items:center;gap:8px;margin:0;flex:1;font-size:13px}.section-sort input{width:auto;margin:0}.section-buttons{display:flex;gap:4px}.section-buttons button,.section-column{font-size:12px;padding:6px 8px;min-height:32px}.drag-grip{cursor:grab;color:var(--muted)}.section-column{margin-left:24px}
+.section-dragging{opacity:.45}.section-over{outline:2px dashed var(--brand);outline-offset:3px}
+.paper [data-resume-section]{position:relative}.resume-edit{font:600 11px/1.3 Arial,sans-serif!important;letter-spacing:0!important;text-transform:none!important;border:1px solid #cbd5e1;border-radius:5px;background:#f8fafc;color:#334155;padding:3px 7px;min-height:24px;float:right}
+.paper .resume-header>.resume-edit{margin-left:8px}.tpl-executive .resume-header .resume-contact-block>h2{display:none}.tpl-executive .resume-header .resume-contact-block{margin-top:10px}.tpl-executive .resume-contact-block>h2{border:0;padding:0;margin:0 0 5px;font-size:12px}.tpl-executive .resume-contact-block .contact-item{font-size:12px}
+.tpl-cover .resume-header{margin-bottom:26px}.tpl-cover .pc{margin-top:10px;text-align:inherit}.tpl-cover .contact-item{font-size:12px;line-height:1.5;border:0;margin:0;padding:0}.tpl-cover .letter-date{margin-bottom:20px;font-size:13px}.tpl-cover .letter-recipient{margin-bottom:20px}.tpl-cover .letter-recipient p{margin:0 0 3px}.tpl-cover .letter-subject{margin:22px 0}.tpl-cover p{font-size:14px;line-height:1.6;margin-bottom:17px}.tpl-cover .letter-signature{margin-top:25px;break-inside:avoid}.tpl-cover .letter-signature p{margin-bottom:6px}
+@media print{.resume-edit{display:none!important}.paper[data-resume-section]{outline:0}}
+
+
+.tpl-sidebar{padding:0;border-top:0;background:white}
+.tpl-sidebar .resume-grid{background:linear-gradient(to left,var(--rc) 0,var(--rc) 250px,white 250px);min-height:1030px}
+.tpl-sidebar .resume-side{float:right;width:250px;padding:34px 24px;text-align:left;color:white}
+.tpl-sidebar .resume-main{margin:0 250px 0 0;padding:30px;border:0}
+.tpl-sidebar .resume-header{text-align:left;padding:0 0 20px;margin-bottom:24px;border-bottom:1px solid var(--rc)}
+.tpl-sidebar h1{text-align:left;color:var(--rc);font-size:32px;letter-spacing:0}
+.tpl-sidebar .ph{text-align:left;color:#334155;letter-spacing:0}
+.tpl-sidebar h2{font-weight:700;letter-spacing:0;color:var(--rc);border-color:var(--rc)}
+.tpl-sidebar .resume-side h2,.tpl-sidebar .resume-side .sub,.tpl-sidebar .resume-side .meta{color:white;border-color:rgba(255,255,255,.6)}
+.tpl-sidebar .resume-side .contact-item{color:white;border-color:rgba(255,255,255,.3)}
+.tpl-sidebar .resume-side p,.tpl-sidebar .resume-side li,.tpl-sidebar .resume-side b,.tpl-sidebar .resume-side li::marker{color:white}.tpl-sidebar .resume-side a{color:white}.tpl-sidebar .resume-side .resume-edit{color:#202733}
+@media print{#paper.tpl-sidebar{padding:0!important;border-top:0!important}.tpl-sidebar .resume-grid{min-height:0}}
+
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media(pointer:coarse){button.ico,.swatch{min-width:44px;min-height:44px}.section-buttons button{min-width:44px;min-height:44px}}
 </style>
 </head>
 <body>
 <a class="skip" href="#view">Skip to content</a>
-<canvas id="confetti" hidden></canvas>
+
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
 <symbol id="i-hub" viewBox="0 0 20 20"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="3" width="5.5" height="5.5" rx="1.4"/><rect x="11.5" y="3" width="5.5" height="5.5" rx="1.4"/><rect x="3" y="11.5" width="5.5" height="5.5" rx="1.4"/><rect x="11.5" y="11.5" width="5.5" height="5.5" rx="1.4"/></g></symbol>
 <symbol id="i-bank" viewBox="0 0 20 20"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="3" width="14" height="14" rx="2.2"/><path d="M3 8h14M8 8v9"/></g></symbol>
@@ -372,23 +324,29 @@ var greet=function(){var h=new Date().getHours();return h<5?"Late night":h<12?"G
 var initials=function(n){return String(n||"?").trim().split(/\s+/).slice(0,2).map(function(s){return s[0]}).join("").toUpperCase()};
 function dlBlob(name,blob){var u=URL.createObjectURL(blob);var a=document.createElement("a");a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(u)},2000)}
 
-var KEY="careerhub.v1",DBN="careerhub",STN="data",VER=3;
+var KEY="careerhub.v1",DBN="careerhub",STN="data",VER=5;
 var ACCENTS={indigo:"Indigo",emerald:"Emerald",amber:"Amber",rose:"Rose",slate:"Slate"};
 var STATUSES=["Wishlist","Applied","Interviewing","Offer","Rejected"];
 var STATUS_COLORS={Wishlist:"#94a3b8",Applied:"#6366f1",Interviewing:"#f59e0b",Offer:"#10b981",Rejected:"#ef4444"};
+function statusInk(status){var dark=S.settings.theme==='dark';return ({Wishlist:dark?'#cbd5e1':'#475569',Applied:dark?'#a5b4fc':'#4338ca',Interviewing:dark?'#fcd34d':'#92400e',Offer:dark?'#6ee7b7':'#047857',Rejected:dark?'#fca5a5':'#b91c1c'})[status]||'var(--text)'}
 var CONTACT_METHODS=["LinkedIn","Email","Coffee chat","Phone","Event","Other"];
-var RESUME_TEMPLATES=["mint","executive"];
-var RESUME_ACCENTS={mint:"#0d9488",teal:"#0f766e",indigo:"#4f46e5",plum:"#7e22ce",crimson:"#b91c1c",amber:"#b45309",slate:"#334155"};
+var RESUME_TEMPLATES=["mint","executive","sidebar"];
+var RESUME_ACCENTS={mint:"#0b7c73",teal:"#0f766e",steel:"#375875",amber:"#b45309",slate:"#334155"};
+
+var RESUME_SECTIONS={contact:"Contact",summary:"Professional Summary",experiences:"Work Experience",projects:"Projects",education:"Education",skills:"Skills",certs:"Certifications",awards:"Awards & Honours"};
+function defaultLayout(){return {executive:["contact","summary","experiences","projects","education","skills","certs","awards"],mint:{side:["contact","education","skills","certs","awards"],main:["summary","experiences","projects"]}}}
+function cleanLayout(raw){var d=defaultLayout(),seen={};raw=raw&&typeof raw==='object'?raw:{};function list(a){return (Array.isArray(a)?a:[]).filter(function(k){if(typeof k!=="string"||!Object.prototype.hasOwnProperty.call(RESUME_SECTIONS,k)||seen[k])return false;seen[k]=true;return true})}var ex=list(raw.executive);d.executive.forEach(function(k){if(!seen[k])ex.push(k)});seen={};var m=raw.mint||{},side=list(m.side),main=list(m.main);d.mint.side.forEach(function(k){if(!seen[k]){side.push(k);seen[k]=true}});d.mint.main.forEach(function(k){if(!seen[k])main.push(k)});return {executive:ex,mint:{side:side,main:main},sidebar:raw.sidebar}}
+function blankCover(){return {applicationId:"",date:iso(),recipient:"",company:"",address:"",role:"",salutation:"Dear Hiring Manager,",opening:"",evidence:"",closing:""}}
 
 var memStore=null,idbP=null;
-function idb(){if(idbP)return idbP;idbP=new Promise(function(ok,no){var r;try{r=indexedDB.open(DBN,VER)}catch(e){no(e);return}r.onupgradeneeded=function(){var db=r.result;if(!db.objectStoreNames.contains(STN))db.createObjectStore(STN)};r.onsuccess=function(){var db=r.result;db.onversionchange=function(){db.close();idbP=null};ok(db)};r.onerror=function(){idbP=null;no(r.error)}});return idbP}
-function idbGet(){return idb().then(function(db){return new Promise(function(ok){var tx=db.transaction(STN,"readonly");var q=tx.objectStore(STN).get(KEY);q.onsuccess=function(){ok(q.result||null)};q.onerror=function(){ok(null)}})}).catch(function(){return null})}
-function idbSet(d){return idb().then(function(db){return new Promise(function(ok){var tx=db.transaction(STN,"readwrite");tx.oncomplete=function(){ok(true)};tx.onerror=tx.onabort=function(){ok(false)};tx.objectStore(STN).put(d,KEY)})}).catch(function(){return false})}
+function idb(){if(idbP)return idbP;idbP=new Promise(function(ok,no){var r,settled=false,timer=setTimeout(function(){fail(new Error("Storage open timed out"))},1800);function fail(e){if(settled)return;settled=true;clearTimeout(timer);idbP=null;no(e)}try{r=indexedDB.open(DBN,VER)}catch(e){fail(e);return}r.onblocked=function(){fail(new Error("Storage upgrade blocked"))};r.onupgradeneeded=function(){var db=r.result;if(!db.objectStoreNames.contains(STN))db.createObjectStore(STN)};r.onsuccess=function(){var db=r.result;if(settled){db.close();return}settled=true;clearTimeout(timer);db.onversionchange=function(){db.close();idbP=null};ok(db)};r.onerror=function(){fail(r.error)}});return idbP}
+function idbGet(){return idb().then(function(db){return new Promise(function(ok){var done=false,timer=setTimeout(function(){finish(null)},1800);function finish(v){if(done)return;done=true;clearTimeout(timer);ok(v)}var tx=db.transaction(STN,"readonly"),q=tx.objectStore(STN).get(KEY);q.onsuccess=function(){finish(q.result||null)};q.onerror=tx.onabort=function(){finish(null)}})}).catch(function(){return null})}
+function idbSet(d){return idb().then(function(db){return new Promise(function(ok){var done=false,timer=setTimeout(function(){try{tx.abort()}catch(e){}finish(false)},1800);function finish(v){if(done)return;done=true;clearTimeout(timer);ok(v)}var tx=db.transaction(STN,"readwrite");tx.oncomplete=function(){finish(true)};tx.onerror=tx.onabort=function(){finish(false)};tx.objectStore(STN).put(d,KEY)})}).catch(function(){return false})}
 function lsGet(){try{return JSON.parse(localStorage.getItem(KEY)||"null")}catch(e){return null}}
 function lsSet(d){try{localStorage.setItem(KEY,JSON.stringify(d));return true}catch(e){return false}}
 
-function blank(){return{version:VER,settings:{theme:"light",accent:"indigo",focus:false},profile:{name:"",headline:"",email:"",phone:"",location:"",links:"",summary:""},experiences:[],projects:[],education:[],certs:[],skills:[],applications:[],contacts:[],notes:{},resume:{template:"mint",accent:"mint",inc:{}},badges:[]}}
-var COLLECTIONS=["experiences","projects","education","certs","skills","applications","contacts","badges"];
+function blank(){return{version:VER,settings:{theme:"light",accent:"indigo",focus:false},profile:{name:"",headline:"",email:"",phone:"",location:"",links:"",summary:""},experiences:[],projects:[],education:[],certs:[],awards:[],skills:[],applications:[],contacts:[],notes:{},resume:{template:"mint",accent:"mint",inc:{},layout:defaultLayout()},cover:blankCover(),badges:[]}}
+var COLLECTIONS=["experiences","projects","education","certs","awards","skills","applications","contacts","badges"];
 
 function sampleData(){return{
 settings:{theme:"light",accent:"indigo",focus:false},
@@ -404,6 +362,7 @@ projects:[
 ],
 education:[{id:uid(),school:"Westbridge College (Demo)",degree:"Bachelor of Arts",field:"Business & Management",start:"2016-09",end:"2020-05",notes:"Dean's List · Student mentoring volunteer"}],
 certs:[{id:uid(),name:"Professional Communication Workshop",issuer:"Community Learning Centre (Demo)",date:"2025-04",link:""}],
+awards:[{id:uid(),name:"Community Service Recognition (Demo)",issuer:"Neighbourhood Learning Network (Demo)",date:"2020-07",description:"Recognised for coordinating accessible community workshops."}],
 skills:[
 {id:uid(),group:"People & Service",items:"Client care, active listening, teamwork, staff training"},
 {id:uid(),group:"Organisation",items:"Planning, budget tracking, record keeping, quality checks"},
@@ -420,58 +379,67 @@ contacts:[
 {id:uid(),name:"Priya Raman (Demo)",company:"Cedar Health Group (Demo)",role:"Recruitment Coordinator",method:"Email",lastContact:shift(iso(),-3),next:shift(iso(),2),notes:"Thank her for explaining the role. Confirm the interview time and ask what to prepare."},
 {id:uid(),name:"Marcus Chen (Demo)",company:"Local Professional Network (Demo)",role:"Community Programme Manager",method:"Coffee chat",lastContact:shift(iso(),-5),next:shift(iso(),7),notes:"Send a short thank-you with one useful takeaway. Offer to share the workshop planning checklist."}
 ],
-notes:{s1:"This week: choose one target role, strengthen two achievement bullets, and send one thoughtful application. Small, steady steps count.",star:"Example story: appointment delays. I gathered feedback, tested a simpler checklist, and reduced processing time from 20 to 14 minutes. Keep the real numbers and explain my own contribution.",bank:"Prepare examples of helping a client, improving a process, supporting a colleague, managing a deadline, learning from a mistake, and leading a small project.",r11:"Review what I can improve without blaming myself. Hiring outcomes also depend on timing, competition, and employer needs."},resume:{template:"mint",accent:"mint",inc:{}},badges:[]
+notes:{s1:"This week: choose one target role, strengthen two achievement bullets, and send one thoughtful application. Small, steady steps count.",star:"Example story: appointment delays. I gathered feedback, tested a simpler checklist, and reduced processing time from 20 to 14 minutes. Keep the real numbers and explain my own contribution.",bank:"Prepare examples of helping a client, improving a process, supporting a colleague, managing a deadline, learning from a mistake, and leading a small project.",r11:"Review what I can improve without blaming myself. Hiring outcomes also depend on timing, competition, and employer needs."},cover:{applicationId:"",date:iso(),recipient:"Hiring Team",company:"Cedar Health Group (Demo)",address:"",role:"Patient Services Coordinator",salutation:"Dear Hiring Team,",opening:"I am interested in the Patient Services Coordinator role because it combines organised service delivery with thoughtful client support.",evidence:"In my sample experience, I coordinated schedules for 12 colleagues and helped improve on-time service delivery from 86% to 96%. I also handled 40 client enquiries daily and helped improve the appointment-booking process.",closing:"Thank you for considering my application. I would welcome the opportunity to discuss how my coordination and service experience could support your team."},resume:{template:"mint",accent:"mint",inc:{}},badges:[]
 }}
-function migrate(r){if(!r||typeof r!=="object")return blank();if(!r.version||r.version<3){r.contacts=Array.isArray(r.contacts)?r.contacts:[];r.badges=Array.isArray(r.badges)?r.badges:[];r.resume=r.resume||{template:"mint",accent:"mint",inc:{}};r.resume.inc=r.resume.inc||{};r.version=3}return r}
+function cents(v){if(v==null||v==='')return null;var m=String(v).trim().replace(/,/g,'').match(/^(?:[$£€]\s*)?(\d+)(?:\.(\d{1,2}))?$/);if(!m)return null;var n=Number(m[1])*100+Number((m[2]||'').padEnd(2,'0'));return Number.isSafeInteger(n)?n:null}
+function salaryLabel(a){return Number.isSafeInteger(a.salaryCents)?new Intl.NumberFormat(undefined,{style:'currency',currency:a.currency||'USD',maximumFractionDigits:2}).format(a.salaryCents/100):a.salaryNote||''}
+function migrate(r){if(!r||typeof r!=="object"||Array.isArray(r))return blank();r=JSON.parse(JSON.stringify(r));if(Number(r.version)>VER)throw new Error("This backup needs a newer app version");if(!r.version||r.version<3){r.contacts=Array.isArray(r.contacts)?r.contacts:[];r.badges=Array.isArray(r.badges)?r.badges:[];r.resume=r.resume||{template:"mint",accent:"mint",inc:{}};r.version=3}if(r.version<4){r.awards=Array.isArray(r.awards)?r.awards:[];r.cover=r.cover||blankCover();r.version=4}if(r.version<5){(Array.isArray(r.applications)?r.applications:[]).forEach(function(a){if(!a||typeof a!=="object")return;var n=cents(a.salary);a.salaryCents=n;a.currency=a.currency||(/^\s*£/.test(a.salary||'')?'GBP':/^\s*€/.test(a.salary||'')?'EUR':'USD');a.salaryNote=n==null?String(a.salary||''):'';delete a.salary});r.version=5}return r}
 function norm(r){
 var b=blank(),s=Object.assign({},b,r&&typeof r==="object"?r:{});
 s.settings=Object.assign({},b.settings,s.settings||{});s.profile=Object.assign({},b.profile,s.profile||{});s.resume=Object.assign({},b.resume,s.resume||{});
-s.resume.inc=Object.assign({},s.resume.inc||{});s.notes={};if(r&&r.notes&&typeof r.notes==="object"&&!Array.isArray(r.notes))Object.keys(r.notes).forEach(function(k){if(k!=="__proto__"&&k!=="constructor"&&k!=="prototype")s.notes[k]=String(r.notes[k]||"")});
+s.resume.inc=Object.assign({},s.resume.inc||{});s.resume.layout=cleanLayout(s.resume.layout);s.resume.layout.sidebar=cleanLayout({mint:s.resume.layout.sidebar}).mint;var cv=blankCover(),source=s.cover&&typeof s.cover==='object'?s.cover:{};Object.keys(cv).forEach(function(k){cv[k]=source[k]==null?cv[k]:String(source[k])});s.cover=cv;s.notes={};if(r&&r.notes&&typeof r.notes==="object"&&!Array.isArray(r.notes))Object.keys(r.notes).forEach(function(k){if(k!=="__proto__"&&k!=="constructor"&&k!=="prototype")s.notes[k]=String(r.notes[k]||"")});
 s.settings.theme=s.settings.theme==="dark"?"dark":"light";s.settings.focus=s.settings.focus===true;
 if(!Object.prototype.hasOwnProperty.call(ACCENTS,s.settings.accent))s.settings.accent="indigo";
+if(s.resume.accent==="crimson")s.resume.accent="steel";
 if(!Object.prototype.hasOwnProperty.call(RESUME_ACCENTS,s.resume.accent))s.resume.accent="mint";
 if(RESUME_TEMPLATES.indexOf(s.resume.template)<0)s.resume.template="mint";
 Object.keys(b.profile).forEach(function(k){s.profile[k]=String(s.profile[k]||"")});
 COLLECTIONS.forEach(function(k){s[k]=Array.isArray(s[k])?s[k].filter(function(x){return x&&typeof x==="object"&&!Array.isArray(x)}).map(function(x){var o={};Object.keys(x).forEach(function(f){if(f!=="__proto__"&&f!=="constructor"&&f!=="prototype")o[f]=Array.isArray(x[f])?x[f].map(String):String(x[f]==null?"":x[f])});o.id=/^[a-zA-Z0-9_-]+$/.test(o.id||"")?o.id:uid();return o}):[]});
 ["experiences","projects"].forEach(function(k){s[k].forEach(function(x){x.bullets=Array.isArray(x.bullets)?x.bullets:(x.bullets?String(x.bullets).split("\n").filter(Boolean):[])})});
-s.applications.forEach(function(x){if(STATUSES.indexOf(x.status)<0)x.status="Wishlist"});s.version=VER;return s}
+s.badges.forEach(function(b){if(b.id==="resume-master"){b.label="Setup complete";b.emoji="✓"}});
+s.applications.forEach(function(x){x.salaryCents=x.salaryCents===''||x.salaryCents==null?null:Number(x.salaryCents);if(!Number.isSafeInteger(x.salaryCents)||x.salaryCents<0)x.salaryCents=null;if(["USD","GBP","EUR","CAD","AUD","PKR","INR"].indexOf(x.currency)<0)x.currency="USD";if(STATUSES.indexOf(x.status)<0)x.status="Wishlist"});s.version=VER;return s}
 
 
 var S=blank(),view="hub",bankTab="profile",toastT,sampleMode=false,bannerHidden=false;
 function toast(m){var t=$("#toast");t.textContent=m;t.hidden=false;clearTimeout(toastT);toastT=setTimeout(function(){t.hidden=true},2800)}
-function save(){if(sampleMode)return Promise.resolve();var snap=JSON.parse(JSON.stringify(S));memStore=snap;var localOK=lsSet(snap);return idbSet(snap).then(function(a){if(!a&&!localOK)toast("Storage unavailable — keep this tab open and export a backup")})}
-function load(){sampleMode=false;return idbGet().then(function(r){r=lsGet()||r||memStore;S=norm(migrate(r));render()})}
+var storageReadOnly=false,saveQueue=Promise.resolve();function save(){if(sampleMode||storageReadOnly)return Promise.resolve();var snap=JSON.parse(JSON.stringify(S));memStore=snap;saveQueue=saveQueue.then(function(){return idbSet(snap)}).then(function(ok){var localOK=lsSet(snap);if(!ok&&!localOK)toast("Saved for this tab only — export a backup before closing")});return saveQueue}
+function load(){sampleMode=false;return idbGet().then(function(r){r=r||lsGet()||memStore;try{S=norm(migrate(r))}catch(e){storageReadOnly=true;S=blank();toast(e.message+". Existing data was kept.")}render()})}
 function loadSample(){sampleMode=true;bannerHidden=false;S=norm(sampleData());render();toast("Sample loaded — refresh to clear")}
 
 var SCH={
+profile:{one:"Profile",f:[["name","Full name","text"],["headline","Headline","text"],["email","Email","email"],["phone","Phone","tel"],["location","Location","text"],["links","Links","text"],["summary","Professional summary","textarea"]]},
+cover:{one:"Cover letter",f:[["date","Date","date"],["recipient","Hiring manager","text"],["company","Company","text"],["address","Company address (optional)","textarea"],["role","Role","text"],["salutation","Greeting","text"],["opening","Why this role?","textarea"],["evidence","What can you contribute?","textarea"],["closing","Closing","textarea"]]},
+awards:{one:"Award or honour",f:[["name","Award name","text",1],["issuer","Awarded by","text"],["date","Date received","month"],["description","What was recognised?","textarea"]]},
 experiences:{one:"Experience",f:[["role","Role","text",1],["company","Company","text",1],["location","Location","text"],["start","Start","month"],["end","End","month"],["current","Currently here","select",0,["No","Yes"]],["stack","Skills used (comma separated)","text"],["bullets","What did you do? One per line.","textarea"]]},
 projects:{one:"Project",f:[["name","Project name","text",1],["stack","Stack (comma separated)","text"],["link","Link","text"],["summary","One-line summary","textarea"],["bullets","Highlights — one per line","textarea"]]},
 education:{one:"Education",f:[["school","School","text",1],["degree","Degree","text",1],["field","Field of study","text"],["start","Start","month"],["end","End","month"],["notes","Notes (GPA, honors, clubs)","textarea"]]},
 certs:{one:"Certification",f:[["name","Certification","text",1],["issuer","Issuer","text"],["date","Date earned","month"],["link","Link","text"]]},
 skills:{one:"Skill group",f:[["group","Group name (e.g. Languages)","text",1],["items","Skills (comma separated)","textarea"]]},
-applications:{one:"Application",f:[["company","Company","text",1],["role","Role","text",1],["status","Status","select",0,STATUSES],["location","Location","text"],["salary","Salary target","text"],["applied","Applied on","date"],["followUp","Follow up on","date"],["url","Job posting URL","text"],["contact","Contact at company","text"],["notes","Notes","textarea"]]},
+applications:{one:"Application",f:[["company","Company","text",1],["role","Role","text",1],["status","Status","select",0,STATUSES],["location","Location","text"],["salaryCents","Salary target (annual)","money"],["currency","Currency","select",0,["USD","GBP","EUR","CAD","AUD","PKR","INR"]],["salaryNote","Salary notes (optional)","text"],["applied","Applied on","date"],["followUp","Follow up on","date"],["url","Job posting URL","text"],["contact","Contact at company","text"],["notes","Notes","textarea"]]},
 contacts:{one:"Contact",f:[["name","Name","text",1],["company","Company","text"],["role","Their role","text"],["method","How you met","select",0,CONTACT_METHODS],["lastContact","Last contact","date"],["next","Follow up on","date"],["notes","Notes","textarea"]]}
 };
-var DEF={
+var DEF={profile:function(){return blank().profile},cover:blankCover,
+awards:function(){return{}},
 experiences:function(){return{current:"No",bullets:[]}},
 projects:function(){return{bullets:[]}},
 education:function(){return{}},
 certs:function(){return{}},
 skills:function(){return{}},
-applications:function(){return{status:"Wishlist",applied:iso(),followUp:shift(iso(),5)}},
+applications:function(){return{salaryCents:null,currency:"USD",salaryNote:"",status:"Wishlist",applied:iso(),followUp:shift(iso(),5)}},
 contacts:function(){return{method:"LinkedIn",lastContact:iso(),next:shift(iso(),7)}}
 };
 var LISTF={experiences:["bullets"],projects:["bullets"]};
 
-function input(f,v){var k=f[0],l=f[1],t=f[2]||"text",req=f[3],opts=f[4],body;if(t==="select"){body='<select name="'+k+'">'+(opts||[]).map(function(x){return '<option '+(x===v?"selected":"")+'>'+E(x)+'</option>'}).join("")+'</select>'}else if(t==="textarea"){body='<textarea name="'+k+'" rows="5">'+E(v)+'</textarea>'}else{body='<input name="'+k+'" type="'+t+'" value="'+E(v)+'" '+(req?"required":"")+'>'}return '<label>'+l+(req?" *":"")+body+'</label>'}
+function input(f,v,attrs){var k=f[0],l=f[1],t=f[2]||"text",req=f[3],opts=f[4],body,at=' name="'+E(k)+'" '+(req?'required ':'')+(attrs||'');if(t==="select"){body='<select'+at+'>'+ (opts||[]).map(function(x){return '<option value="'+E(x)+'" '+(x===v?"selected":"")+'>'+E(x)+'</option>'}).join("")+'</select>'}else if(t==="textarea"){body='<textarea'+at+' rows="4">'+E(v)+'</textarea>'}else{if(t==='money'){v=Number.isSafeInteger(v)?(v/100).toFixed(2):'';at+=' min="0" step="0.01" inputmode="decimal"';t='number'}body='<input'+at+' type="'+E(t)+'" value="'+E(v)+'">'}return '<label>'+E(l)+(req?" *":"")+body+'</label>'}
 function formVals(col,rec){var v=Object.assign({},rec);SCH[col].f.forEach(function(f){var k=f[0];if(Array.isArray(v[k]))v[k]=v[k].join("\n");if(v[k]==null)v[k]=""});return v}
-function clean(col,d){var o=Object.assign({},d);(LISTF[col]||[]).forEach(function(k){o[k]=String(o[k]||"").split("\n").map(function(s){return s.trim()}).filter(Boolean)});return o}
+function clean(col,d){var o={};SCH[col].f.forEach(function(f){var k=f[0];o[k]=f[2]==='money'?cents(d[k]):String(d[k]||'').trim()});(LISTF[col]||[]).forEach(function(k){o[k]=String(o[k]||'').split("\n").map(function(s){return s.trim()}).filter(Boolean)});return o}
 
-function showDlg(){var d=$("#dlg");if(!d.open)d.showModal();var first=d.querySelector("input,select,textarea,button");if(first)first.focus()}
-function openDlg(title,body,onSave,onDelete){$("#dt").textContent=title;var delBtn=onDelete?'<button type="button" class="bad" data-act="dlgdel" style="margin-right:auto">Delete</button>':"";$("#db").innerHTML='<form>'+body+'<div class="foot">'+delBtn+'<button type="button" data-act="close">Cancel</button><button class="primary">Save</button></div></form>';$("#db form").onsubmit=function(e){e.preventDefault();if(onSave(Object.fromEntries(new FormData(e.target)))!==false)$("#dlg").close()};var del=$("#db [data-act=dlgdel]");if(del&&onDelete)del.onclick=function(){if(confirm("Delete this item?")){onDelete();$("#dlg").close()}};showDlg()}
-function openInfo(title,html){$("#dt").textContent=title;$("#db").innerHTML=html;showDlg()}
 
-function edit(col,id,preset){var sc=SCH[col],rec=(S[col]||[]).filter(function(r){return r.id===id})[0];var v=formVals(col,Object.assign({},DEF[col](),rec||{},preset||{}));openDlg((rec?"Edit ":"New ")+sc.one,sc.f.map(function(f){return input(f,v[f[0]])}).join(""),function(d){var data=clean(col,d);if(data.start&&data.end&&data.current!=="Yes"&&data.end<data.start){toast("End date must follow start date");return false}if(rec)Object.assign(rec,data);else S[col].push(Object.assign({},DEF[col](),data,{id:uid()}));save();render();toast("Saved")},rec?function(){S[col]=S[col].filter(function(x){return x.id!==id});save();render();toast("Deleted")}:null)}
+var dialogSave=null,dialogDelete=null,dialogTrigger=null;function showDlg(){dialogTrigger=document.activeElement;var d=$("#dlg");if(!d.open)d.showModal();var first=d.querySelector("#db input,#db select,#db textarea,#db button");if(first)first.focus()}
+function openDlg(title,body,onSave,onDelete){dialogSave=onSave;dialogDelete=onDelete;$("#dt").textContent=title;var delBtn=onDelete?'<button type="button" class="bad" data-act="dlgdel" style="margin-right:auto">Delete</button>':"";$("#db").innerHTML='<form data-act="dialog-save">'+body+'<div class="foot">'+delBtn+'<button type="button" data-act="close">Cancel</button><button class="primary" type="submit">Save</button></div></form>';showDlg()}
+function openInfo(title,html){dialogSave=null;dialogDelete=null;$("#dt").textContent=title;$("#db").innerHTML=html;showDlg()}
+
+function edit(col,id,preset){if(!Object.prototype.hasOwnProperty.call(SCH,col)||!Array.isArray(S[col]))return;var sc=SCH[col],rec=(S[col]||[]).filter(function(r){return r.id===id})[0];var v=formVals(col,Object.assign({},DEF[col](),rec||{},preset||{}));openDlg((rec?"Edit ":"New ")+sc.one,sc.f.map(function(f){return input(f,v[f[0]])}).join(""),function(d){var data=clean(col,d);if(data.start&&data.end&&data.current!=="Yes"&&data.end<data.start){toast("End date must follow start date");return false}if(rec)Object.assign(rec,data);else S[col].push(Object.assign({},DEF[col](),data,{id:uid()}));save();render();toast("Saved")},rec?function(){S[col]=S[col].filter(function(x){return x.id!==id});save();render();toast("Deleted")}:null)}
 
 function ed(col,id){var rec=(S[col]||[]).filter(function(x){return x.id===id})[0]||{};var label=rec.name||rec.role||rec.school||rec.group||"item";return '<button class="ico" data-act="edit" data-col="'+col+'" data-id="'+id+'" aria-label="'+E('Edit '+label)+'">✎</button><button class="ico" data-act="del" data-col="'+col+'" data-id="'+id+'" aria-label="'+E('Delete '+label)+'">✕</button>'}
 function empty(emoji,t,s,btn){return '<div class="empty"><div class="emoji">'+emoji+'</div><b>'+t+'</b><small>'+(s||"")+'</small>'+(btn||"")+'</div>'}
@@ -489,23 +457,45 @@ var checks=[
 var done=checks.filter(function(c){return c.ok}).length;return{checks:checks,done:done,total:checks.length,pct:Math.round(done/checks.length*100)}
 }
 
-function confetti(){var c=$("#confetti");if(!c)return;c.hidden=false;var ctx=c.getContext("2d");var w=c.width=innerWidth;var h=c.height=innerHeight;var colors=["#4f46e5","#10b981","#f59e0b","#ef4444","#6366f1","#34d399"];var parts=[];for(var i=0;i<90;i++){parts.push({x:Math.random()*w,y:-20-Math.random()*h*.3,vx:(Math.random()-.5)*4,vy:2+Math.random()*4,s:5+Math.random()*6,c:colors[Math.floor(Math.random()*colors.length)],r:Math.random()*Math.PI,rv:(Math.random()-.5)*.3})}var start=performance.now();function frame(t){var dt=t-start;ctx.clearRect(0,0,w,h);var alive=false;parts.forEach(function(p){p.x+=p.vx;p.y+=p.vy;p.r+=p.rv;p.vy+=.08;if(p.y<h+40){alive=true;ctx.save();ctx.translate(p.x,p.y);ctx.rotate(p.r);ctx.fillStyle=p.c;ctx.fillRect(-p.s/2,-p.s/2,p.s,p.s*.6);ctx.restore()}});if(alive&&dt<2400)requestAnimationFrame(frame);else{ctx.clearRect(0,0,w,h);c.hidden=true}}requestAnimationFrame(frame)}
-function checkBadges(){var r=readiness();if(r.done>=r.total&&!S.badges.filter(function(b){return b.id==="resume-master"})[0]){S.badges.push({id:"resume-master",label:"Resume Master",emoji:"🏆",date:new Date().toISOString()});save();setTimeout(function(){confetti();toast("🏆 Resume Master unlocked!")},300)}}
+function checkBadges(){var r=readiness();if(r.done>=r.total&&!S.badges.filter(function(b){return b.id==="resume-master"})[0]){S.badges.push({id:"resume-master",label:"Setup complete",emoji:"✓",date:new Date().toISOString()});save();toast("Setup checklist complete")}}
 
 function incOn(kind,id){return S.resume.inc[kind+":"+id]!==false}
 
 function resumeBullets(x){return (x.bullets||[]).length?'<ul>'+x.bullets.map(function(b){return '<li>'+E(b)+'</li>'}).join('')+'</ul>':''}
 function resumeProjects(P){return P.length?'<section><h2>Projects</h2>'+P.map(function(x){return '<div class="job"><b>'+E(x.name)+'</b>'+(x.stack?'<div class="sub">'+E(x.stack)+'</div>':'')+(x.summary?'<p>'+E(x.summary)+'</p>':'')+resumeBullets(x)+(x.link?'<div class="meta">'+E(x.link)+'</div>':'')+'</div>'}).join('')+'</section>':''}
 function resumeCerts(show){return show&&S.certs.length?'<section><h2>Certifications</h2>'+S.certs.map(function(x){return '<div class="job"><b>'+E(x.name)+'</b><div class="sub">'+E(x.issuer)+'</div><div class="meta">'+E(fmonth(x.date))+'</div>'+(x.link?'<p>'+E(x.link)+'</p>':'')+'</div>'}).join('')+'</section>':''}
-function resumeEducation(show){return show&&S.education.length?'<section><h2>Education</h2>'+S.education.map(function(x){return '<div class="job"><div class="job-head"><b>'+E([x.degree,x.field].filter(Boolean).join(', '))+'</b><span class="meta">'+E([fmonth(x.start),fmonth(x.end)].filter(Boolean).join(' – '))+'</span></div><div class="sub">'+E(x.school)+'</div>'+(x.notes?'<p>'+E(x.notes)+'</p>':'')+'</div>'}).join('')+'</section>':''}
-function resumeExperience(X,mint){return X.length?'<section><h2>Experience</h2>'+X.map(function(x){var dates='<span class="meta">'+E(range(x.start,x.end,x.current))+'</span>';return '<div class="job">'+(mint?dates:'')+'<div class="job-head"><b>'+E(x.role)+'</b>'+(!mint?dates:'')+'</div><div class="sub">'+E([x.company,x.location].filter(Boolean).join(', '))+'</div>'+resumeBullets(x)+'</div>'}).join('')+'</section>':''}
-function resumeContactIcon(kind){
-var paths={phone:'<path d="M8 3H5a2 2 0 0 0-2 2c0 9 7 16 16 16a2 2 0 0 0 2-2v-3l-5-2-2 3a14 14 0 0 1-7-7l3-2-2-5Z"/>',email:'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/>',links:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c4 5 4 13 0 18-4-5-4-13 0-18Z"/>',location:'<path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/>'};
-return '<svg class="resume-contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">'+paths[kind]+'</svg>';
+function resumeEducation(show){return show&&S.education.length?'<section><h2>Education</h2>'+S.education.map(function(x){return '<div class="job"><div class="job-head"><b>'+E([x.degree,x.field].filter(Boolean).join(', '))+'</b></div><div class="sub">'+E(x.school)+'</div><div class="meta">'+E([fmonth(x.start),fmonth(x.end)].filter(Boolean).join(' - '))+'</div>'+(x.notes?'<p>'+E(x.notes)+'</p>':'')+'</div>'}).join('')+'</section>':''}
+function resumeExperience(X){return X.length?'<section><h2>Work Experience</h2>'+X.map(function(x){return '<div class="job"><div class="job-head"><b>'+E(x.role)+'</b></div><div class="sub">'+E([x.company,x.location].filter(Boolean).join(', '))+'</div><div class="meta">'+E(range(x.start,x.end,x.current))+'</div>'+resumeBullets(x)+'</div>'}).join('')+'</section>':''}
+function resumeContactItems(p){return ['email','phone','location','links'].filter(function(k){return p[k]&&p[k].trim()}).map(function(k){return '<span class="contact-item">'+E(p[k])+'</span>'}).join('')}
+
+function resumeSectionHtml(key,p,X,P,G){
+if(!incOn("sections",key))return "";
+var html="";
+if(key==="contact"&&[p.email,p.phone,p.location,p.links].some(Boolean))html='<section class="resume-contact-block"><h2>Contact</h2>'+resumeContactItems(p)+'</section>';
+if(key==="summary"&&p.summary)html='<section><h2>Professional Summary</h2><p>'+E(p.summary)+'</p></section>';
+if(key==="experiences")html=resumeExperience(X);
+if(key==="projects")html=resumeProjects(P);
+if(key==="education")html=resumeEducation(true);
+if(key==="certs")html=resumeCerts(true);
+if(key==="skills"&&G.length)html='<section><h2>Skills</h2>'+G.map(function(g){return '<p><b>'+E(g.group)+':</b> '+E(g.items)+'</p>'}).join('')+'</section>';
+if(key==="awards"&&S.awards.length)html='<section><h2>Awards &amp; Honours</h2>'+S.awards.map(function(x){return '<div class="job"><b>'+E(x.name)+'</b>'+(x.issuer?'<div class="sub">'+E(x.issuer)+'</div>':'')+(x.date?'<div class="meta">'+E(fmonth(x.date))+'</div>':'')+(x.description?'<p>'+E(x.description)+'</p>':'')+'</div>'}).join('')+'</section>';
+if(!html)return "";
+html=html.replace('<section','<section draggable="true" data-resume-section="'+key+'"').replace('</h2>',' <button class="resume-edit noprint" data-act="edit-section" data-section="'+key+'" aria-label="Edit '+E(RESUME_SECTIONS[key])+'">Edit</button></h2>');return html;
 }
-function resumeContactItems(p,mint){return (mint?['phone','email','links','location']:['location','phone','email','links']).filter(function(k){return p[k]}).map(function(k){var text='<span class="contact-text">'+E(p[k])+'</span>';return mint?'<p class="contact-line">'+text+resumeContactIcon(k)+'</p>':'<span class="contact-item">'+resumeContactIcon(k)+text+'</span>'}).join('')}
-function buildResumeExecutive(p,X,P,G,showEdu,showCert){return '<div class="paper tpl-executive" id="paper"><header class="resume-header"><h1>'+E(p.name||'Your Name')+'</h1>'+(p.headline?'<div class="ph">'+E(p.headline)+'</div>':'')+'<div class="pc">'+resumeContactItems(p,false)+'</div></header>'+(p.summary?'<section><h2>Professional Summary</h2><p>'+E(p.summary)+'</p></section>':'')+resumeExperience(X,false)+resumeProjects(P)+resumeEducation(showEdu)+(G.length?'<section><h2>Skills</h2>'+G.map(function(g){return '<p><b>'+E(g.group)+':</b> '+E(g.items)+'</p>'}).join('')+'</section>':'')+resumeCerts(showCert)+'</div>'}
-function buildResumeMint(p,X,P,G,showEdu,showCert,rAccent){var contact=[p.phone,p.email,p.links,p.location].filter(Boolean);return '<div class="paper tpl-mint" style="--rc:'+rAccent+'" id="paper"><header class="resume-header"><h1>'+E(p.name||'Your Name')+'</h1>'+(p.headline?'<div class="ph">'+E(p.headline)+'</div>':'')+'</header><table class="resume-columns"><tbody><tr><td class="resume-left"><section><h2>Contact</h2>'+resumeContactItems(p,true)+'</section></td><td class="resume-right">'+(p.summary?'<section><h2>Profile</h2><p>'+E(p.summary)+'</p></section>':'')+'</td></tr><tr><td class="resume-left">'+resumeEducation(showEdu)+(G.length?'<section><h2>Expertise</h2>'+G.map(function(g){return '<div class="job"><b>'+E(g.group)+'</b><ul>'+String(g.items||'').split(',').filter(function(v){return v.trim()}).map(function(v){return '<li>'+E(v.trim())+'</li>'}).join('')+'</ul></div>'}).join('')+'</section>':'')+resumeCerts(showCert)+'</td><td class="resume-right">'+resumeExperience(X,true)+resumeProjects(P)+'</td></tr></tbody></table></div>'}
+function resumeIdentity(p,extra){return '<div class="resume-header"><button class="resume-edit noprint" data-act="edit-profile">Edit name &amp; headline</button><h1>'+E(p.name||'Your Name')+'</h1>'+(p.headline?'<div class="ph">'+E(p.headline)+'</div>':'')+(extra||'')+'</div>'}
+function buildResumeExecutive(p,X,P,G){var order=S.resume.layout.executive,contactFirst=order[0]==='contact';return '<div class="paper tpl-executive" id="paper" data-resume-zone="executive">'+resumeIdentity(p,contactFirst?resumeSectionHtml('contact',p,X,P,G):'')+'<div data-resume-zone="executive">'+order.filter(function(k){return !contactFirst||k!=='contact'}).map(function(k){return resumeSectionHtml(k,p,X,P,G)}).join('')+'</div></div>'}
+
+function buildResumeMint(p,X,P,G,showEdu,showCert,rAccent){return '<div class="paper tpl-mint" style="--rc:'+rAccent+'" id="paper">'+resumeIdentity(p)+'<div class="resume-grid"><div class="resume-side" data-resume-zone="side">'+S.resume.layout.mint.side.map(function(k){return resumeSectionHtml(k,p,X,P,G)}).join('')+'</div><div class="resume-main" data-resume-zone="main">'+S.resume.layout.mint.main.map(function(k){return resumeSectionHtml(k,p,X,P,G)}).join('')+'</div></div></div>'}
+function columnLayout(){return S.resume.template==='sidebar'?S.resume.layout.sidebar:S.resume.layout.mint}
+function buildResumeSidebar(p,X,P,G,rAccent){var l=columnLayout();return '<div class="paper tpl-mint tpl-sidebar" style="--rc:'+rAccent+'" id="paper"><div class="resume-grid"><div class="resume-side" data-resume-zone="side">'+l.side.map(function(k){return resumeSectionHtml(k,p,X,P,G)}).join('')+'</div><div class="resume-main" data-resume-zone="main">'+resumeIdentity(p)+l.main.map(function(k){return resumeSectionHtml(k,p,X,P,G)}).join('')+'</div></div></div>'}
+function sectionOrderUI(){var zones=S.resume.template!=='executive'?['side','main']:['executive'];return '<section class="card"><h3>Arrange &amp; edit sections</h3><p class="muted">Drag a section, or use the arrows. In the two-column styles you can move sections between columns. Empty sections appear when you add content.</p>'+zones.map(function(zone){var list=zone==='executive'?S.resume.layout.executive:columnLayout()[zone];return '<div class="section-zone" data-resume-zone="'+zone+'"><h4>'+E(zone==='side'?(S.resume.template==='sidebar'?'Right sidebar':'Left column'):zone==='main'?(S.resume.template==='sidebar'?'Main column':'Right column'):'Section order')+'</h4>'+list.map(function(k,i){return '<div class="section-sort" draggable="true" data-resume-section="'+k+'"><span class="drag-grip" aria-hidden="true">⋮⋮</span><label><input type="checkbox" data-act="inc" data-kind="sections" data-id="'+k+'" '+(incOn('sections',k)?'checked':'')+'>'+E(RESUME_SECTIONS[k])+'</label><div class="section-buttons"><button data-act="section-up" data-section="'+k+'" aria-label="Move '+E(RESUME_SECTIONS[k])+' up" '+(i===0?'disabled':'')+'>↑</button><button data-act="section-down" data-section="'+k+'" aria-label="Move '+E(RESUME_SECTIONS[k])+' down" '+(i===list.length-1?'disabled':'')+'>↓</button><button data-act="edit-section" data-section="'+k+'">Edit</button></div>'+(S.resume.template!=='executive'?'<button class="section-column" data-act="section-column" data-section="'+k+'">Move to '+(zone==='side'?'right':'left')+'</button>':'')+'</div>'}).join('')+'</div>'}).join('')+'</section>'}
+function moveResumeSection(key,zone,before){if(!Object.prototype.hasOwnProperty.call(RESUME_SECTIONS,key))return;if(S.resume.template==='executive'){if(zone!=='executive')return;var list=S.resume.layout.executive;var i=list.indexOf(key);if(i<0)return;list.splice(i,1);var target=list.indexOf(before);list.splice(target<0?list.length:target,0,key)}else{if(zone!=='side'&&zone!=='main')return;['side','main'].forEach(function(z){columnLayout()[z]=columnLayout()[z].filter(function(k){return k!==key})});var list=columnLayout()[zone],i=list.indexOf(before);list.splice(i<0?list.length:i,0,key)}save();render()}
+function shiftResumeSection(key,dir){var zones=S.resume.template==='executive'?['executive']:['side','main'];zones.some(function(z){var list=z==='executive'?S.resume.layout.executive:columnLayout()[z],i=list.indexOf(key),j=i+dir;if(i<0)return false;if(j>=0&&j<list.length){var swap=list[j];list[j]=key;list[i]=swap;save();render();var control=document.querySelector('.section-sort[data-resume-section="'+key+'"] button');if(control)control.focus()}return true})}
+function editResumeProfile(){openDlg('Edit profile',SCH.profile.f.map(function(f){return input(f,S.profile[f[0]])}).join(''),function(d){S.profile=clean('profile',d);save();render();toast('Profile saved')})}
+function editResumeSection(key){if(key==='contact'||key==='summary'){editResumeProfile();return}if(!SCH[key])return;openInfo('Edit '+RESUME_SECTIONS[key],(S[key]||[]).map(function(x){return bankRow(x,key)}).join('')+'<div class="foot"><button class="primary" data-act="new" data-col="'+key+'">+ Add '+E(SCH[key].one.toLowerCase())+'</button><button data-act="close">Done</button></div>')}
+function buildCoverLetter(){var p=S.profile,c=S.cover,cls=S.resume.template!=='executive'?'mint':'executive';function paras(text){return String(text||'').split(/\n\s*\n/).filter(function(x){return x.trim()}).map(function(x){return '<p>'+E(x)+'</p>'}).join('')}return '<div class="paper tpl-'+cls+' tpl-cover" id="paper" style="--rc:'+(RESUME_ACCENTS[S.resume.accent]||'#0d9488')+'"><div class="resume-header"><h1>'+E(p.name||'Your Name')+'</h1><div class="pc">'+resumeContactItems(p)+'</div></div><div class="letter-date">'+E(c.date?fdate(c.date):'')+'</div><div class="letter-recipient">'+[c.recipient,c.company,c.address].filter(Boolean).map(function(x){return '<p>'+E(x)+'</p>'}).join('')+'</div>'+(c.role?'<p class="letter-subject"><b>Re: '+E(c.role)+'</b></p>':'')+'<p>'+E(c.salutation)+'</p>'+paras(c.opening)+paras(c.evidence)+paras(c.closing)+'<div class="letter-signature"><p>Sincerely,</p><p>'+E(p.name)+'</p></div></div>'}
+function coverLetterUI(){var c=S.cover;return '<div class="builder"><div class="builder-side noprint"><section class="card"><h3>Cover Letter</h3><p class="muted">Use your own experience. Changes save as you type.</p><button data-act="edit-profile">Edit your contact details</button><label>Match your resume style<select data-act="cover-template"><option value="executive" '+(S.resume.template==='executive'?'selected':'')+'>Executive</option><option value="mint" '+(S.resume.template==='mint'?'selected':'')+'>Mint Modern</option><option value="sidebar" '+(S.resume.template==='sidebar'?'selected':'')+'>Professional Sidebar</option></select></label><label>Use application details<select data-act="cover-application"><option value="">Choose a tracked job</option>'+S.applications.map(function(a){return '<option value="'+E(a.id)+'" '+(c.applicationId===a.id?'selected':'')+'>'+E(a.role+' at '+a.company)+'</option>'}).join('')+'</select></label><p class="muted">Choosing a job fills its company, role and contact. Your letter text stays as you wrote it.</p></section><section class="card"><h3>Recipient</h3>'+SCH.cover.f.slice(0,6).map(function(f){return input(f,c[f[0]],'data-act="cover-edit" data-cover="'+f[0]+'"')}).join('')+'</section><section class="card"><h3>Your letter</h3>'+SCH.cover.f.slice(6).map(function(f){return input(f,c[f[0]],'data-act="cover-edit" data-cover="'+f[0]+'"')}).join('')+'</section><section class="card"><button class="primary" data-act="dl-pdf">Save cover letter as PDF</button><p class="muted">Choose Save as PDF, turn headers and footers off, and review every page.</p></section></div><div class="preview-sticky"><div class="paper-wrap" id="paper-wrap">'+buildCoverLetter()+'</div></div></div>'}
+
 function buildResume(){
 var p=S.profile,rAccent=RESUME_ACCENTS[S.resume.accent]||"#0d9488";
 var X=S.experiences.filter(function(x){return incOn("experiences",x.id)});
@@ -513,16 +503,24 @@ var P=S.projects.filter(function(x){return incOn("projects",x.id)});
 var G=S.skills.filter(function(x){return incOn("skills",x.id)});
 var showEdu=incOn("sections","education"),showCert=incOn("sections","certs");
 if(S.resume.template==="executive")return buildResumeExecutive(p,X,P,G,showEdu,showCert);
+if(S.resume.template==="sidebar")return buildResumeSidebar(p,X,P,G,rAccent);
 return buildResumeMint(p,X,P,G,showEdu,showCert,rAccent);
 }
 var resumePreviewObserver=null;
 function fitResumePreview(){var wrap=document.querySelector('#paper-wrap'),paper=document.querySelector('#paper');if(wrap&&paper){var scale=Math.min(1,Math.max(.2,(wrap.clientWidth-parseFloat(getComputedStyle(wrap).paddingLeft)-parseFloat(getComputedStyle(wrap).paddingRight))/794));paper.style.zoom=String(scale)}}
 function watchResumePreview(){if(resumePreviewObserver)resumePreviewObserver.disconnect();fitResumePreview();var wrap=document.querySelector('#paper-wrap');if(wrap&&typeof ResizeObserver!=="undefined"){resumePreviewObserver=new ResizeObserver(fitResumePreview);resumePreviewObserver.observe(wrap)}}
-function refreshPaper(){var w=$("#paper-wrap");if(w){w.innerHTML=buildResume();fitResumePreview()}}
+function refreshPaper(){var w=$("#paper-wrap");if(w){w.innerHTML=view==='cover'?buildCoverLetter():buildResume();fitResumePreview()}}
 
 // Print the same HTML and CSS used by the preview, with page margins repeating.
 var resumePrintFrame=null;
 function resumeName(){return (S.profile.name||'resume').replace(/[<>:"/\\|?*\x00-\x1f]/g,'').trim().replace(/\s+/g,'_').toLowerCase()||'resume'}
+function resumePrintCss(){return '@page{size:A4;margin:0}'
++'html,body{margin:0!important;padding:0!important;background:white!important;color:#202733!important;width:auto!important;min-height:0!important}'
++'*,*::before,*::after{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}'
++'#paper{zoom:1!important;width:794px!important;max-width:none!important;min-height:0!important;margin:0!important;padding:48px 56px!important;border:0!important;border-radius:0!important;box-shadow:none!important;overflow:visible!important;-webkit-box-decoration-break:clone!important;box-decoration-break:clone!important}'
++'#paper h2,#paper .job-head,#paper .job>.meta,#paper .job>.sub{break-after:avoid;page-break-after:avoid}'
++'#paper .job{break-inside:avoid}#paper section{break-inside:auto}#paper .resume-header{break-inside:avoid}'
++'#paper p,#paper li{orphans:2;widows:2}'+'@page mint-resume{size:A4;margin:12mm}#paper.tpl-mint{page:mint-resume;width:auto!important;padding:30px 0 0!important;-webkit-box-decoration-break:slice!important;box-decoration-break:slice!important;border-top:10px solid color-mix(in srgb,var(--rc,#0d9488) 22%,white)!important}#paper.tpl-sidebar{padding:0!important;border-top:0!important}';}
 async function downloadPdf(){
   if(resumePrintFrame)return;
   var button=document.querySelector('[data-act="dl-pdf"]');
@@ -531,41 +529,21 @@ async function downloadPdf(){
     var paper=document.querySelector('#paper');
     if(!paper){toast('Open the resume preview first');return}
     if(document.fonts&&document.fonts.ready)await document.fonts.ready;
-    var mint=paper.classList.contains('tpl-mint');
     var styles=Array.from(document.querySelectorAll('style')).map(function(s){return s.textContent}).join('\n');
-    var layout=getComputedStyle(paper);
-    var top=mint?getComputedStyle(paper.querySelector('.resume-header')).paddingTop:layout.paddingTop;
-    var pagePadding=[top,layout.paddingRight,layout.paddingBottom,layout.paddingLeft].join(' ');
-    var bandWidth=layout.borderTopWidth;
-    var accent=layout.getPropertyValue('--rc').trim()||'#0d9488';
-    var band=mint?'color-mix(in srgb,'+accent+' 23%,white)':'transparent';
     var frame=document.createElement('iframe');
     frame.title='Resume PDF';frame.setAttribute('aria-hidden','true');
     // Keep a real, full-width layout: display:none produces blank printouts.
     frame.style.cssText='position:fixed;left:-10000px;top:0;width:794px;height:1123px;border:0;pointer-events:none';
     document.body.appendChild(frame);resumePrintFrame=frame;
     var doc=frame.contentDocument;
-    doc.open();doc.write('<!doctype html><html><head><meta charset="utf-8"><title>'+E(resumeName()+'_resume')+'</title><style>'+styles+'</style></head><body>'+paper.outerHTML+'<\/body><\/html>');doc.close();
+    var printPaper=paper.cloneNode(true);printPaper.querySelectorAll('.noprint').forEach(function(n){n.remove()});printPaper.removeAttribute('draggable');printPaper.querySelectorAll('[draggable]').forEach(function(n){n.removeAttribute('draggable')});
+    doc.open();doc.write('<!doctype html><html><head><meta charset="utf-8"><title>'+E(resumeName()+(view==='cover'?'_cover_letter':'_resume'))+'</title><style>'+styles+'</style></head><body>'+printPaper.outerHTML+'<\/body><\/html>');doc.close();
     var printStyle=doc.createElement('style');
-    // No printer margins: Chrome has no margin area for its URL/date footer.
-    // Clone the resume's own border and padding at each page fragment instead.
-    printStyle.textContent='@page{size:794px 1123px;margin:0}'
-      +'html,body{margin:0!important;padding:0!important;background:white!important;color:#111!important;width:auto!important;min-height:0!important}'
-      +'*,*::before,*::after{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}'
-      +'#paper{zoom:1!important;width:794px!important;max-width:none!important;min-height:0!important;margin:0!important;padding:'+pagePadding+'!important;border:0!important;border-radius:0!important;box-shadow:none!important;overflow:visible!important;-webkit-box-decoration-break:clone!important;box-decoration-break:clone!important}'
-      +(mint?'#paper.tpl-mint{border-top:'+bandWidth+' solid '+band+'!important}#paper.tpl-mint .resume-header{padding-top:0!important}':'')
-      +'#paper .resume-columns td{padding-top:var(--resume-row-gap)!important;padding-bottom:var(--resume-row-gap)!important}'
-      +'#paper .resume-left{padding-right:var(--resume-left-gap)!important}'
-      +'#paper .resume-right{padding-left:var(--resume-right-gap)!important}'
-      +'#paper h2{break-after:avoid;page-break-after:avoid}'
-      +'#paper .job-head,#paper .job>.meta,#paper .job>.sub{break-after:avoid;page-break-after:avoid}'
-      +'#paper .job{break-inside:avoid;page-break-inside:avoid}'
-      +'#paper p,#paper li{orphans:2;widows:2}'
-      +'#paper section{break-inside:auto}';
+    printStyle.textContent=resumePrintCss();
     doc.head.appendChild(printStyle);
     if(doc.fonts&&doc.fonts.ready)await doc.fonts.ready;
     await new Promise(function(resolve){frame.contentWindow.requestAnimationFrame(function(){frame.contentWindow.requestAnimationFrame(resolve)})});
-    var originalTitle=document.title;document.title=resumeName()+'_resume';
+    var originalTitle=document.title;document.title=resumeName()+(view==='cover'?'_cover_letter':'_resume');
     var cleanup=function(){if(resumePrintFrame===frame){frame.remove();resumePrintFrame=null;document.title=originalTitle}};
     frame.contentWindow.addEventListener('afterprint',cleanup,{once:true});
     toast('Choose Save as PDF. Keep scale at 100%.');
@@ -587,17 +565,19 @@ if(wish.length){var w=wish[0];return{title:"Apply to "+w.company,body:w.role+" i
 return{title:"You're on track 🎯",body:"No application follow-ups are due in this workspace. Add an opportunity or review your resume.",cta:"Open Resume Builder",act:"go-resume"}
 }
 
-var BANK_TABS=[["profile","Profile"],["experiences","Experience"],["projects","Projects"],["education","Education"],["certs","Certifications"],["skills","Skills"]];
+var BANK_TABS=[["profile","Profile"],["experiences","Experience"],["projects","Projects"],["education","Education"],["certs","Certifications"],["skills","Skills"],["awards","Awards & Honours"]];
 function bankRow(x,col){
 if(col==="experiences")return '<div class="row" style="align-items:flex-start"><div class="grow"><b>'+E(x.role||"")+(x.company?" · "+E(x.company):"")+'</b><small>'+(E([range(x.start,x.end,x.current),x.location].filter(Boolean).join(" · "))||"&nbsp;")+'</small>'+(x.stack?'<div class="tags">'+x.stack.split(",").map(function(s){return '<span class="pill">'+E(s.trim())+'</span>'}).join("")+'</div>':"")+((x.bullets||[]).length?'<ul class="bullets">'+x.bullets.map(function(b){return "<li>"+E(b)+"</li>"}).join("")+'</ul>':"")+'</div><div style="display:flex;gap:2px">'+ed(col,x.id)+'</div></div>';
 if(col==="projects")return '<div class="row" style="align-items:flex-start"><div class="grow"><b>'+E(x.name||"")+'</b>'+(x.stack?'<small>'+E(x.stack)+'</small>':"")+(x.summary?'<p class="muted" style="margin:7px 0 0;font-size:13.5px;line-height:1.5">'+E(x.summary)+'</p>':"")+((x.bullets||[]).length?'<ul class="bullets">'+x.bullets.map(function(b){return "<li>"+E(b)+"</li>"}).join("")+'</ul>':"")+(x.link?'<small style="margin-top:6px;display:block">'+E(x.link)+'</small>':"")+'</div><div style="display:flex;gap:2px">'+ed(col,x.id)+'</div></div>';
 if(col==="education")return '<div class="row" style="align-items:flex-start"><div class="grow"><b>'+E([x.degree,x.field].filter(Boolean).join(", "))+'</b><small>'+E(x.school||"")+((x.start||x.end)?" · "+E([fmonth(x.start),fmonth(x.end)].filter(Boolean).join(" – ")):"")+'</small>'+(x.notes?'<p class="muted" style="margin:7px 0 0;font-size:13.5px">'+E(x.notes)+'</p>':"")+'</div><div style="display:flex;gap:2px">'+ed(col,x.id)+'</div></div>';
+if(col==="awards")return '<div class="row"><div class="grow"><b>'+E(x.name)+'</b><small>'+E([x.issuer,fmonth(x.date)].filter(Boolean).join(" · "))+'</small>'+(x.description?'<p>'+E(x.description)+'</p>':'')+'</div><div>'+ed(col,x.id)+'</div></div>';
 if(col==="certs")return '<div class="row"><div class="grow"><b>'+E(x.name||"")+'</b><small>'+E([x.issuer,fmonth(x.date),x.link].filter(Boolean).join(" · "))+'</small></div><div style="display:flex;gap:2px">'+ed(col,x.id)+'</div></div>';
 if(col==="skills")return '<div class="row"><div class="grow"><b>'+E(x.group||"")+'</b><small>'+E(x.items||"")+'</small></div><div style="display:flex;gap:2px">'+ed(col,x.id)+'</div></div>';
 return "";
 }
 var BANKVIEW={
-profile:function(){var p=S.profile;return '<form id="profile"><div class="two"><label>Full name<input name="name" value="'+E(p.name)+'" placeholder="Jordan Lee"></label><label>Headline<input name="headline" value="'+E(p.headline)+'" placeholder="Your profession · Your strongest skill"></label></div><div class="two"><label>Email<input name="email" type="email" value="'+E(p.email)+'"></label><label>Phone<input name="phone" value="'+E(p.phone)+'"></label></div><div class="two"><label>Location<input name="location" value="'+E(p.location)+'" placeholder="Boston, MA"></label><label>Links<input name="links" value="'+E(p.links)+'" placeholder="linkedin.com/in/…"></label></div><label>Short bio — feeds every resume<textarea name="summary" rows="4" placeholder="One or two sentences about who you are.">'+E(p.summary)+'</textarea></label><button class="primary">Save profile</button></form>'},
+awards:function(){return S.awards.map(function(x){return bankRow(x,"awards")}).join("")||empty("🏅","No awards yet","Add genuine awards, scholarships or honours.","<button class=\'primary\' data-act=\'new\' data-col=\'awards\'>+ Add an award</button>")},
+profile:function(){return '<form id="profile" data-act="profile-save">'+SCH.profile.f.map(function(f){return input(f,S.profile[f[0]])}).join('')+'<button class="primary" type="submit">Save profile</button></form>'},
 experiences:function(){return S.experiences.map(function(x){return bankRow(x,"experiences")}).join("")||empty("🌱","No experience yet","Internships, jobs, volunteer — all count.","<button class='primary' data-act='new' data-col='experiences'>+ Add first role</button>")},
 projects:function(){return S.projects.map(function(x){return bankRow(x,"projects")}).join("")||empty("💡","No projects yet","Side projects show initiative.","<button class='primary' data-act='new' data-col='projects'>+ Add a project</button>")},
 education:function(){return S.education.map(function(x){return bankRow(x,"education")}).join("")||empty("🎓","No education added","Degree, bootcamp, coursework — all valid.","<button class='primary' data-act='new' data-col='education'>+ Add education</button>")},
@@ -606,6 +586,7 @@ skills:function(){return S.skills.map(function(x){return bankRow(x,"skills")}).j
 };
 
 var V={
+cover:coverLetterUI,
 hub:function(){
 var today=iso(),A=S.applications;
 var by=function(s){return A.filter(function(a){return a.status===s}).length};
@@ -625,7 +606,7 @@ h+='<div class="stat"><span class="stat-label">Contacts</span><span class="stat-
 h+='<div class="stat"><span class="stat-label">Readiness</span><span class="stat-value">'+r.pct+'%</span><span class="stat-sub">'+(r.total-r.done)+' step'+((r.total-r.done)===1?"":"s")+' left</span></div></div>';
 h+='<div class="grid">';
 h+='<section class="card"><header><h2>Follow-ups</h2><small class="muted">'+due.length+' tracked</small></header>'+(due.map(function(a){var cls=a.followUp<today?"bad":a.followUp===today?"warn":"ok";var lbl=a.followUp<today?"Overdue":a.followUp===today?"Today":"Soon";return '<div class="row"><div class="grow"><b>'+E(a.company)+'</b><small>'+E(a.role)+' · '+fdate(a.followUp)+'</small></div><span class="pill '+cls+'">'+lbl+'</span></div>'}).join("")||empty("📬","Nothing scheduled","Add a follow-up date when you record an application."))+'</section>';
-h+='<section class="card"><header><h2>Recent applications</h2><a class="link" href="#jobs">See all →</a></header>'+(recent.map(function(a){return '<div class="row"><span class="pill" style="background:'+STATUS_COLORS[a.status]+'22;color:'+STATUS_COLORS[a.status]+';border-color:transparent">'+E(a.status)+'</span><div class="grow"><b>'+E(a.company)+'</b><small>'+E(a.role)+(a.applied?" · applied "+fshort(a.applied):"")+'</small></div></div>'}).join("")||empty("🚀","No applications yet","Add your first role to the tracker.","<button class='primary' data-act='tab' data-id='jobs'>Open Job Tracker</button>"))+'</section>';
+h+='<section class="card"><header><h2>Recent applications</h2><a class="link" href="#jobs">See all →</a></header>'+(recent.map(function(a){return '<div class="row"><span class="pill" style="background:'+STATUS_COLORS[a.status]+'22;color:'+statusInk(a.status)+';border-color:transparent">'+E(a.status)+'</span><div class="grow"><b>'+E(a.company)+'</b><small>'+E(a.role)+(a.applied?" · applied "+fshort(a.applied):"")+'</small></div></div>'}).join("")||empty("🚀","No applications yet","Add your first role to the tracker.","<button class='primary' data-act='tab' data-id='jobs'>Open Job Tracker</button>"))+'</section>';
 h+='</div>';
 return h;
 },
@@ -634,19 +615,20 @@ resume:function(){
 var inc=S.resume.inc;
 var check=function(kind,id,label,sub){return '<label class="check-row"><input type="checkbox" data-act="inc" data-kind="'+kind+'" data-id="'+id+'" '+(incOn(kind,id)?"checked":"")+'><span class="lbl"><b>'+E(label)+'</b>'+(sub?'<small>'+E(sub)+'</small>':"")+'</span></label>'};
 var h='<div class="builder"><div class="builder-side noprint">';
-h+='<section class="card"><h3>Template</h3><div class="tpl-row"><button class="tpl-btn" data-act="tpl" data-id="mint" aria-pressed="'+(S.resume.template==="mint")+'">Mint Modern</button><button class="tpl-btn" data-act="tpl" data-id="executive" aria-pressed="'+(S.resume.template==="executive")+'">Executive</button></div></section>';
-if(S.resume.template==="mint"){h+='<section class="card"><h3>Accent colour</h3><div class="swatch-row">'+Object.keys(RESUME_ACCENTS).map(function(k){return '<button class="swatch" data-act="raccent" data-id="'+k+'" aria-pressed="'+(S.resume.accent===k)+'" style="background:'+RESUME_ACCENTS[k]+'" aria-label="'+k+'" title="'+k+'"></button>'}).join("")+'</div></section>'}
-h+='<section class="card"><h3>Export</h3><div class="acts" style="gap:8px;flex-wrap:wrap"><button class="primary" data-act="dl-pdf">⬇ Save as PDF</button></div><p class="muted" style="margin:12px 0 0;font-size:12px;line-height:1.5">Print the selected HTML template with its colors, fonts, and columns. Choose <b>Save as PDF</b>, use <b>100% scale</b>, and keep backgrounds on. For a clean resume, keep <b>Headers and footers</b> off. Resume padding repeats on every page.</p></section>';
+h+='<section class="card"><h3>Template</h3><div class="tpl-row"><button class="tpl-btn" data-act="tpl" data-id="mint" aria-pressed="'+(S.resume.template==="mint")+'"> <strong>Mint Modern</strong><small>Two columns</small></button><button class="tpl-btn" data-act="tpl" data-id="executive" aria-pressed="'+(S.resume.template==="executive")+'"><strong>Executive</strong><small>One column</small></button><button class="tpl-btn" data-act="tpl" data-id="sidebar" aria-pressed="'+(S.resume.template==="sidebar")+'"><strong>Professional<br>Sidebar</strong><small>Colour sidebar</small></button></div></section>';
+if(S.resume.template!=="executive"){h+='<section class="card"><h3>Accent colour</h3><div class="swatch-row">'+Object.keys(RESUME_ACCENTS).map(function(k){return '<button class="swatch" data-act="raccent" data-id="'+k+'" aria-pressed="'+(S.resume.accent===k)+'" style="background:'+RESUME_ACCENTS[k]+'" aria-label="'+k+'" title="'+k+'"></button>'}).join("")+'</div></section>'}
+h+='<section class="card resume-actions"><button data-act="edit-profile">Edit name &amp; profile <span aria-hidden="true">→</span></button><button data-act="tab" data-id="cover">Create a cover letter <span aria-hidden="true">→</span></button></section>';
+h+='<section class="card resume-export"><h3>Export</h3><button class="primary" data-act="dl-pdf">↓ Save as PDF</button><p class="resume-help">Your resume is ready to preview and print.</p><details><summary>PDF settings &amp; tips</summary><p>Choose <b>Save as PDF</b> at <b>100% scale</b>. Keep backgrounds on and browser headers and footers off. Review every page and follow the employer’s file requirements.</p></details></section>';
 if(S.experiences.length)h+='<section class="card"><h3>Experience</h3>'+S.experiences.map(function(x){return check("experiences",x.id,x.role||"Untitled",x.company||"")}).join("")+'</section>';
 if(S.projects.length)h+='<section class="card"><h3>Projects</h3>'+S.projects.map(function(x){return check("projects",x.id,x.name||"Untitled",x.stack||"")}).join("")+'</section>';
 if(S.skills.length)h+='<section class="card"><h3>Skill groups</h3>'+S.skills.map(function(x){return check("skills",x.id,x.group||"Untitled",x.items||"")}).join("")+'</section>';
-h+='<section class="card"><h3>Sections</h3>'+check("sections","education","Education","")+check("sections","certs","Certifications","")+'</section>';
+h+=sectionOrderUI();
 h+='</div><div class="preview-sticky"><div class="paper-wrap" id="paper-wrap">'+buildResume()+'</div></div></div>';
 return h;
 },
 jobs:function(){
 var today=iso();
-var h='<div class="kanban">'+STATUSES.map(function(s){var items=S.applications.filter(function(a){return a.status===s});return '<section class="kan"><header><span><span class="dot" style="background:'+STATUS_COLORS[s]+'"></span>'+s+'</span><span class="pill">'+items.length+'</span></header><div class="kan-col" data-drop="'+s+'">'+(items.map(function(a){var f=a.followUp&&a.followUp<=today&&s!=="Offer"&&s!=="Rejected"?'<span class="pill bad">Follow up</span>':(a.followUp?'<span class="pill">'+fshort(a.followUp)+'</span>':"");return '<article class="kcard" role="button" tabindex="0" aria-label="'+E('Edit application: '+a.role+' at '+a.company)+'" draggable="true" data-act="edit" data-col="applications" data-id="'+a.id+'"><b>'+E(a.role)+'</b><small>'+E(a.company)+'</small><div class="kmeta">'+(a.salary?'<span class="pill">'+E(a.salary)+'</span>':"")+f+'</div></article>'}).join("")||'<div class="empty" style="padding:14px 6px;font-size:12.5px">Drop here</div>')+'</div></section>'}).join("")+'</div>';
+var h='<div class="kanban">'+STATUSES.map(function(s){var items=S.applications.filter(function(a){return a.status===s});return '<section class="kan"><header><span><span class="dot" style="background:'+STATUS_COLORS[s]+'"></span>'+s+'</span><span class="pill">'+items.length+'</span></header><div class="kan-col" data-drop="'+s+'">'+(items.map(function(a){var f=a.followUp&&a.followUp<=today&&s!=="Offer"&&s!=="Rejected"?'<span class="pill bad">Follow up</span>':(a.followUp?'<span class="pill">'+fshort(a.followUp)+'</span>':"");return '<article class="kcard" role="button" tabindex="0" aria-label="'+E('Edit application: '+a.role+' at '+a.company)+'" draggable="true" data-act="edit" data-col="applications" data-id="'+a.id+'"><b>'+E(a.role)+'</b><small>'+E(a.company)+'</small><div class="kmeta">'+(salaryLabel(a)?'<span class="pill">'+E(salaryLabel(a))+'</span>':"")+f+'</div></article>'}).join("")||'<div class="empty" style="padding:14px 6px;font-size:12.5px">Drop here</div>')+'</div></section>'}).join("")+'</div>';
 if(!S.applications.length)h+='<section class="card">'+empty("📋","Job tracker is empty","Add roles you're considering, applied to, or interviewing for.","<button class='primary' data-act='new' data-col='applications'>+ Add first application</button>")+'</section>';
 return h;
 },
@@ -690,7 +672,7 @@ var PLAYBOOK=[
 {g:"Networking",id:"co2",title:"Plan a short career conversation",body:"<ul><li>Agree on a time and keep to it.</li><li>Introduce your background briefly.</li><li>Ask two or three specific questions about their work or career path.</li><li>Thank them and ask permission before contacting them again.</li></ul><p>A brief thank-you can mention one useful takeaway. Treat advice as a perspective, not a hiring promise.</p>"}
 ];
 
-var NAV=[["hub","Hub","i-hub"],["bank","Experience Bank","i-bank"],["resume","Resume Builder","i-resume"],["jobs","Job Tracker","i-jobs"],["contacts","Contacts","i-contacts"],["playbook","Playbook","i-playbook"],["settings","Settings","i-settings"]];
+var NAV=[["hub","Hub","i-hub"],["bank","Experience Bank","i-bank"],["resume","Resume Builder","i-resume"],["cover","Cover Letter","i-resume"],["jobs","Job Tracker","i-jobs"],["contacts","Contacts","i-contacts"],["playbook","Playbook","i-playbook"],["settings","Settings","i-settings"]];
 var TITLES={};NAV.forEach(function(n){TITLES[n[0]]=n[1]});
 var appearanceOpen=false;
 var ACCENT_COLORS={indigo:'#4f46e5',emerald:'#10b981',amber:'#f59e0b',rose:'#f43f5e',slate:'#64748b'};
@@ -727,7 +709,7 @@ var r=readiness();
 $("#sidefoot").innerHTML=S.badges.length?S.badges.slice(-1).map(function(b){return '<span class="badge-chip">'+E(b.emoji||"🏆")+' '+E(b.label)+'</span>'}).join(""):'<span class="muted" style="font-size:12px">Readiness '+r.pct+'%</span>';
 renderAppearance();
 watchResumePreview();
-if(!sampleMode)checkBadges();
+if(!sampleMode&&!storageReadOnly)checkBadges();
 }
 
 function goTab(id){if(TITLES[id]){view=id;location.hash="#"+id}}
@@ -735,13 +717,25 @@ function tabAfter(id){var prev=view;view=id;render();if(prev!==id)scrollTo(0,0)}
 
 var lastDrop=0;
 var A={
+"note-edit":function(t){if(['__proto__','constructor','prototype'].indexOf(t.dataset.note)<0){S.notes[t.dataset.note]=t.value;save()}},
+"dialog-save":function(form){if(dialogSave&&dialogSave(Object.fromEntries(new FormData(form)))!==false)$("#dlg").close()},
+"dlgdel":function(){if(dialogDelete&&confirm("Delete this item?")){dialogDelete();$("#dlg").close()}},
+"profile-save":function(form){S.profile=clean('profile',Object.fromEntries(new FormData(form)));save();render();toast("Profile saved")},
+"cover-edit":function(t){if(SCH.cover.f.some(function(f){return f[0]===t.dataset.cover})){S.cover[t.dataset.cover]=t.value;save();refreshPaper()}},
+"edit-profile":editResumeProfile,
+"edit-section":function(b){editResumeSection(b.dataset.section)},
+"section-up":function(b){shiftResumeSection(b.dataset.section,-1)},
+"section-down":function(b){shiftResumeSection(b.dataset.section,1)},
+"section-column":function(b){var key=b.dataset.section;moveResumeSection(key,columnLayout().side.indexOf(key)>=0?'main':'side')},
+"cover-template":function(b){S.resume.template=RESUME_TEMPLATES.indexOf(b.value)>=0?b.value:'executive';save();refreshPaper()},
+"cover-application":function(b){var a=S.applications.filter(function(x){return x.id===b.value})[0];S.cover.applicationId=a?a.id:'';if(a){S.cover.company=a.company;S.cover.role=a.role;S.cover.recipient=a.contact||''}save();render()},
 "theme-toggle":function(){setAppearance('theme',S.settings.theme==='dark'?'light':'dark')},
 "focus-toggle":function(){setAppearance('focus',!S.settings.focus)},
 "appearance-toggle":function(){appearanceOpen=!appearanceOpen;renderAppearance();var target=document.querySelector(appearanceOpen?'[data-act=accent-set][aria-pressed=true]':'[data-act=appearance-toggle]');if(target)target.focus()},
 "accent-set":function(b){if(Object.prototype.hasOwnProperty.call(ACCENTS,b.dataset.id))setAppearance('accent',b.dataset.id)},
 "focus-off":function(){S.settings.focus=false;save();render()},
 "backup":function(){dlBlob("career-hub-backup.json",new Blob([JSON.stringify(S,null,2)],{type:"application/json"}));toast("Backup downloaded")},
-"restore":function(){var f=document.createElement("input");f.type="file";f.accept=".json,application/json";f.onchange=async function(){try{var raw=JSON.parse(await f.files[0].text());if(!raw||typeof raw!=="object"||!raw.profile||typeof raw.profile!=="object"||Array.isArray(raw.profile)||!Array.isArray(raw.experiences))throw new Error("Invalid backup");if(COLLECTIONS.some(function(k){return raw[k]!=null&&(!Array.isArray(raw[k])||raw[k].some(function(x){return !x||typeof x!=="object"||Array.isArray(x)}))}))throw new Error("Invalid backup");if(raw.version>VER)throw new Error("Unsupported backup version");var restored=norm(migrate(raw));if(!confirm("Replace current data with this backup?"))return;sampleMode=false;S=restored;save();render();toast("Backup restored")}catch(e){toast("Invalid backup — data unchanged")}};f.click()},
+"restore":function(){var f=document.createElement("input");f.type="file";f.accept=".json,application/json";f.onchange=async function(){try{var raw=JSON.parse(await f.files[0].text());if(!raw||typeof raw!=="object"||!raw.profile||typeof raw.profile!=="object"||Array.isArray(raw.profile)||!Array.isArray(raw.experiences))throw new Error("Invalid backup");if(COLLECTIONS.some(function(k){return raw[k]!=null&&(!Array.isArray(raw[k])||raw[k].some(function(x){return !x||typeof x!=="object"||Array.isArray(x)}))}))throw new Error("Invalid backup");if(raw.version>VER)throw new Error("Unsupported backup version");var restored=norm(migrate(raw));if(!confirm("Replace current data with this backup?"))return;sampleMode=false;storageReadOnly=false;S=restored;save();render();toast("Backup restored")}catch(e){toast("Invalid backup — data unchanged")}};f.click()},
 close:function(){$("#dlg").close()},
 new:function(b){edit(b.dataset.col,null)},
 edit:function(b){edit(b.dataset.col,b.dataset.id)},
@@ -754,32 +748,38 @@ sample:function(){if(sampleMode){load();toast("Sample cleared")}else loadSample(
 "hide-banner":function(){bannerHidden=true;var b=$("#sample-banner");if(b)b.remove()},
 move:function(b){var a=S.applications.filter(function(x){return x.id===b.dataset.id})[0];if(!a)return;if(a.status===b.value)return;a.status=b.value;save();render();toast("Moved to "+a.status)},
 inc:function(b){var k=b.dataset.kind+":"+b.dataset.id;S.resume.inc[k]=b.checked;save();refreshPaper()},
-tpl:function(b){S.resume.template=b.dataset.id;save();render()},
-raccent:function(b){S.resume.accent=b.dataset.id;save();render()},
+tpl:function(b){if(RESUME_TEMPLATES.indexOf(b.dataset.id)<0)return;S.resume.template=b.dataset.id;save();render()},
+raccent:function(b){if(!Object.prototype.hasOwnProperty.call(RESUME_ACCENTS,b.dataset.id))return;S.resume.accent=b.dataset.id;save();render()},
 "dl-pdf":function(){downloadPdf()},
 "mark-applied":function(b){var a=S.applications.filter(function(x){return x.id===b.dataset.id})[0];if(!a)return;a.status="Applied";if(!a.applied)a.applied=iso();save();render();toast("Marked as applied")},
 "draft-email":function(b){var a=S.applications.filter(function(x){return x.id===b.dataset.id})[0]||{company:"[Company]",role:"[Role]"};var today=iso();var days=Math.floor((Date.now()-new Date((a.applied||today)+"T00:00"))/86400000);var tpl="Hi "+(a.contact||"[Name]")+",\n\nQuick follow-up on my application for the "+a.role+" role at "+a.company+(days>0?" — sent "+days+" day"+(days===1?"":"s")+" ago":"")+".\n\nI'm still very interested and would love to know if there's any update on timing. Happy to share additional work samples if useful.\n\nThanks for your time,\n"+(S.profile.name||"[Your name]");openInfo("Draft follow-up email",'<label>Copy and paste into your email<textarea id="emailtext" rows="12">'+E(tpl)+'</textarea></label><div class="foot"><button type="button" data-act="close">Close</button><button class="primary" data-act="copy-email">Copy</button></div>')},
 "copy-email":function(){var t=$("#emailtext");if(t)Promise.resolve().then(function(){if(!navigator.clipboard)throw new Error("Clipboard unavailable");return navigator.clipboard.writeText(t.value)}).then(function(){toast("Copied")}).catch(function(){toast("Copy failed")})},
-reset:function(){if(sampleMode){toast("Exit sample first");return}if(confirm("Erase ALL data? Cannot undo.")&&confirm("Really erase everything?")){S=blank();save();render();toast("Reset")}}
+reset:function(){if(sampleMode){toast("Exit sample first");return}if(confirm("Erase ALL data? Cannot undo.")&&confirm("Really erase everything?")){storageReadOnly=false;S=blank();save();render();toast("Reset")}}
 };
 
 document.addEventListener("click",function(e){
 if(Date.now()-lastDrop<300)return;
 var t=e.target.closest("[data-act]");if(!t)return;
 if(t.tagName==="SELECT"||t.tagName==="INPUT"||t.tagName==="TEXTAREA")return;
-var fn=A[t.dataset.act];if(fn)fn(t);
+if(t.tagName==='FORM'||(t.type==='submit'&&t.closest('form')))return;var fn=Object.prototype.hasOwnProperty.call(A,t.dataset.act)?A[t.dataset.act]:null;if(fn)fn(t);
 });
 document.addEventListener("change",function(e){
 var t=e.target;
+if(t.dataset.act==='cover-edit'){A['cover-edit'](t);return}
 if(t.type==="checkbox"&&t.dataset.act&&A[t.dataset.act]){A[t.dataset.act](t)}
 else if(t.tagName==="SELECT"&&t.dataset.act&&A[t.dataset.act]){A[t.dataset.act](t)}
-else if(t.dataset&&t.dataset.note){S.notes[t.dataset.note]=t.value;save()}
+else if(t.dataset&&t.dataset.note){A['note-edit'](t)}
 });
-document.addEventListener("input",function(e){var t=e.target;if(t.dataset&&t.dataset.note){S.notes[t.dataset.note]=t.value;save()}});
+document.addEventListener("input",function(e){var t=e.target;if(t.dataset.act==='cover-edit'){A['cover-edit'](t);return}if(t.dataset&&t.dataset.note){A['note-edit'](t)}});
 document.addEventListener("keydown",function(e){var card=e.target.closest&&e.target.closest(".kcard[data-act=edit]");if(card&&(e.key==="Enter"||e.key===" ")){e.preventDefault();A.edit(card)}});
 document.addEventListener("submit",function(e){
-if(e.target.id==="profile"){e.preventDefault();S.profile=Object.assign({},S.profile,Object.fromEntries(new FormData(e.target)));save();render();toast("Profile saved")}
+var act=e.target.dataset.act;if(act&&Object.prototype.hasOwnProperty.call(A,act)){e.preventDefault();A[act](e.target)}
 });
+document.addEventListener("dragstart",function(e){var row=e.target.closest('[data-resume-section]');if(!row||view!=='resume')return;if(e.target.closest('button,input,textarea,select')){e.preventDefault();return}e.dataTransfer.setData('application/x-career-section',row.dataset.resumeSection);e.dataTransfer.effectAllowed='move';row.classList.add('section-dragging')});
+document.addEventListener("dragend",function(){document.querySelectorAll('.section-dragging,.section-over').forEach(function(n){n.classList.remove('section-dragging','section-over')})});
+document.addEventListener("dragover",function(e){if(view!=='resume'||!Array.from(e.dataTransfer.types).includes('application/x-career-section'))return;var zone=e.target.closest('[data-resume-zone]');if(zone){e.preventDefault();e.dataTransfer.dropEffect='move';zone.classList.add('section-over')}});
+document.addEventListener("dragleave",function(e){var zone=e.target.closest('[data-resume-zone]');if(zone&&!zone.contains(e.relatedTarget))zone.classList.remove('section-over')});
+document.addEventListener("drop",function(e){var key=e.dataTransfer.getData('application/x-career-section'),zone=e.target.closest('[data-resume-zone]');if(!key||!zone||view!=='resume')return;e.preventDefault();e.stopPropagation();var row=e.target.closest('[data-resume-section]'),before=row&&row.dataset.resumeSection;if(before===key)return;lastDrop=Date.now();moveResumeSection(key,zone.dataset.resumeZone,before);toast('Section order saved')});
 document.addEventListener("dragstart",function(e){var c=e.target.closest(".kcard");if(!c)return;e.dataTransfer.setData("text/plain",c.dataset.id);e.dataTransfer.effectAllowed="move";c.classList.add("drag")});
 document.addEventListener("dragend",function(e){var c=e.target.closest(".kcard");if(c)c.classList.remove("drag");$$(".kan-col.over").forEach(function(z){z.classList.remove("over")})});
 document.addEventListener("dragover",function(e){var z=e.target.closest("[data-drop]");if(!z)return;e.preventDefault();z.classList.add("over")});
@@ -787,7 +787,8 @@ document.addEventListener("dragleave",function(e){var z=e.target.closest("[data-
 document.addEventListener("drop",function(e){var z=e.target.closest("[data-drop]");if(!z)return;e.preventDefault();z.classList.remove("over");lastDrop=Date.now();var id=e.dataTransfer.getData("text/plain");var a=S.applications.filter(function(x){return x.id===id})[0];if(a&&a.status!==z.dataset.drop){a.status=z.dataset.drop;save();render();toast("Moved to "+a.status)}});
 document.addEventListener("click",function(e){var a=e.target.closest('nav a[href^="#"]');if(!a)return;var h=a.getAttribute("href").slice(1);if(h===view){e.preventDefault();scrollTo({top:0,behavior:"smooth"})}});
 addEventListener("hashchange",function(){var h=location.hash.slice(1);view=TITLES[h]?h:"hub";render();scrollTo(0,0)});
-addEventListener("beforeunload",function(){if(!sampleMode)lsSet(JSON.parse(JSON.stringify(S)))});
+$("#dlg").addEventListener("close",function(){if(dialogTrigger&&dialogTrigger.isConnected)dialogTrigger.focus()});
+addEventListener("beforeunload",function(){if(!sampleMode&&!storageReadOnly)lsSet(JSON.parse(JSON.stringify(S)))});
 document.addEventListener("visibilitychange",function(){if(document.visibilityState==="hidden"&&!sampleMode)lsSet(JSON.parse(JSON.stringify(S)))});
 (function(){var h=location.hash.slice(1);view=TITLES[h]?h:"hub";load()})();
 </script>
