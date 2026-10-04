@@ -5,7 +5,7 @@
 | Original FAIL | Problem | Fix | Final location |
 |---|---|---|---|
 | `2-HOST-ONLINE/index.html:399` (load()) | localStorage overrode IndexedDB. | IndexedDB → localStorage → memory read order. | `2-HOST-ONLINE/index.html:406` |
-| `2-HOST-ONLINE/index.html:338` (idb()) | Blocked opens could leave startup waiting forever. | Bounded open; blocked or failed opens use the fallback. | `2-HOST-ONLINE/index.html:342` |
+| `2-HOST-ONLINE/index.html:338` (idb()) | Blocked opens could leave startup waiting forever. | Bounded open; neblocked or failed opens use the fallback. | `2-HOST-ONLINE/index.html:342` |
 | `2-HOST-ONLINE/index.html:339` (idbGet()/idbSet()) | Storage transactions had no bounded fallback. | Timeouts and abort/error handling. | `2-HOST-ONLINE/index.html:343` |
 | `2-HOST-ONLINE/index.html:398` (save()) | Fast edits could enqueue overlapping writes without an explicit order. | Snapshots written through a serial save queue. | `2-HOST-ONLINE/index.html:405` |
 | `2-HOST-ONLINE/index.html:380` (migrate()) | Migration stopped at v3; v4 features depended on defaults. | Explicit v3 → v4 → v5 migrations. | `2-HOST-ONLINE/index.html:386` |

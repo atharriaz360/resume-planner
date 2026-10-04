@@ -274,7 +274,7 @@ main{padding:0!important;max-width:none!important;margin:0!important;width:100%!
 .tpl-sidebar .resume-side h2,.tpl-sidebar .resume-side .sub,.tpl-sidebar .resume-side .meta{color:white;border-color:rgba(255,255,255,.6)}
 .tpl-sidebar .resume-side .contact-item{color:white;border-color:rgba(255,255,255,.3)}
 .tpl-sidebar .resume-side p,.tpl-sidebar .resume-side li,.tpl-sidebar .resume-side b,.tpl-sidebar .resume-side li::marker{color:white}.tpl-sidebar .resume-side a{color:white}.tpl-sidebar .resume-side .resume-edit{color:#202733}
-@media print{#paper.tpl-sidebar{padding:0!important;border-top:0!important}.tpl-sidebar .resume-grid{min-height:0}}
+@media print{@page sidebar-resume{size:A4;margin:17mm 12mm 12mm}@page sidebar-resume:first{margin:12mm}#paper.tpl-sidebar{page:sidebar-resume;padding:0!important;border-top:0!important}#paper.tpl-sidebar .resume-side{padding-top:24px;padding-bottom:24px;-webkit-box-decoration-break:clone;box-decoration-break:clone}.tpl-sidebar .resume-grid{min-height:0}}
 
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media(pointer:coarse){button.ico,.swatch{min-width:44px;min-height:44px}.section-buttons button{min-width:44px;min-height:44px}}
@@ -482,7 +482,7 @@ if(key==="awards"&&S.awards.length)html='<section><h2>Awards &amp; Honours</h2>'
 if(!html)return "";
 html=html.replace('<section','<section draggable="true" data-resume-section="'+key+'"').replace('</h2>',' <button class="resume-edit noprint" data-act="edit-section" data-section="'+key+'" aria-label="Edit '+E(RESUME_SECTIONS[key])+'">Edit</button></h2>');return html;
 }
-function resumeIdentity(p,extra){return '<div class="resume-header"><button class="resume-edit noprint" data-act="edit-profile">Edit name &amp; headline</button><h1>'+E(p.name||'Your Name')+'</h1>'+(p.headline?'<div class="ph">'+E(p.headline)+'</div>':'')+(extra||'')+'</div>'}
+function resumeIdentity(p,extra){return '<div class="resume-header"><h1>'+E(p.name||'Your Name')+'</h1>'+(p.headline?'<div class="ph">'+E(p.headline)+'</div>':'')+(extra||'')+'</div>'}
 function buildResumeExecutive(p,X,P,G){var order=S.resume.layout.executive,contactFirst=order[0]==='contact';return '<div class="paper tpl-executive" id="paper" data-resume-zone="executive">'+resumeIdentity(p,contactFirst?resumeSectionHtml('contact',p,X,P,G):'')+'<div data-resume-zone="executive">'+order.filter(function(k){return !contactFirst||k!=='contact'}).map(function(k){return resumeSectionHtml(k,p,X,P,G)}).join('')+'</div></div>'}
 
 function buildResumeMint(p,X,P,G,showEdu,showCert,rAccent){return '<div class="paper tpl-mint" style="--rc:'+rAccent+'" id="paper">'+resumeIdentity(p)+'<div class="resume-grid"><div class="resume-side" data-resume-zone="side">'+S.resume.layout.mint.side.map(function(k){return resumeSectionHtml(k,p,X,P,G)}).join('')+'</div><div class="resume-main" data-resume-zone="main">'+S.resume.layout.mint.main.map(function(k){return resumeSectionHtml(k,p,X,P,G)}).join('')+'</div></div></div>'}
@@ -520,7 +520,7 @@ function resumePrintCss(){return '@page{size:A4;margin:0}'
 +'#paper{zoom:1!important;width:794px!important;max-width:none!important;min-height:0!important;margin:0!important;padding:48px 56px!important;border:0!important;border-radius:0!important;box-shadow:none!important;overflow:visible!important;-webkit-box-decoration-break:clone!important;box-decoration-break:clone!important}'
 +'#paper h2,#paper .job-head,#paper .job>.meta,#paper .job>.sub{break-after:avoid;page-break-after:avoid}'
 +'#paper .job{break-inside:avoid}#paper section{break-inside:auto}#paper .resume-header{break-inside:avoid}'
-+'#paper p,#paper li{orphans:2;widows:2}'+'@page mint-resume{size:A4;margin:12mm}#paper.tpl-mint{page:mint-resume;width:auto!important;padding:30px 0 0!important;-webkit-box-decoration-break:slice!important;box-decoration-break:slice!important;border-top:10px solid color-mix(in srgb,var(--rc,#0d9488) 22%,white)!important}#paper.tpl-sidebar{padding:0!important;border-top:0!important}';}
++'#paper p,#paper li{orphans:2;widows:2}'+'@page mint-resume{size:A4;margin:17mm 0 12mm}@page mint-resume:first{margin:0 0 12mm}#paper.tpl-mint{page:mint-resume;width:auto!important;padding:30px 12mm 0!important;-webkit-box-decoration-break:slice!important;box-decoration-break:slice!important;border-top:18px solid color-mix(in srgb,var(--rc,#0b7c73) 23%,white)!important}@page sidebar-resume{size:A4;margin:17mm 12mm 12mm}@page sidebar-resume:first{margin:12mm}#paper.tpl-sidebar{page:sidebar-resume;padding:0!important;border-top:0!important}#paper.tpl-sidebar .resume-side{padding-top:24px;padding-bottom:24px;-webkit-box-decoration-break:clone;box-decoration-break:clone}';}
 async function downloadPdf(){
   if(resumePrintFrame)return;
   var button=document.querySelector('[data-act="dl-pdf"]');
