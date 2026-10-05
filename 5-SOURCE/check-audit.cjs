@@ -1,3 +1,4 @@
+require('fs').mkdirSync('output/audit',{recursive:true});
 const pptr=require('puppeteer'),assert=require('assert'),path=require('path'),fs=require('fs');
 const url='file://'+path.resolve('2-HOST-ONLINE/index.html');
 (async()=>{const b=await pptr.launch({headless:true});const errors=[];async function page(){const p=await b.newPage();p.on('pageerror',e=>errors.push(e.message));p.on('console',m=>{if(m.type()==='error')errors.push(m.text())});return p}try{
