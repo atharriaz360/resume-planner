@@ -20,7 +20,7 @@ ONE-TIME PURCHASE • 3 RESUME LAYOUTS • PDF EXPORT
 
 YOUR RESUME, YOUR WAY
 • Choose Executive for a classic single-column resume, Mint Modern for a clean two-column layout, or Professional Sidebar for a coloured right sidebar.
-• Make the two-column styles your own with Mint, Teal, Steel Blue, Amber or Slate accents. Executive keeps its classic navy styling.
+• Choose Mint, Mist, Ocean Blue or Bronze accents for all three layouts. Executive uses a full-width coloured header with white name, headline and contact details.
 • Keep work experience, projects, education, skills, certifications and Awards & Honours in your Experience Bank.
 • Select relevant entries, show or hide sections, and arrange them with drag and drop or arrow buttons. Move sections between columns in the two-column layouts.
 • Edit your profile and section content from the builder. See your changes in the live preview.
@@ -30,6 +30,7 @@ A COVER LETTER THAT FITS YOUR APPLICATION
 • Reuse your contact details and choose matching typography and accent styling.
 • Add the recipient, company, role and your own opening, evidence and closing paragraphs.
 • Optionally fill company, role and contact details from a tracked job.
+• Match the resume header, choose one of four accents, and align your name and contact details left or centre. The alignment also applies to your resume.
 • Your draft saves as you type. Export it as a PDF through browser printing.
 
 SEE YOUR JOB SEARCH MOVE FORWARD
@@ -101,10 +102,10 @@ Copy the alt text below into each image's alt text field. It describes what is v
 | [03-tracker.jpg](images/03-tracker.jpg) | 3000 × 2400 | Correct: tracker stages, notes and follow-up dates match the app. | Job application board with Wishlist, Applied, Interviewing, Offer and Rejected stages, plus captions for salary notes, contacts and follow-up dates. |
 | [04-golden-rules.jpg](images/04-golden-rules.jpg) | 3000 × 2400 | Correct: all 12 rule headings match the included playbook. | 12 Golden Rules career playbook covering role fit, achievement evidence, honest keywords, readability, preparation, networking and credibility, with space for personal notes in the app. |
 | [05-cover-letter.jpg](images/05-cover-letter.jpg) | 3000 × 2400 | Correct: editable letter, matching styling and browser PDF export. | Cover letter preview with features for matching resume styles, using tracked job details, editing your own letter text and exporting a PDF through the browser. |
-| [06-executive.png](images/06-executive.png) | 3200 × 2400 | Correct: cropped upper-resume detail, 4:3 landscape. Not a complete resume or PDF page. | Close-up of the Executive resume: classic navy headings, contact details, professional summary and work experience arranged in one column. |
+| [06-executive.png](images/06-executive.png) | 3200 × 2400 | Correct: cropped upper-resume detail, 4:3 landscape. Not a complete resume or PDF page. | Close-up of Executive with a coloured header, white name and headline, contact icons, professional summary and work experience in one column. |
 | [07-2column.png](images/07-2column.png) | 3200 × 2400 | Correct: cropped upper-resume detail, 4:3 landscape. Not a complete resume or PDF page. | Close-up of Mint Modern: pale mint top band, contact details and education in the left column, with professional summary and work experience on the right. |
 | [08-sidebar.png](images/08-sidebar.png) | 3200 × 2400 | Correct: cropped upper-resume detail, 4:3 landscape. Not a complete resume or PDF page. | Close-up of Professional Sidebar: summary and work experience on white, with contact details, education and skills in a teal right sidebar. |
-| [09-studio-screen.png](images/09-studio-screen.png) | 2880 × 2100 | Correct: actual desktop app screenshot. Small interface text needs zoom; use as supporting proof. | Career Hub resume builder with three layout choices, five accent colours, profile editing, cover letter access, PDF export, experience checkboxes and a live Mint Modern preview. |
+| [09-studio-screen.png](images/09-studio-screen.png) | 2880 × 2100 | Correct: actual desktop app screenshot. Small interface text needs zoom; use as supporting proof. | Career Hub resume builder with three layout choices, four resume accent colours, profile editing, cover letter access, PDF export, experience checkboxes and a live Mint Modern preview. |
 | [10-tracker.png](images/10-tracker.png) | 2880 × 2100 | Correct: actual desktop tracker with 12 fictional jobs. Repeats image 3 but shows more detail. | Career Hub job tracker with 12 fictional applications across Wishlist, Applied, Interviewing, Offer and Rejected, showing job titles, companies, salary amounts and follow-up dates. |
 
 Suggested upload order: **1 → 2 → 3 → 5 → 4 → 9 → 6 → 7 → 8 → 10**. Show the core offer, template choice, tracker and cover letter first, then guidance and detailed product views. Images 6–8 intentionally show partial resumes.
@@ -114,13 +115,13 @@ Suggested upload order: **1 → 2 → 3 → 5 → 4 → 9 → 6 → 7 → 8 → 
 
 [Resume-Studio-Interactive.mp4](video/Resume-Studio-Interactive.mp4) — 14.6 seconds, 1.5× playback, 1600 × 1000, 30 fps, silent MP4. Recorded real clicks, typing and browser drag-and-drop at the local preview address in a separate browser session using fictional sample data.
 
-Sequence: select Professional Sidebar; change Steel Blue to Slate; scroll and drag Education above Contact; change location to Cambridge, MA and save; open Experience Bank and change a role to Senior Operations Coordinator; edit the cover letter company address to 18 Oak Street, Boston, MA and show the live preview; move Patient Services Coordinator from Interviewing to Offer. Resulting section order, edited text and Offer count were checked. No browser page errors were captured; the final MP4 decoded successfully. No hiring outcome is implied by the fictional Offer card.
+Historical video (earlier palette, not refreshed in this image update). Sequence: select Professional Sidebar; change Ocean Blue to Slate; scroll and drag Education above Contact; change location to Cambridge, MA and save; open Experience Bank and change a role to Senior Operations Coordinator; edit the cover letter company address to 18 Oak Street, Boston, MA and show the live preview; move Patient Services Coordinator from Interviewing to Offer. Resulting section order, edited text and Offer count were checked. No browser page errors were captured; the final MP4 decoded successfully. No hiring outcome is implied by the fictional Offer card.
 
 
 
 ## Current hero image
 
-Updated 5 October 2026: premium three-part layout with clean, high-quality scaled HTML screenshots. Laptop: Resume Builder in Steel Blue with Rose controls. One phone: the seller-provided Mint Modern mobile resume screenshot. Floating card: the seller-provided cover-letter screenshot with outer margins removed. Headline: **Resume Builder + Job Tracker**. Second line: **+ Cover Letter Included**. Benefit: **Create your resume. Organise your next move.** Badge: **PAY ONCE / No subscription**. Bottom pills: **Fully Editable · Drag & Drop · 3 Templates · PDF Export**.
+Updated 5 October 2026: premium three-part layout with clean, high-quality scaled HTML screenshots. Laptop: Resume Builder in Ocean Blue with Rose controls. One phone: the seller-provided Mint Modern mobile resume screenshot. Floating card: the seller-provided cover-letter screenshot with outer margins removed. Headline: **Resume Builder + Job Tracker**. Second line: **+ Cover Letter Included**. Benefit: **Create your resume. Organise your next move.** Badge: **PAY ONCE / No subscription**. Bottom pills: **Fully Editable · Drag & Drop · 3 Templates · PDF Export**.
 
 The 15% smaller centred layout remains checked in a tall crop. Full-size output: 3000 × 2250. Tiny document text still needs zoom; the headline and feature labels carry the offer at thumbnail size. Source: `hero-source/build-hero.cjs`. [Tall crop preview](hero-source/hero-portrait-crop.jpg). Verify actual Etsy thumbnail placement before publishing.
 
@@ -128,3 +129,13 @@ The 15% smaller centred layout remains checked in a tall crop. Full-size output:
 Supplied screenshots used on 5 October 2026: `hero-source/provided/phone.png` and `hero-source/provided/cover-letter.png`. Outer screenshot margins are cropped during HTML composition; the image contents are preserved. The phone now shows the supplied resume view, not the tracker. Job Tracker is represented by the headline and dedicated gallery images.
 
 Phone frame update: added a designed iPhone-style status bar with 9:41 time, cellular signal, Wi-Fi, battery, camera island and home indicator. The supplied app screenshot sits below the status bar so its tabs are not covered. These frame details are illustrative, not device telemetry.
+
+Executive style update, 5 October 2026: four selectable accents, a full-width colour header with white name and headline, inline contact icons, and matching section rules. The body stays single-column. PDF exports and all four resume accent changes were checked.
+
+Accent update: Steel Blue is replaced by Ocean Blue (#375875), sampled from the supplied reference. Old Steel and Crimson saved selections migrate to Ocean Blue. There are still four resume accents.
+
+Design panel update, 5 October 2026: grouped template thumbnails, four named accent colours with selected ticks, shared Left/Centre header alignment, compact profile and letter actions, and a clear PDF export card. Executive cover letters use the matching colour banner and compact contact row.
+
+Document controls, 5 October 2026: compact PDF export with a document icon. Name, section headings, body/contact text and section spacing each have minus/plus controls from 80–120%, in 5% steps, plus Reset. Shared by resumes and cover letters; PDF output retains the selected sizes.
+
+Resume and cover-letter palette: Mint #0B7C73, Mist #DBE3E3, Ocean Blue #375875, Bronze #8A6543. Bronze replaces the former Amber document accent; saved selections remain valid.

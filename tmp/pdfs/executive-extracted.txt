@@ -1,9 +1,6 @@
 Jordan Lee
 Operations & Client Services Professional
-jordan.lee@example.com
-+1 (555) 010-4477
-Boston, MA
-linkedin.com/in/jordanlee-example
+jordan.lee@example.com +1 (555) 010-4477 Boston, MA linkedin.com/in/jordanlee-example
 PROFESSIONAL SUMMARY
 Operations and client services professional with 6 years of experience helping teams deliver reliable service.
 Improved turnaround times, supported staff development, and managed budgets with care. Brings clear
@@ -21,8 +18,8 @@ Client Services Associate
 Harbor Community Centre (Demo), Boston, MA
 Aug 2020 – Jan 2023
 Handled 40 client enquiries daily and maintained a 94% satisfaction score in quarterly feedback.
-Created a clear welcome guide that helped new clients prepare for appointments and reduced missed
-visits by 18%.
+Created a clear welcome guide that helped new clients prepare for appointments and reduced missed visits
+by 18%.
 Trained 5 new colleagues using practical examples and weekly check-ins.
 Volunteer Programme Lead
 Neighbourhood Learning Network (Demo), Boston, MA
