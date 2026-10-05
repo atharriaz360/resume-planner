@@ -1,17 +1,28 @@
-# Career Hub - Resume Planner
+# Career Hub
 
-Live app: https://resume-planner-rouge.vercel.app/
+Resume builder, cover letters, experience bank and job tracker. Canonical app: `2-HOST-ONLINE/index.html`.
 
-## Current source
+## Folders
 
-Edit `2-HOST-ONLINE/index.html`. The sales HTML is copied from this source.
+- `1-SELL-THIS/`: buyer HTML, two-page guide, licence and buyer ZIP.
+- `2-HOST-ONLINE/`: hosted app and required offline/PWA files.
+- `3-ETSY-LISTING/`: final ten images, interaction video and listing copy/alt text. Capture scripts and their required reference inputs remain alongside them.
+- `4-BRAND/`: editable brand assets.
+- `5-SOURCE/`: maintained builders and checks. Test/render outputs are temporary and ignored.
 
-## Rebuild the buyer package
+## Build and verify
 
-1. If instructions changed, run `python3 5-SOURCE/make-guide.py` (requires reportlab).
-2. Run `python3 5-SOURCE/build-release.py`.
-3. Check the PDF and extracted ZIP before uploading to Etsy.
+Install development dependencies with `npm ci`. Python guide generation needs reportlab; PDF text checks need pdfplumber/pypdf.
 
-The ZIP contains Career-Hub.html, Career-Hub-Start-Here.pdf and LICENSE.txt. The hosted site and local HTML have separate browser storage; use JSON backup/restore to move entries.
+1. `python3 5-SOURCE/make-guide.py`
+2. `python3 5-SOURCE/build-release.py`
+3. `node 5-SOURCE/check-audit.cjs`
+4. `node 5-SOURCE/check-header-design.cjs`
+5. `node 5-SOURCE/check-document-sizes.cjs`
+6. `node 5-SOURCE/check-resume-pdf.cjs`
+7. `node 5-SOURCE/check-release.cjs`
+8. `python3 5-SOURCE/build-project.py`
 
-Listing images are 3000 x 2400. See the image review in `3-ETSY-LISTING/IMAGE-REVIEW.md` before publishing. The current images are factual product information graphics.
+The buyer ZIP contains only the standalone HTML, PDF guide and licence. The project ZIP includes maintained source, final seller assets and buyer files; excludes Git, dependencies, secrets, drafts and test outputs.
+
+The public website and downloaded app use separate browser storage. Use JSON backup/restore to transfer entries. Local edits are not deployed automatically.

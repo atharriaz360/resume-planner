@@ -1,0 +1,29 @@
+# Local dependencies and machine files
+**/node_modules/
+.DS_Store
+**/.DS_Store
+Thumbs.db
+*.log
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.vercel/
+
+# Reproducible test and render output
+/output/
+/tmp/
+/5-SOURCE/renders/
+/3-ETSY-LISTING/studio-refresh/
+/3-ETSY-LISTING/video/frames/
+/3-ETSY-LISTING/video/frames.json
+/3-ETSY-LISTING/video/frames.txt
+/3-ETSY-LISTING/video/final-frame.png
+/3-ETSY-LISTING/hero-source/*.png
+/3-ETSY-LISTING/hero-source/*.jpg
+/3-ETSY-LISTING/hero-source/*.html
+
+# Rebuildable archives; buyer source and final listing assets stay tracked
+/1-SELL-THIS/*.zip
+/Career-Hub-Project.zip

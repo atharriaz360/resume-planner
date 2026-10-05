@@ -1,6 +1,6 @@
 # Ready-to-paste Etsy listing
 
-Updated 4 October 2026. Buyer copy appears first; image review and upload-ready alt text appear below.
+Updated 5 October 2026. Buyer copy appears first; image review and upload-ready alt text appear below.
 
 ## Title
 
@@ -20,7 +20,7 @@ ONE-TIME PURCHASE • 3 RESUME LAYOUTS • PDF EXPORT
 
 YOUR RESUME, YOUR WAY
 • Choose Executive for a classic single-column resume, Mint Modern for a clean two-column layout, or Professional Sidebar for a coloured right sidebar.
-• Choose Mint, Mist, Ocean Blue or Bronze accents for all three layouts. Executive uses a full-width coloured header with white name, headline and contact details.
+• Choose Mint, Mist, Ocean Blue or Bronze accents for all three layouts. Executive uses a full-width coloured header with high-contrast name, headline and contact details (dark text with Mist).
 • Keep work experience, projects, education, skills, certifications and Awards & Honours in your Experience Bank.
 • Select relevant entries, show or hide sections, and arrange them with drag and drop or arrow buttons. Move sections between columns in the two-column layouts.
 • Edit your profile and section content from the builder. See your changes in the live preview.
@@ -87,9 +87,9 @@ Designed by DigiDesignLab1, with AI assistance in development and listing copy. 
 
 ## Seller notes — image review and alt text
 
-Reviewed all 10 files in `images/` against the current product on 4 October 2026. Content is consistent with the app. Images 6–8 now show cropped upper-resume details in 4:3 landscape format. No image establishes an ATS score or a hiring outcome.
+Reviewed all 10 files in `images/` against the current product on 5 October 2026. Content is consistent with the app. Images 6–8 now show cropped upper-resume details in 4:3 landscape format. No image establishes an ATS score or a hiring outcome.
 
-Etsy recommends at least 2,000 pixels in both dimensions and a consistent gallery shape. Images 6–8 were re-captured directly from the HTML at 3,200 × 2,400 pixels (4:3), showing only the upper resume. Their original full-length versions are saved in `original-full-resumes/`. The hero now uses fresh HTML screenshots, a smaller centred feature row and an inward purchase badge. Check it in Etsy's thumbnail adjustment tool before publishing. [Etsy image guidance](https://help.etsy.com/hc/en-us/articles/115015663347-Requirements-and-Best-Practices-for-Images-in-Your-Etsy-Shop).
+Etsy recommends at least 2,000 pixels in both dimensions and a consistent gallery shape. Images 6–8 were re-captured directly from the HTML at 3,200 × 2,400 pixels (4:3), showing only the upper resume. The hero now uses fresh HTML screenshots, a smaller centred feature row and an inward purchase badge. Check it in Etsy's thumbnail adjustment tool before publishing. [Etsy image guidance](https://help.etsy.com/hc/en-us/articles/115015663347-Requirements-and-Best-Practices-for-Images-in-Your-Etsy-Shop).
 
 The hero uses actual HTML screenshots inside designed laptop and phone frames. Images 9 and 10 also show the actual interface. Its source and repeatable capture script are in `hero-source/`. The phone mockup illustrates responsive layout; it does not guarantee local file opening or PDF printing on every phone. Keep the device guidance in the buyer description. Resume previews can become multiple pages when printed. All names, jobs, salaries and achievements shown are fictional examples.
 
@@ -98,7 +98,7 @@ Copy the alt text below into each image's alt text field. It describes what is v
 | Image | Dimensions | Review | Alt text |
 | --- | --- | --- | --- |
 | [01-hero.jpg](images/01-hero.jpg) | 3000 × 2250 | Premium layout with real laptop capture and seller-provided mobile resume and cover-letter screenshots. | Resume Builder + Job Tracker hero with laptop and iPhone resume screens, cover letter preview, Fully Editable and Drag & Drop badges, 3 templates, PDF export and Pay Once, No Subscription. |
-| [02-templates.jpg](images/02-templates.jpg) | 3000 × 2400 | Correct: all three included layouts. These are app previews, not a promise of one-page PDFs. | Three professional resume previews: Executive with one column, Mint Modern with two columns and Professional Sidebar with a teal right column. Browser PDF export is noted below. |
+| [02-templates.jpg](images/02-templates.jpg) | 3000 × 2400 | Correct: all three included layouts. These are app previews, not a promise of one-page PDFs. | Three professional resume previews: Executive with one column, Mint Modern with two columns and Professional Sidebar with a Mint right column. Browser PDF export is noted below. |
 | [03-tracker.jpg](images/03-tracker.jpg) | 3000 × 2400 | Correct: tracker stages, notes and follow-up dates match the app. | Job application board with Wishlist, Applied, Interviewing, Offer and Rejected stages, plus captions for salary notes, contacts and follow-up dates. |
 | [04-golden-rules.jpg](images/04-golden-rules.jpg) | 3000 × 2400 | Correct: all 12 rule headings match the included playbook. | 12 Golden Rules career playbook covering role fit, achievement evidence, honest keywords, readability, preparation, networking and credibility, with space for personal notes in the app. |
 | [05-cover-letter.jpg](images/05-cover-letter.jpg) | 3000 × 2400 | Correct: editable letter, matching styling and browser PDF export. | Cover letter preview with features for matching resume styles, using tracked job details, editing your own letter text and exporting a PDF through the browser. |
@@ -111,31 +111,24 @@ Copy the alt text below into each image's alt text field. It describes what is v
 Suggested upload order: **1 → 2 → 3 → 5 → 4 → 9 → 6 → 7 → 8 → 10**. Show the core offer, template choice, tracker and cover letter first, then guidance and detailed product views. Images 6–8 intentionally show partial resumes.
 
 
-## Interactive listing video
-
-[Resume-Studio-Interactive.mp4](video/Resume-Studio-Interactive.mp4) — 14.6 seconds, 1.5× playback, 1600 × 1000, 30 fps, silent MP4. Recorded real clicks, typing and browser drag-and-drop at the local preview address in a separate browser session using fictional sample data.
-
-Historical video (earlier palette, not refreshed in this image update). Sequence: select Professional Sidebar; change Ocean Blue to Slate; scroll and drag Education above Contact; change location to Cambridge, MA and save; open Experience Bank and change a role to Senior Operations Coordinator; edit the cover letter company address to 18 Oak Street, Boston, MA and show the live preview; move Patient Services Coordinator from Interviewing to Offer. Resulting section order, edited text and Offer count were checked. No browser page errors were captured; the final MP4 decoded successfully. No hiring outcome is implied by the fictional Offer card.
-
-
-
 ## Current hero image
 
 Updated 5 October 2026: premium three-part layout with clean, high-quality scaled HTML screenshots. Laptop: Resume Builder in Ocean Blue with Rose controls. One phone: the seller-provided Mint Modern mobile resume screenshot. Floating card: the seller-provided cover-letter screenshot with outer margins removed. Headline: **Resume Builder + Job Tracker**. Second line: **+ Cover Letter Included**. Benefit: **Create your resume. Organise your next move.** Badge: **PAY ONCE / No subscription**. Bottom pills: **Fully Editable · Drag & Drop · 3 Templates · PDF Export**.
 
-The 15% smaller centred layout remains checked in a tall crop. Full-size output: 3000 × 2250. Tiny document text still needs zoom; the headline and feature labels carry the offer at thumbnail size. Source: `hero-source/build-hero.cjs`. [Tall crop preview](hero-source/hero-portrait-crop.jpg). Verify actual Etsy thumbnail placement before publishing.
+The 15% smaller centred layout remains checked in a tall crop. Full-size output: 3000 × 2250. Tiny document text still needs zoom; the headline and feature labels carry the offer at thumbnail size. Source: `hero-source/build-hero.cjs`. Verify actual Etsy thumbnail placement before publishing.
 
 
 Supplied screenshots used on 5 October 2026: `hero-source/provided/phone.png` and `hero-source/provided/cover-letter.png`. Outer screenshot margins are cropped during HTML composition; the image contents are preserved. The phone now shows the supplied resume view, not the tracker. Job Tracker is represented by the headline and dedicated gallery images.
 
 Phone frame update: added a designed iPhone-style status bar with 9:41 time, cellular signal, Wi-Fi, battery, camera island and home indicator. The supplied app screenshot sits below the status bar so its tabs are not covered. These frame details are illustrative, not device telemetry.
 
-Executive style update, 5 October 2026: four selectable accents, a full-width colour header with white name and headline, inline contact icons, and matching section rules. The body stays single-column. PDF exports and all four resume accent changes were checked.
 
-Accent update: Steel Blue is replaced by Ocean Blue (#375875), sampled from the supplied reference. Old Steel and Crimson saved selections migrate to Ocean Blue. There are still four resume accents.
+## Final product and upload notes
 
-Design panel update, 5 October 2026: grouped template thumbnails, four named accent colours with selected ticks, shared Left/Centre header alignment, compact profile and letter actions, and a clear PDF export card. Executive cover letters use the matching colour banner and compact contact row.
+Four document accents: Mint #0B7C73, Mist #DBE3E3, Ocean Blue #375875 and Bronze #8A6543. Shared resume/letter alignment and adjustable name, headings, body text and spacing. Template and accent controls stay visible; advanced controls collapse. Desktop export remains separate from the scrollable settings area.
 
-Document controls, 5 October 2026: compact PDF export with a document icon. Name, section headings, body/contact text and section spacing each have minus/plus controls from 80–120%, in 5% steps, plus Reset. Shared by resumes and cover letters; PDF output retains the selected sizes.
+The final interaction video is refreshed from the current HTML, approximately 14 seconds at 1.5x speed, without audio. It shows Professional Sidebar, Ocean-to-Bronze colour change, section ordering, profile/experience/letter edits and a sample Interviewing-to-Offer move. This is fictional sample data, not a customer hiring result.
 
-Resume and cover-letter palette: Mint #0B7C73, Mist #DBE3E3, Ocean Blue #375875, Bronze #8A6543. Bronze replaces the former Amber document accent; saved selections remain valid.
+Upload the buyer ZIP and Start Here PDF from `1-SELL-THIS/`. The complete project ZIP is for the seller, not the customer. Final image files are the ten files in `images/`; draft alternates were removed. Verify Etsy's thumbnail crop before publishing.
+
+The buyer guide invites an optional honest review and offers support regardless of reviewing. It does not request a particular rating or promise a search position.
