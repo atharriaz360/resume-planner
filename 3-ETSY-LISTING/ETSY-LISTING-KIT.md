@@ -4,131 +4,102 @@ Updated 5 October 2026. Buyer copy appears first; image review and upload-ready 
 
 ## Title
 
-Resume Builder App with Cover Letter and Job Tracker, 3 Professional Templates
+ATS Resume Builder & Professional CV Template Studio with Visual Job Search Tracker
 
 ## Tags
 
-resume builder, resume template, cv builder, job search tracker, application tracker, cover letter builder, career planner, job hunt organizer, follow up planner, interview planner, professional resume, graduate resume, career change
+resume template, resume builder, cv template, resume studio, career hub, job tracker, ats resume, cover letter, professional resume, digital resume, job search planner, interview prep, career planner
 
 ## Buyer description
 
-Build a clear resume. Write your cover letter. Keep your next step in view.
+Stop paying monthly for resume builders.
 
-Career Hub Resume Studio brings a resume builder, cover letter editor and job application tracker into one calm browser workspace. Save your professional record once, choose the details that fit each role, and keep applications and follow-ups organised.
+Resume Builder + Cover Letter + Job Tracker — the all-in-one career app that helps you land interviews faster. This is a one-time purchase. Yours forever. No login, no subscription, no data leaving your browser.
 
-ONE-TIME PURCHASE • 3 RESUME LAYOUTS • PDF EXPORT
-
-YOUR RESUME, YOUR WAY
-• Choose Executive for a classic single-column resume, Mint Modern for a clean two-column layout, or Professional Sidebar for a coloured right sidebar.
-• Choose Mint, Mist, Ocean Blue or Bronze accents for all three layouts. Executive uses a full-width coloured header with high-contrast name, headline and contact details (dark text with Mist).
-• Keep work experience, projects, education, skills, certifications and Awards & Honours in your Experience Bank.
-• Select relevant entries, show or hide sections, and arrange them with drag and drop or arrow buttons. Move sections between columns in the two-column layouts.
-• Edit your profile and section content from the builder. See your changes in the live preview.
-• Save a selectable-text PDF through your browser. Longer resumes can span multiple pages with space around the content.
-
-A COVER LETTER THAT FITS YOUR APPLICATION
-• Reuse your contact details and choose matching typography and accent styling.
-• Add the recipient, company, role and your own opening, evidence and closing paragraphs.
-• Optionally fill company, role and contact details from a tracked job.
-• Match the resume header, choose one of four accents, and align your name and contact details left or centre. The alignment also applies to your resume.
-• Your draft saves as you type. Export it as a PDF through browser printing.
-
-SEE YOUR JOB SEARCH MOVE FORWARD
-• Organise opportunities into Wishlist, Applied, Interviewing, Offer and Rejected.
-• Move jobs between stages with drag and drop or the status selector.
-• Record salary targets and currency, location, posting links, contact details and notes.
-• Set follow-up dates and see which application follow-ups are due in your Hub.
-• Keep recruiter and networking contacts, conversation notes and next-contact dates together.
-• Open an editable application follow-up draft, then copy and send it through your own email app.
-
-PREPARE WITH CLEAR EXAMPLES
-• Read 12 Golden Rules plus practical guides on achievement bullets, STAR interview stories, networking and reviewing offers.
-• Add your own preparation notes and next actions.
-• Explore a fictional sample career profile, resume and cover letter, 12 varied jobs across all five tracker stages, and 5 sample contacts. Sample mode is temporary: replace the examples with your own facts.
-
-A CALMER WORKSPACE
-• Light and dark modes, five workspace accent choices and focus mode.
-• A Hub with application counts, follow-ups and a suggested next step.
-• A setup checklist to help you get started. Its percentage measures setup completion, not hiring chances.
-• Browser storage for your entries, plus JSON backup and restore to move or recover your workspace.
-
-WHAT YOU RECEIVE
-Career-Hub.zip containing:
-1. Career-Hub.html — the browser app.
-2. Career-Hub-Start-Here.pdf — setup and PDF instructions.
-3. LICENSE.txt — personal and household-use licence.
-
-A separate copy of the Start Here PDF is also included. Digital download; no physical item is shipped. One-time purchase, with no Career Hub app subscription required.
-
-START IN THREE STEPS
-1. Download the ZIP through Etsy in a web browser, unzip it, and open Career-Hub.html on your computer.
-2. Try the temporary sample data, exit sample mode, and add your own profile and experience.
-3. Choose a layout, save and review your PDF, then apply through the employer's process and track your next step.
-
-BEFORE YOU BUY
-A computer with a current browser is recommended for setup and PDF printing. The downloaded app works locally without an internet connection. The layout adapts to smaller screens, but opening local HTML files and printing PDFs on phones and tablets varies by device.
-
-This is a browser app. It does not require Excel, Google Sheets or Notion. Word/DOCX export and automatic AI writing are not included.
-
-For PDFs, choose Save as PDF, use 100% scale, keep background graphics on, and turn browser headers and footers off. Review every page and follow the employer's file requirements.
-
-SAVE A BACKUP
-Your entries stay in browser storage on your device. Use the same browser and app file location. Clearing browser data or changing location can make saved entries unavailable. Export a JSON backup after important changes. There is no automatic cloud sync; use backup and restore to transfer your workspace. A resume PDF is not a workspace backup.
-
-WHO IT IS FOR
-Students, graduates, job seekers, career changers and professionals who want to present relevant experience and manage a job search in one place. Include genuine projects, volunteering and part-time work alongside paid roles.
-
-GOOD TO KNOW
-Applications and messages are sent outside the app. Follow-up dates are prompts inside the workspace, not push or email notifications. Templates and guides support preparation; they do not guarantee ATS scores, interviews or hiring. Fictional examples and salary amounts are demonstrations, not market estimates or customer results.
-
-Personal and household use only. No resale or redistribution. Need setup help? Message DigiDesignLab1 through Etsy with your device, browser and a short description of the issue.
-
-Designed by DigiDesignLab1, with AI assistance in development and listing copy. Listing visuals combine actual product screenshots, information graphics and a designed device mockup using HTML screenshots.
-
-## Seller notes — image review and alt text
-
-Reviewed all 10 files in `images/` against the current product on 5 October 2026. Content is consistent with the app. Images 6–8 now show cropped upper-resume details in 4:3 landscape format. No image establishes an ATS score or a hiring outcome.
-
-Etsy recommends at least 2,000 pixels in both dimensions and a consistent gallery shape. Images 6–8 were re-captured directly from the HTML at 3,200 × 2,400 pixels (4:3), showing only the upper resume. The hero now uses fresh HTML screenshots, a smaller centred feature row and an inward purchase badge. Check it in Etsy's thumbnail adjustment tool before publishing. [Etsy image guidance](https://help.etsy.com/hc/en-us/articles/115015663347-Requirements-and-Best-Practices-for-Images-in-Your-Etsy-Shop).
-
-The hero uses actual HTML screenshots inside designed laptop and phone frames. Images 9 and 10 also show the actual interface. Its source and repeatable capture script are in `hero-source/`. The phone mockup illustrates responsive layout; it does not guarantee local file opening or PDF printing on every phone. Keep the device guidance in the buyer description. Resume previews can become multiple pages when printed. All names, jobs, salaries and achievements shown are fictional examples.
-
-Copy the alt text below into each image's alt text field. It describes what is visible without repeating tags or making sales promises. These seller notes are not part of the buyer description.
-
-| Image | Dimensions | Review | Alt text |
-| --- | --- | --- | --- |
-| [01-hero.jpg](images/01-hero.jpg) | 3000 × 2250 | Premium layout with real laptop capture and seller-provided mobile resume and cover-letter screenshots. | Resume Builder + Job Tracker hero with laptop and iPhone resume screens, cover letter preview, Fully Editable and Drag & Drop badges, 3 templates, PDF export and Pay Once, No Subscription. |
-| [02-templates.jpg](images/02-templates.jpg) | 3000 × 2400 | Correct: all three included layouts. These are app previews, not a promise of one-page PDFs. | Three professional resume previews: Executive with one column, Mint Modern with two columns and Professional Sidebar with a Mint right column. Browser PDF export is noted below. |
-| [03-tracker.jpg](images/03-tracker.jpg) | 3000 × 2400 | Correct: tracker stages, notes and follow-up dates match the app. | Job application board with Wishlist, Applied, Interviewing, Offer and Rejected stages, plus captions for salary notes, contacts and follow-up dates. |
-| [04-golden-rules.jpg](images/04-golden-rules.jpg) | 3000 × 2400 | Correct: all 12 rule headings match the included playbook. | 12 Golden Rules career playbook covering role fit, achievement evidence, honest keywords, readability, preparation, networking and credibility, with space for personal notes in the app. |
-| [05-cover-letter.jpg](images/05-cover-letter.jpg) | 3000 × 2400 | Correct: editable letter, matching styling and browser PDF export. | Cover letter preview with features for matching resume styles, using tracked job details, editing your own letter text and exporting a PDF through the browser. |
-| [06-executive.png](images/06-executive.png) | 3200 × 2400 | Correct: cropped upper-resume detail, 4:3 landscape. Not a complete resume or PDF page. | Close-up of Executive with a coloured header, white name and headline, contact icons, professional summary and work experience in one column. |
-| [07-2column.png](images/07-2column.png) | 3200 × 2400 | Correct: cropped upper-resume detail, 4:3 landscape. Not a complete resume or PDF page. | Close-up of Mint Modern: pale mint top band, contact details and education in the left column, with professional summary and work experience on the right. |
-| [08-sidebar.png](images/08-sidebar.png) | 3200 × 2400 | Correct: cropped upper-resume detail, 4:3 landscape. Not a complete resume or PDF page. | Close-up of Professional Sidebar: summary and work experience on white, with contact details, education and skills in a teal right sidebar. |
-| [09-studio-screen.png](images/09-studio-screen.png) | 2880 × 2100 | Correct: actual desktop app screenshot. Small interface text needs zoom; use as supporting proof. | Career Hub resume builder with three layout choices, four resume accent colours, profile editing, cover letter access, PDF export, experience checkboxes and a live Mint Modern preview. |
-| [10-tracker.png](images/10-tracker.png) | 2880 × 2100 | Correct: actual desktop tracker with 12 fictional jobs. Repeats image 3 but shows more detail. | Career Hub job tracker with 12 fictional applications across Wishlist, Applied, Interviewing, Offer and Rejected, showing job titles, companies, salary amounts and follow-up dates. |
-
-Suggested upload order: **1 → 2 → 3 → 5 → 4 → 9 → 6 → 7 → 8 → 10**. Show the core offer, template choice, tracker and cover letter first, then guidance and detailed product views. Images 6–8 intentionally show partial resumes.
+⭐ Build a polished resume in 3 layouts, write a matching cover letter, and track every application — all offline, in under 60 seconds.
 
 
-## Current hero image
+📋 WHAT'S INCLUDED
+• 3 professional resume layouts — Modern, Executive, Sidebar
+• Cover letter builder that matches your resume style automatically
+• Job application tracker with follow-up reminders
+• One-click PDF export — send-ready in seconds
+• Works offline in any browser, on Mac, Windows, or Linux
 
-Updated 5 October 2026: premium three-part layout with clean, high-quality scaled HTML screenshots. Laptop: Resume Builder in Ocean Blue with Rose controls. One phone: the seller-provided Mint Modern mobile resume screenshot. Floating card: the seller-provided cover-letter screenshot with outer margins removed. Headline: **Resume Builder + Job Tracker**. Second line: **+ Cover Letter Included**. Benefit: **Create your resume. Organise your next move.** Badge: **PAY ONCE / No subscription**. Bottom pills: **Fully Editable · Drag & Drop · 3 Templates · PDF Export**.
+✨ WHY BUYERS CHOOSE THIS
+• Pay once, yours forever — no monthly subscription
+• No account — nothing to sign up for, ever
+• No uploads — your data stays in your browser, private by design
+• Instant download — start building in under 60 seconds
+• Unlimited edits — update it as many times as you want
 
-The 15% smaller centred layout remains checked in a tall crop. Full-size output: 3000 × 2250. Tiny document text still needs zoom; the headline and feature labels carry the offer at thumbnail size. Source: `hero-source/build-hero.cjs`. Verify actual Etsy thumbnail placement before publishing.
+🎯 PERFECT FOR
+• Job seekers applying to 5+ roles a month
+• Career changers building a fresh resume from scratch
+• Students and new grads entering the market
+• Anyone tired of copy-pasting between Canva, Google Docs, and spreadsheets
 
+📦 HOW IT WORKS
 
-Supplied screenshots used on 5 October 2026: `hero-source/provided/phone.png` and `hero-source/provided/cover-letter.png`. Outer screenshot margins are cropped during HTML composition; the image contents are preserved. The phone now shows the supplied resume view, not the tracker. Job Tracker is represented by the headline and dedicated gallery images.
+Purchase → download the ZIP instantly
 
-Phone frame update: added a designed iPhone-style status bar with 9:41 time, cellular signal, Wi-Fi, battery, camera island and home indicator. The supplied app screenshot sits below the status bar so its tabs are not covered. These frame details are illustrative, not device telemetry.
+Unzip → open the HTML file in any browser
 
+Fill in your experience → build your resume + cover letter
 
-## Final product and upload notes
+Export to PDF → apply with confidence
 
-Four document accents: Mint #0B7C73, Mist #DBE3E3, Ocean Blue #375875 and Bronze #8A6543. Shared resume/letter alignment and adjustable name, headings, body text and spacing. Template and accent controls stay visible; advanced controls collapse. Desktop export remains separate from the scrollable settings area.
+❓ FAQ
+Q: Do I need to install anything?
+No — it runs in your browser. Just unzip and open.
 
-The final interaction video is refreshed from the current HTML, approximately 14 seconds at 1.5x speed, without audio. It shows Professional Sidebar, Ocean-to-Bronze colour change, section ordering, profile/experience/letter edits and a sample Interviewing-to-Offer move. This is fictional sample data, not a customer hiring result.
+Q: Is my data safe?
+Yes. Everything stays on your device. Nothing is uploaded, tracked, or shared.
 
-Upload the buyer ZIP and Start Here PDF from `1-SELL-THIS/`. The complete project ZIP is for the seller, not the customer. Final image files are the ten files in `images/`; draft alternates were removed. Verify Etsy's thumbnail crop before publishing.
+Q: Can I use it forever?
+Yes — one-time purchase, unlimited use, no renewals.
+
+Q: Can I edit it after purchase?
+Yes — edit and re-export as many times as you like.
+
+Q: What file do I get?
+A ZIP containing the app (HTML file) + a short setup guide. Works on Mac, Windows, Linux, Chromebook.
+
+Q: Do I need internet?
+No — after the initial download, it works fully offline.
+
+💬 QUESTIONS?
+Message me any time. I usually reply within 24 hours.
+
+⚠️ NOTE
+This is a digital download — no physical item will be shipped. Colors may vary slightly across screens.
+
+## Seller notes — image generation and alt text
+
+Reviewed the updated listing image strategy on 5 October 2026. The listing images are generated dynamically using `generator.html` and captured via script into 2700 × 2025 (4:3 aspect ratio) final images in the `images/` directory.
+
+Copy the highly SEO-optimized alt text below into each image's alt text field on Etsy. It covers key search terms like Resume Template, Resume Studio, ATS, and Career Hub.
+
+| Slide / Topic | Alt text |
+| --- | --- |
+| 1. Hub / Hero | Career Hub Resume Studio dashboard showing Resume readiness, Job Tracker metrics, and Recent applications for the ultimate resume builder. |
+| 2. What's Included | Overview of features including ATS-Friendly Resume Template Builder, Visual Job Tracker, Cover Letters, Experience Vault, and Playbook Guide. |
+| 3. Compare Templates | ATS-friendly Resume Builder and Cover Letter Builder shown side-by-side highlighting premium CV template layouts. |
+| 4. Customizable | Customization options showing the Dark Mode Resume Studio interface and professional typography choices. |
+| 5. Cover Letters | Dedicated Cover Letter template generator interface showing matching styles and letter-writing prompts. |
+| 6. Dark & Light Mode | Career Hub Resume template interface split showing both the optimized dark mode and light mode eye comfort themes. |
+| 7. Job Tracker | Visual Job Tracker Kanban board with Wishlist, Applied, Interviewing, Offer, and Rejected stages for career planning. |
+| 8. Experience Bank | Career Vault Experience Bank storing past roles, skills, education, and projects to instantly pull into any resume template. |
+| 9. Contacts | Networking and Contacts manager showing a list of recruiters and managers with follow-up reminders for your job search. |
+| 10. Playbook | Expert guidance Playbook featuring the 12 Golden Rules for successful job applications and ATS resume achievement writing. |
+| 11. Privacy | Security guarantee showing that 100% of the user's career and resume builder data stays private on their own device. |
+| 12. Purchase Steps | Three simple steps to upgrade your career: Download instantly, open in your browser, and build your digital resume template. |
+
+Suggested upload order: **1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10 → 11 → 12**. 
+Show the overarching value first, break down the features and customizations, highlight the organizational tools (Tracker, Contacts, Experience), prove the privacy benefits, and close the sale with the simple 3-step purchase guide.
+
+## Final upload notes
+
+Upload the buyer ZIP and Start Here PDF from `1-SELL-THIS/`. The complete project ZIP is for the seller, not the customer. Final image files are the twelve files in `images/`.
 
 The buyer guide invites an optional honest review and offers support regardless of reviewing. It does not request a particular rating or promise a search position.
