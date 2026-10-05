@@ -199,21 +199,99 @@
     font-size: 40px;
   }
 
+  /* New Hero CSS */
+  .teal-banner {
+    background: #0d9488;
+    color: white;
+    display: inline-block;
+    padding: 15px 40px;
+    border-radius: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    box-shadow: 0 10px 20px rgba(13, 148, 136, 0.3);
+  }
+  
+  .circular-badge {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.2;
+    top: 80px;
+    right: 120px;
+    background: #ea580c !important; /* Bronze/Orange */
+    transform: rotate(12deg);
+    padding: 0;
+  }
+
+  .pill {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 100px;
+    font-size: 32px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #0f172a;
+    border: 1px solid #e2e8f0;
+  }
+  .pill-sub {
+    color: #64748b;
+    font-weight: 500;
+  }
+
 </style>
 </head>
 <body>
 
   <!-- 1. Hero -->
   <div class="slide bg-hero">
-    <div class="badge">Instant Download ⚡</div>
-    <div class="content">
-      <div class="kicker">The Ultimate Toolkit</div>
-      <h1>Land your dream job<br><span>faster.</span></h1>
-      <p>Everything you need to track progress, build resumes, and stay motivated in one dashboard.</p>
+    <div class="badge circular-badge">PAY ONCE<br><span style="font-size: 24px; margin-top: 8px;">NO SUBSCRIPTION</span></div>
+    
+    <div class="content" style="padding-top: 100px;">
+      <div class="kicker" style="color: #0d9488;">ALL-IN-ONE JOB SEARCH TOOLKIT</div>
+      <h1 style="color: #0f172a; margin-bottom: 20px;">Resume Builder + Job Tracker</h1>
+      <div class="teal-banner">+ Cover Letter Included</div>
     </div>
-    <div class="mockup" style="width: 2300px; height: 1300px; bottom: -50px; left: 50%; transform: translateX(-50%);">
-      <div class="mockup-header"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
-      <div class="mockup-body"><img src="images/hub.png" class="no-sidebar"></div>
+    
+    <!-- 3D Overlapping Stack -->
+    <div class="mockup-stack" style="position: absolute; top: 520px; left: 50%; transform: translateX(-50%); width: 2500px; height: 1200px;">
+      
+      <!-- ATS Callout -->
+      <div class="ats-callout" style="position: absolute; top: 40px; right: 350px; background: white; padding: 25px 40px; border-radius: 16px; box-shadow: 0 20px 40px rgba(0,0,0,0.15); z-index: 50; border-left: 8px solid #14b8a6; font-size: 32px; font-weight: 600; color: #334155;">
+        Clean, text-based PDF export.<br>
+        <span style="color: #14b8a6;">Built to pass ATS.</span>
+      </div>
+
+      <!-- Tablet (Left) - Job Tracker -->
+      <div class="mockup tablet" style="position: absolute; width: 850px; height: 1100px; left: 50px; top: 120px; z-index: 10; box-shadow: -20px 40px 80px rgba(0,0,0,0.3); border-radius: 32px; border: 16px solid #1e293b;">
+        <div class="mockup-body" style="border-radius: 16px;"><img src="images/tracker.png" class="no-sidebar" style="object-position: left top;"></div>
+      </div>
+      
+      <!-- Phone (Right) - Cover Letter -->
+      <div class="mockup phone" style="position: absolute; width: 550px; height: 1050px; right: 100px; top: 160px; z-index: 30; box-shadow: 20px 40px 80px rgba(0,0,0,0.3); border-radius: 48px; border: 16px solid #1e293b;">
+        <div class="mockup-body" style="border-radius: 32px;"><img src="images/cover-letter.png" class="no-sidebar" style="object-position: center top;"></div>
+      </div>
+
+      <!-- Laptop (Center) - Builder -->
+      <div class="mockup laptop" style="position: absolute; width: 1600px; height: 1000px; left: 50%; transform: translateX(-50%); top: 0; z-index: 20; box-shadow: 0 50px 100px rgba(0,0,0,0.4); border-radius: 24px; border: 8px solid #cbd5e1;">
+        <div class="mockup-header" style="height: 50px; padding: 0 20px;"><div class="dot red" style="width:14px;height:14px;"></div><div class="dot yellow" style="width:14px;height:14px;"></div><div class="dot green" style="width:14px;height:14px;"></div></div>
+        <div class="mockup-body"><img src="images/builder-light.png" class="no-sidebar" style="object-position: left top;"></div>
+      </div>
+    </div>
+    
+    <!-- Bottom Pills -->
+    <div class="pills-container" style="position: absolute; bottom: 80px; left: 0; width: 100%; display: flex; justify-content: center; gap: 30px; z-index: 40;">
+      <div class="pill">🟢 <strong>Stop the chaos</strong> <span class="pill-sub">(Job Tracker)</span></div>
+      <div class="pill">🟢 <strong>Look professional</strong> <span class="pill-sub">(3 Resume Layouts)</span></div>
+      <div class="pill">🟢 <strong>Never miss a follow-up</strong> <span class="pill-sub">(Application Reminders)</span></div>
+      <div class="pill">🟢 <strong>Works Offline</strong> <span class="pill-sub">(Private & Secure)</span></div>
     </div>
   </div>
 

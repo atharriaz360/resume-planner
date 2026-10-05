@@ -82,7 +82,7 @@ Copy the highly SEO-optimized alt text below into each image's alt text field on
 
 | Slide / Topic | Alt text |
 | --- | --- |
-| 1. Hub / Hero | Career Hub Resume Studio dashboard showing Resume readiness, Job Tracker metrics, and Recent applications for the ultimate resume builder. |
+| 1. Hub / Hero | 3D overlapping stack showing the Resume Builder on a laptop, Job Tracker on a tablet, and Cover Letter on a phone, with benefit-driven features like Stop the chaos and Look professional. |
 | 2. What's Included | Overview of features including ATS-Friendly Resume Template Builder, Visual Job Tracker, Cover Letters, Experience Vault, and Playbook Guide. |
 | 3. Compare Templates | ATS-friendly Resume Builder and Cover Letter Builder shown side-by-side highlighting premium CV template layouts. |
 | 4. Customizable | Customization options showing the Dark Mode Resume Studio interface and professional typography choices. |
