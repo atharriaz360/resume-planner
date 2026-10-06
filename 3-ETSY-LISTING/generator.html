@@ -57,19 +57,32 @@ mark{background:linear-gradient(transparent 58%,var(--yl) 58%);color:inherit;pad
 .handle{position:absolute;width:40px;height:170px;background:linear-gradient(90deg,#2A2940,#15142B);border-radius:20px;transform-origin:top center}
 .strip{position:absolute;left:0;right:0;bottom:0;height:96px;background:#15142B;color:#fff;display:flex;align-items:center;justify-content:center;gap:42px;font:700 26px Inter}
 .strip span{display:flex;align-items:center;gap:12px}.strip i{width:12px;height:12px;border-radius:50%;background:#2DD4A7;display:block}
+.lens{position:absolute;width:380px;height:380px;border-radius:50%;overflow:hidden;background:#fff;z-index:4;box-shadow:0 0 0 9px #D9DCE3,0 0 0 13px #8D929E,0 0 0 15px #2A2940,0 30px 60px -10px rgba(20,20,60,.55),inset 0 0 30px rgba(0,0,0,.15)}
+.lens img{position:absolute;display:block}
+.lens:before{content:"";position:absolute;inset:0;z-index:2;background:radial-gradient(circle at 30% 22%,rgba(255,255,255,.55),transparent 32%)}
+.lt{position:absolute;left:0;right:0;bottom:0;height:44%;z-index:1;background:linear-gradient(transparent,rgba(0,0,0,.85) 40%,#000);display:flex;flex-direction:column;align-items:center;justify-content:flex-end;padding-bottom:48px;text-align:center}
+.lt b{font:900 30px/1 'Inter Display';color:#5CFF8F;letter-spacing:.01em;text-shadow:0 0 14px rgba(92,255,143,.8),0 0 30px rgba(92,255,143,.5)}
+.lt span{font:600 20px Inter;color:#fff;margin-top:12px}
+.handle2{position:absolute;width:48px;height:190px;border-radius:24px;transform:rotate(-42deg);transform-origin:top center;z-index:3;background:linear-gradient(90deg,#3a394f,#15142B 60%);box-shadow:0 20px 30px -10px rgba(0,0,0,.4)}
+.handle2:before{content:"";position:absolute;left:-4px;right:-4px;top:-6px;height:44px;border-radius:10px;background:linear-gradient(90deg,#EEF0F4,#9BA0AB)}
+.pdf{position:absolute;width:74px;z-index:3;filter:drop-shadow(0 10px 14px rgba(20,20,60,.3))}
+.gold{background:linear-gradient(120deg,#FFE7A3,#F5C451 55%,#E9A92F);padding:0 12px 4px;border-radius:14px;box-decoration-break:clone;-webkit-box-decoration-break:clone;box-shadow:0 10px 24px -10px rgba(233,169,47,.7)}
 </style></head><body>
 
 
 <!-- 1 HERO -->
 <section class="slide" style="background:radial-gradient(900px 600px at 75% 70%,#E4E1FF 0,transparent 65%),var(--bg)">
- <div class="hdc" style="top:52px"><div class="k">Career Hub</div>
-  <h1 style="font-size:112px;margin-top:12px">Resume Builder App</h1>
-  <div class="sub" style="font:700 34px Inter;color:var(--ink);margin-top:18px">ATS-friendly PDF <span style="color:var(--ind)">·</span> 24 template styles <span style="color:var(--ind)">·</span> Pay once</div></div>
- <div class="brw" style="left:70px;top:330px;width:900px"><img src="img2/focus-resume.png"></div>
- <div class="handle" style="left:1225px;top:670px;transform:rotate(-40deg)"></div>
- <div class="mag" style="left:870px;top:300px;width:420px;height:420px"><img src="img2/mag.png" style="width:440px;left:-24px;top:-10px"></div>
- <div class="tag tl" style="left:900px;top:740px;max-width:400px;z-index:3"><div class="ic">✓</div><div>Know when it's ready<small>See every section filled before you apply</small></div></div>
- <div class="strip"><span><i></i>No subscription</span><span><i></i>No account</span><span><i></i>Works offline</span><span><i></i>Instant download</span></div>
+<div style="position:absolute;inset:0;transform:scale(.85);transform-origin:50% 50%">
+ <div class="hdc" style="top:40px"><div class="k">Career Hub</div>
+  <h1 style="font-size:112px;margin-top:12px"><mark>Resume Builder</mark> App</h1>
+  <div class="sub" style="font:700 36px Inter;color:var(--ink);margin-top:20px;max-width:none"><mark>ATS-friendly</mark> PDF <span style="color:var(--ind)">·</span> <mark>24 template styles</mark> <span style="color:var(--ind)">·</span> <mark>Pay once</mark></div></div>
+ <div class="brw" style="left:40px;top:320px;width:900px"><img src="img2/focus-resume.png"></div>
+ <svg style="position:absolute;left:0;top:0;width:1350px;height:1013px;z-index:2" viewBox="0 0 1350 1013"><polygon points="885,465 1125,360 1125,700 885,537" fill="rgba(255,255,255,.55)" stroke="rgba(20,20,60,.12)"/><rect x="825" y="465" width="60" height="72" rx="8" fill="none" stroke="#15142B" stroke-width="3"/></svg>
+ <div class="handle2" style="left:1215px;top:640px"></div>
+ <div class="lens" style="left:945px;top:350px"><img src="img2/mag.png" style="width:400px;left:-30px;top:-40px"><div class="lt"><b>COMPLETION CHECK</b><span>Know your resume is ready.</span></div></div>
+ <div class="pdf" style="left:880px;top:745px"><svg viewBox="0 0 80 96"><path d="M6 4h48l20 20v66a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="#fff" stroke="#15142B" stroke-width="5"/><path d="M54 4v20h20" fill="none" stroke="#15142B" stroke-width="5"/><text x="40" y="76" font-family="Inter" font-weight="800" font-size="20" text-anchor="middle" fill="#15142B">PDF</text><path d="M40 30v24m-10-10l10 10 10-10" fill="none" stroke="#E8590C" stroke-width="5" stroke-linecap="round"/></svg></div>
+ <div class="strip" style="border-radius:28px;left:40px;right:40px;bottom:30px"><span><i></i>No subscription</span><span><i></i>No account</span><span><i></i>Works offline</span><span><i></i>Instant download</span></div>
+</div>
 </section>
 
 <!-- 2 EVERYTHING -->
@@ -123,7 +136,7 @@ mark{background:linear-gradient(transparent 58%,var(--yl) 58%);color:inherit;pad
 
 <!-- 7 BANK -->
 <section class="slide">
- <div class="hd"><div class="k">Experience bank</div><h2>Write it once. <mark>Reuse it for every job.</mark></h2><div class="sub">Store your roles, projects and skills. Choose what to show for each application.</div></div>
+ <div class="hd" style="width:1000px"><div class="k">Experience bank</div><h2>Write it once.<br><span class="gold">Reuse it for every job.</span></h2><div class="sub">Store your roles, projects and skills. Choose what to show for each application.</div></div>
  <div class="brw" style="left:500px;top:440px;width:900px"><img src="img2/experience-bank.png"></div>
  <div class="ppr" style="left:84px;top:440px;width:330px;height:400px;border-radius:16px"><img src="img2/secs.png"></div>
  <div class="tag tl" style="left:84px;top:860px;z-index:3"><div class="ic">✓</div><div>Tailor in clicks<small>Show, hide or reorder sections</small></div></div>

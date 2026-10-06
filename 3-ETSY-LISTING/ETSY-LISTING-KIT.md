@@ -2,9 +2,8 @@
 
 Updated 6 October 2026. All claims match the real app. Images use real app screenshots and real exported PDFs only.
 
-## Title (121/140)
-
-ATS Resume Template Builder, Cover Letter & Job Application Tracker, Printable PDF Resume, Modern CV, Job Search Planner
+## Title (11 words, no repeats — Etsy rule)
+ATS Resume Builder App, 24 Templates, Cover Letter & Job Tracker, Printable PDF (Digital Download)
 
 ## Tags (13)
 
