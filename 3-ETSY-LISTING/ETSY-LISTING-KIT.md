@@ -7,15 +7,16 @@ ATS Resume Builder App, 24 Templates, Cover Letter & Job Tracker, Printable PDF 
 
 ## Tags (13)
 
-ats resume template, resume builder, resume template, cv template, cover letter, job tracker, job search planner, job application, modern resume, printable resume, professional resume, career planner, graduate resume
+ats resume template, resume builder, resume template, cv template, cover letter, job tracker, job search planner, job application, modern resume, printable resume, professional resume, resume app, graduate resume
 
 ## Price
 
-USD 7.99. Optional launch sale: 30% off for 14 days, so new shop gets first reviews.
+List USD 11.99. Run an Etsy sale of 30% (buyer pays ~8.39) for launch; Etsy shows the real crossed-out price. Do not invent a higher "was" price.
 
 ## Description
 
-Stop the job-hunt chaos. Build your resume, write a matching cover letter and track every application. All in one app, all on your device.
+Tired of sending resumes into a black hole?
+Look hire-ready and track every application: resume, matching cover letter and job tracker in one private app.
 
 Pay once. Yours forever. No account. No subscription. Works offline.
 
@@ -59,13 +60,15 @@ Q: Is it a subscription? No. One-time purchase, unlimited use.
 Q: Do I need internet? No, it works offline after download.
 Q: Can I edit later? Yes, edit and re-export as often as you like.
 
+Designed and built by me (KaelLabs). AI tools assisted with parts of the coding, images and listing copy. Every feature was reviewed and tested by hand. App screens in the photos are real screenshots with example data.
+
 💬 Questions? Message me. I usually reply within 24 hours.
 
 ## Images (upload in this order)
 
 | # | File | Job | Alt text |
 | --- | --- | --- | --- |
-| 1 | 01-hero.png | 3-second hook | Resume builder app with 24 ATS-friendly template styles, completion check, pay once no subscription |
+| 1 | 01-hero.png | 3-second hook | Resume builder app for job seekers on a laptop with two printable PDF resumes: 24 template styles, matching cover letter, job tracker, ATS-friendly PDF. Pay once, no subscription, works offline. |
 | 2 | 02-whats-included.png | Value in one look | Job search toolkit: resume builder, cover letter, job tracker, experience bank, contacts and playbook |
 | 3 | 03-layouts.png | Proof of output | 24 resume template styles: Mint Modern, Executive and Professional Sidebar in 4 colours, text-based PDF |
 | 4 | 04-job-tracker.png | Pain: lost applications | Visual job application tracker board with Wishlist, Applied, Interviewing, Offer and Rejected |
@@ -80,6 +83,6 @@ Keep the video in slot 2 (it shows the real app moving). Old v1 images are in `i
 
 ## Rebuild images
 
-`python3 3-ETSY-LISTING/cap.py` (Playwright) renders `generator.html` → `images/` at 2700×2026. Source screenshots in `3-ETSY-LISTING/img2/` — fresh captures of the current app (2-HOST-ONLINE/index.html, 6 Oct). Re-capture after any UI change.
+Hero: render `hero.html` (navy/gold, Cormorant font from npm @fontsource/cormorant-garamond) → `images/01-hero.png`. Others: `python3 3-ETSY-LISTING/cap.py` (Playwright) renders `generator.html` → `images/` at 2700×2026. Source screenshots in `3-ETSY-LISTING/img2/` — fresh captures of the current app (2-HOST-ONLINE/index.html, 6 Oct). Re-capture after any UI change.
 
 Do NOT claim a Word template bonus: none is included.
