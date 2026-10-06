@@ -1,105 +1,86 @@
-# Ready-to-paste Etsy listing
+# Career Hub — Etsy listing kit (v2)
 
-Updated 5 October 2026. Buyer copy appears first; image review and upload-ready alt text appear below.
+Updated 6 October 2026. All claims match the real app. Images use real app screenshots and real exported PDFs only.
 
-## Title
+## Title (121/140)
 
-ATS Resume Builder & Professional CV Template Studio with Visual Job Search Tracker
+ATS Resume Template Builder, Cover Letter & Job Application Tracker, Printable PDF Resume, Modern CV, Job Search Planner
 
-## Tags
+## Tags (13)
 
-resume template, resume builder, cv template, resume studio, career hub, job tracker, ats resume, cover letter, professional resume, digital resume, job search planner, interview prep, career planner
+ats resume template, resume builder, resume template, cv template, cover letter, job tracker, job search planner, job application, modern resume, printable resume, professional resume, career planner, graduate resume
 
-## Buyer description
+## Price
 
-Stop paying monthly for resume builders.
+USD 7.99. Optional launch sale: 30% off for 14 days, so new shop gets first reviews.
 
-Resume Builder + Cover Letter + Job Tracker — the all-in-one career app that helps you land interviews faster. This is a one-time purchase. Yours forever. No login, no subscription, no data leaving your browser.
+## Description
 
-⭐ Build a polished resume in 3 layouts, write a matching cover letter, and track every application — all offline, in under 60 seconds.
+Stop the job-hunt chaos. Build your resume, write a matching cover letter and track every application. All in one app, all on your device.
 
+Pay once. Yours forever. No account. No subscription. Works offline.
 
-📋 WHAT'S INCLUDED
-• 3 professional resume layouts — Modern, Executive, Sidebar
-• Cover letter builder that matches your resume style automatically
-• Job application tracker with follow-up reminders
-• One-click PDF export — send-ready in seconds
-• Works offline in any browser, on Mac, Windows, or Linux
+⭐ WHAT IT DOES FOR YOU
+• Look polished, fast: 24 template styles (3 layouts: Mint Modern, Executive, Professional Sidebar × 4 colours × 2 header styles) with one-click PDF
+• No blank-page panic: cover letter matches your resume style. Pick a tracked job and the company, role and contact fill in
+• Never lose an application: visual job tracker from Wishlist to Applied, Interviewing, Offer
+• Never forget a follow-up: contacts with follow-up dates, flagged on your hub
+• Write it once, reuse it: experience bank. Show, hide or reorder sections for each job
+• Know your next step: hub shows a suggested next step and your resume readiness
+• Know when it's ready: completion check shows every section is filled before you apply
+• Know what to write: playbook with 12 golden rules for strong applications
+• Easy on the eyes: light and dark mode
 
-✨ WHY BUYERS CHOOSE THIS
-• Pay once, yours forever — no monthly subscription
-• No account — nothing to sign up for, ever
-• No uploads — your data stays in your browser, private by design
-• Instant download — start building in under 60 seconds
-• Unlimited edits — update it as many times as you want
+🔒 PRIVATE BY DESIGN
+No login. No uploads. Your data stays in your browser on your own device. Export a backup file any time.
+
+📄 ATS-FRIENDLY
+Resumes export as text-based PDFs, so applicant tracking systems can read the words.
 
 🎯 PERFECT FOR
-• Job seekers applying to 5+ roles a month
-• Career changers building a fresh resume from scratch
-• Students and new grads entering the market
-• Anyone tired of copy-pasting between Canva, Google Docs, and spreadsheets
+• Anyone applying to several jobs at once
+• Career changers starting fresh
+• Students and new grads
+• Anyone tired of juggling Canva, Docs and spreadsheets
 
 📦 HOW IT WORKS
+1. Download the ZIP right after purchase
+2. Unzip and open the HTML file in Chrome, Safari, Edge or Firefox
+3. Fill in your details, export your PDF and apply
 
-Purchase → download the ZIP instantly
+💻 Works on Mac, Windows, Linux and Chromebook.
 
-Unzip → open the HTML file in any browser
-
-Fill in your experience → build your resume + cover letter
-
-Export to PDF → apply with confidence
+⚠️ GOOD TO KNOW
+This is an app you open in your browser, not a Word, Canva or Google Docs file. You edit inside the app and export PDF. Digital download only; nothing is shipped.
 
 ❓ FAQ
-Q: Do I need to install anything?
-No — it runs in your browser. Just unzip and open.
+Q: Do I need to install anything? No. Unzip and open in your browser.
+Q: Is my data safe? Yes. Nothing is uploaded, tracked or shared.
+Q: Is it a subscription? No. One-time purchase, unlimited use.
+Q: Do I need internet? No, it works offline after download.
+Q: Can I edit later? Yes, edit and re-export as often as you like.
 
-Q: Is my data safe?
-Yes. Everything stays on your device. Nothing is uploaded, tracked, or shared.
+💬 Questions? Message me. I usually reply within 24 hours.
 
-Q: Can I use it forever?
-Yes — one-time purchase, unlimited use, no renewals.
+## Images (upload in this order)
 
-Q: Can I edit it after purchase?
-Yes — edit and re-export as many times as you like.
+| # | File | Job | Alt text |
+| --- | --- | --- | --- |
+| 1 | 01-hero.png | 3-second hook | Resume builder app with 24 ATS-friendly template styles, completion check, pay once no subscription |
+| 2 | 02-whats-included.png | Value in one look | Job search toolkit: resume builder, cover letter, job tracker, experience bank, contacts and playbook |
+| 3 | 03-layouts.png | Proof of output | 24 resume template styles: Mint Modern, Executive and Professional Sidebar in 4 colours, text-based PDF |
+| 4 | 04-job-tracker.png | Pain: lost applications | Visual job application tracker board with Wishlist, Applied, Interviewing, Offer and Rejected |
+| 5 | 05-hub-next-step.png | Pain: overwhelm | Job search hub showing suggested next step, resume readiness score and follow-ups |
+| 6 | 06-cover-letter.png | Pain: blank page | Cover letter template that matches your resume style |
+| 7 | 07-experience-bank.png | Pain: rewriting | Experience bank with sections you can show, hide or reorder to tailor each resume |
+| 8 | 08-contacts.png | Pain: forgotten follow-ups | Networking contacts list with follow-up dates for recruiters and hiring managers |
+| 9 | 09-playbook.png | Reduce doubt | Resume writing playbook with 12 golden rules for job applications |
+| 10 | 10-pay-once.png | Remove risk, close | Pay once, works offline, no account: download, open in browser, export PDF |
 
-Q: What file do I get?
-A ZIP containing the app (HTML file) + a short setup guide. Works on Mac, Windows, Linux, Chromebook.
+Keep the video in slot 2 (it shows the real app moving). Old v1 images are in `images/_old-v1/` — v1 hero was AI-made and showed templates that don't exist (Classic, Minimal, Creative); do not use it.
 
-Q: Do I need internet?
-No — after the initial download, it works fully offline.
+## Rebuild images
 
-💬 QUESTIONS?
-Message me any time. I usually reply within 24 hours.
+`python3 3-ETSY-LISTING/cap.py` (Playwright) renders `generator.html` → `images/` at 2700×2026. Source screenshots in `3-ETSY-LISTING/img2/` — fresh captures of the current app (2-HOST-ONLINE/index.html, 6 Oct). Re-capture after any UI change.
 
-⚠️ NOTE
-This is a digital download — no physical item will be shipped. Colors may vary slightly across screens.
-
-## Seller notes — image generation and alt text
-
-Reviewed the updated listing image strategy on 5 October 2026. The listing images are generated dynamically using `generator.html` and captured via script into 2700 × 2025 (4:3 aspect ratio) final images in the `images/` directory.
-
-Copy the highly SEO-optimized alt text below into each image's alt text field on Etsy. It covers key search terms like Resume Template, Resume Studio, ATS, and Career Hub.
-
-| Slide / Topic | Alt text |
-| --- | --- |
-| 1. Hub / Hero | 3D overlapping stack showing the Resume Builder on a laptop, Job Tracker on a tablet, and Cover Letter on a phone, with benefit-driven features like Stop the chaos and Look professional. |
-| 2. What's Included | Overview of features including ATS-Friendly Resume Template Builder, Visual Job Tracker, Cover Letters, Experience Vault, and Playbook Guide. |
-| 3. Compare Templates | ATS-friendly Resume Builder and Cover Letter Builder shown side-by-side highlighting premium CV template layouts. |
-| 4. Customizable | Customization options showing the Dark Mode Resume Studio interface and professional typography choices. |
-| 5. Cover Letters | Dedicated Cover Letter template generator interface showing matching styles and letter-writing prompts. |
-| 6. Dark & Light Mode | Career Hub Resume template interface split showing both the optimized dark mode and light mode eye comfort themes. |
-| 7. Job Tracker | Visual Job Tracker Kanban board with Wishlist, Applied, Interviewing, Offer, and Rejected stages for career planning. |
-| 8. Experience Bank | Career Vault Experience Bank storing past roles, skills, education, and projects to instantly pull into any resume template. |
-| 9. Contacts | Networking and Contacts manager showing a list of recruiters and managers with follow-up reminders for your job search. |
-| 10. Playbook | Expert guidance Playbook featuring the 12 Golden Rules for successful job applications and ATS resume achievement writing. |
-| 11. Privacy | Security guarantee showing that 100% of the user's career and resume builder data stays private on their own device. |
-| 12. Purchase Steps | Three simple steps to upgrade your career: Download instantly, open in your browser, and build your digital resume template. |
-
-Suggested upload order: **1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10 → 11 → 12**. 
-Show the overarching value first, break down the features and customizations, highlight the organizational tools (Tracker, Contacts, Experience), prove the privacy benefits, and close the sale with the simple 3-step purchase guide.
-
-## Final upload notes
-
-Upload the buyer ZIP and Start Here PDF from `1-SELL-THIS/`. The complete project ZIP is for the seller, not the customer. Final image files are the twelve files in `images/`.
-
-The buyer guide invites an optional honest review and offers support regardless of reviewing. It does not request a particular rating or promise a search position.
+Do NOT claim a Word template bonus: none is included.

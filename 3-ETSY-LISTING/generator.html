@@ -1,479 +1,160 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Etsy Listing Image Generator v3 (12 Slides)</title>
+<!doctype html><html><head><meta charset="utf-8"><title>Career Hub listing images v2</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap');
-  
-  :root {
-    --w: 2700px;
-    --h: 2025px;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    background: #111;
-    font-family: 'Outfit', sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    padding: 40px;
-    justify-content: center;
-  }
+:root{--bg:#F5F2EC;--ink:#15142B;--mut:#5B5A72;--ind:#4F46E5;--ind2:#EEF0FF;--tl:#0F7B6C;--tl2:#E3F4F0;--org:#E8590C;--yl:#FFE58F}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:Inter,sans-serif;color:var(--ink)}
+.slide{width:1350px;height:1012.5px;position:relative;overflow:hidden;background:var(--bg);margin:0 0 20px}
+.k{font:800 19px/1 Inter;letter-spacing:.16em;text-transform:uppercase;color:var(--ind)}
+h1,h2{font-family:'Inter Display',Inter;font-weight:800;letter-spacing:-.03em;line-height:.98}
+h2{font-size:78px;margin-top:16px}
+.sub{font:500 27px/1.35 Inter;color:var(--mut);margin-top:18px;max-width:640px}
+mark{background:linear-gradient(transparent 58%,var(--yl) 58%);color:inherit;padding:0 4px}
+.hd{position:absolute;left:84px;top:78px;width:660px}
+.hdc{position:absolute;left:0;right:0;top:66px;text-align:center}
+.hdc .sub{margin:16px auto 0;max-width:900px}
+.lap{position:absolute}
+.lap .bz{background:#1C1B24;border-radius:20px 20px 0 0;padding:14px 14px 18px}
+.lap img{display:block;width:100%;border-radius:4px}
+.lap .base{height:20px;margin:0 -7%;background:linear-gradient(#E4E6EB,#AEB2BC);border-radius:0 0 18px 18px;box-shadow:0 30px 50px -10px rgba(20,20,60,.35)}
+.lap .base:after{content:"";display:block;width:16%;height:7px;margin:0 auto;background:#9EA2AC;border-radius:0 0 8px 8px}
+.ppr{position:absolute;background:#fff;box-shadow:0 30px 70px -12px rgba(20,20,60,.38),0 0 0 1px rgba(0,0,0,.05);border-radius:6px;overflow:hidden}
+.ppr img{display:block;width:100%}
+.crop{position:absolute;border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 28px 60px -14px rgba(20,20,60,.35),0 0 0 1px rgba(0,0,0,.06)}
+.crop img{position:absolute;display:block}
+.tag{position:absolute;display:flex;align-items:center;gap:14px;background:#fff;border-radius:18px;padding:16px 22px;font:700 23px/1.2 Inter;box-shadow:0 18px 40px -12px rgba(20,20,60,.3);max-width:430px}
+.tag small{display:block;font:500 18px/1.3 Inter;color:var(--mut);margin-top:3px}
+.ic{flex:none;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--ind2);color:var(--ind);font:800 22px Inter}
+.ic svg{width:24px;height:24px}
+.tl .ic{background:var(--tl2);color:var(--tl)}
+.badge{position:absolute;border-radius:50%;display:grid;place-items:center;text-align:center;color:#fff;background:var(--ind);font:800 26px/1.1 'Inter Display';box-shadow:0 20px 40px -10px rgba(79,70,229,.6)}
+.pill{display:inline-flex;align-items:center;gap:10px;background:#fff;border-radius:99px;padding:13px 24px;font:700 22px Inter;box-shadow:0 10px 24px -10px rgba(20,20,60,.25)}
+.pill i{width:10px;height:10px;border-radius:50%;background:var(--tl);display:block}
+.row{position:absolute;left:0;right:0;display:flex;justify-content:center;gap:16px}
+.grid{position:absolute;left:84px;right:84px;top:300px;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.cell{background:#fff;border-radius:24px;padding:30px 30px 28px;box-shadow:0 18px 40px -18px rgba(20,20,60,.3)}
+.cell b{display:block;font:800 31px/1.12 'Inter Display';letter-spacing:-.02em;margin:18px 0 10px}
+.cell p{font:500 20px/1.4 Inter;color:var(--mut)}
+.cell .ic{width:58px;height:58px;border-radius:16px}
+.cell .ic svg{width:30px;height:30px}
+.dark{background:#16152B;color:#fff}.dark .sub{color:#B7B6D1}.dark .k{color:#A5A1FF}
+.lbl{position:absolute;font:800 22px Inter;text-align:center}
+.lbl small{display:block;font:500 17px Inter;color:var(--mut);margin-top:4px}
+.chk{list-style:none;margin-top:34px}
+.chk li{display:flex;align-items:center;gap:18px;font:700 30px/1.2 Inter;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+.chk li span{width:40px;height:40px;border-radius:50%;background:#2DD4A7;color:#16152B;display:grid;place-items:center;font:900 22px Inter;flex:none}
+.chk small{font:500 20px Inter;color:#B7B6D1;margin-left:auto}
+.steps{position:absolute;right:84px;top:200px;width:520px;display:flex;flex-direction:column;gap:22px}
+.st{background:#24233F;border-radius:24px;padding:28px 30px;display:flex;gap:22px;align-items:center}
+.st .n{width:62px;height:62px;border-radius:18px;background:var(--ind);display:grid;place-items:center;font:800 30px 'Inter Display';flex:none}
+.st b{display:block;font:800 30px 'Inter Display'}
+.st p{font:500 20px/1.35 Inter;color:#B7B6D1;margin-top:4px}
+.brw{position:absolute;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 40px 80px -20px rgba(20,20,60,.4),0 0 0 1px rgba(0,0,0,.06)}
+.brw:before{content:"";display:block;height:30px;background:#ECEDF2 radial-gradient(circle at 20px 15px,#FF6B5F 5px,transparent 6px),radial-gradient(circle at 40px 15px,#FFBE2F 5px,transparent 6px) #ECEDF2;background-repeat:no-repeat}
+.brw:after{content:"";position:absolute;left:60px;top:15px;width:7px;height:7px;border-radius:50%;background:#2ACB42;transform:translate(-50%,-50%)}
+.brw img{display:block;width:100%}
+.mag{position:absolute;border-radius:50%;overflow:hidden;background:#fff;border:14px solid #15142B;box-shadow:0 30px 60px -10px rgba(20,20,60,.5)}
+.mag img{position:absolute;display:block}
+.handle{position:absolute;width:40px;height:170px;background:linear-gradient(90deg,#2A2940,#15142B);border-radius:20px;transform-origin:top center}
+.strip{position:absolute;left:0;right:0;bottom:0;height:96px;background:#15142B;color:#fff;display:flex;align-items:center;justify-content:center;gap:42px;font:700 26px Inter}
+.strip span{display:flex;align-items:center;gap:12px}.strip i{width:12px;height:12px;border-radius:50%;background:#2DD4A7;display:block}
+</style></head><body>
 
-  .slide {
-    width: var(--w);
-    height: var(--h);
-    background: #ffffff;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
-    display: flex;
-    flex-direction: column;
-    transform: scale(0.2);
-    transform-origin: top left;
-    margin-right: -2160px; /* Adjust for scale 0.2: 2700 * 0.8 = 2160 */
-    margin-bottom: -1620px; /* 2025 * 0.8 = 1620 */
-  }
 
-  /* Premium Gradients */
-  .bg-hero { background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); }
-  .bg-features { background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
-  .bg-templates { background: radial-gradient(circle at center, #ffffff 0%, #f1f5f9 100%); }
-  .bg-custom { background: linear-gradient(135deg, #fff1eb 0%, #ace0f9 100%); }
-  .bg-cover { background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%); }
-  .bg-darklight { background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #f8fafc 50%, #e2e8f0 100%); }
-  .bg-tracker { background: linear-gradient(to right, #faf7f2, #efede6); }
-  .bg-vault { background: linear-gradient(135deg, #e6dee9 0%, #e3f2fd 100%); }
-  .bg-contacts { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); }
-  .bg-playbook { background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); }
-  .bg-privacy { background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); }
-  .bg-purchase { background: linear-gradient(135deg, #0f172a 0%, #334155 100%); }
+<!-- 1 HERO -->
+<section class="slide" style="background:radial-gradient(900px 600px at 75% 70%,#E4E1FF 0,transparent 65%),var(--bg)">
+ <div class="hdc" style="top:52px"><div class="k">Career Hub</div>
+  <h1 style="font-size:112px;margin-top:12px">Resume Builder App</h1>
+  <div class="sub" style="font:700 34px Inter;color:var(--ink);margin-top:18px">ATS-friendly PDF <span style="color:var(--ind)">·</span> 24 template styles <span style="color:var(--ind)">·</span> Pay once</div></div>
+ <div class="brw" style="left:70px;top:330px;width:900px"><img src="img2/focus-resume.png"></div>
+ <div class="handle" style="left:1225px;top:670px;transform:rotate(-40deg)"></div>
+ <div class="mag" style="left:870px;top:300px;width:420px;height:420px"><img src="img2/mag.png" style="width:440px;left:-24px;top:-10px"></div>
+ <div class="tag tl" style="left:900px;top:740px;max-width:400px;z-index:3"><div class="ic">✓</div><div>Know when it's ready<small>See every section filled before you apply</small></div></div>
+ <div class="strip"><span><i></i>No subscription</span><span><i></i>No account</span><span><i></i>Works offline</span><span><i></i>Instant download</span></div>
+</section>
 
-  /* Typography */
-  .content {
-    position: relative;
-    z-index: 10;
-    padding: 160px 200px 0;
-    text-align: center;
-  }
-  .slide.split-left .content { text-align: left; width: 1000px; padding: 250px 0 0 200px; }
-  .slide.split-right .content { text-align: right; width: 1000px; padding: 250px 200px 0 0; margin-left: auto; }
-  
-  .slide.dark-text h1 { color: #f8fafc; }
-  .slide.dark-text p { color: #cbd5e1; }
-  .slide.dark-text .kicker { color: #38bdf8; }
+<!-- 2 EVERYTHING -->
+<section class="slide">
+ <div class="hdc"><div class="k">What you get</div><h2>Everything you need to apply.<br><mark>Nothing you don't.</mark></h2></div>
+ <div class="grid">
+  <div class="cell"><div class="ic">R</div><b>Look polished, fast</b><p>Resume builder with 24 template styles and one-click PDF.</p></div>
+  <div class="cell tl"><div class="ic">C</div><b>No blank-page panic</b><p>Cover letter that matches your resume style.</p></div>
+  <div class="cell"><div class="ic">T</div><b>Never lose an application</b><p>Visual job tracker from Wishlist to Offer.</p></div>
+  <div class="cell tl"><div class="ic">E</div><b>Write it once, reuse it</b><p>Experience bank. Choose what to show for each job.</p></div>
+  <div class="cell"><div class="ic">N</div><b>Never forget a follow-up</b><p>Contacts with follow-up dates, flagged on your hub.</p></div>
+  <div class="cell tl"><div class="ic">P</div><b>Know what to write</b><p>Playbook with 12 golden rules for strong applications.</p></div>
+ </div>
+ <div class="row" style="bottom:48px"><div class="pill"><i></i>No account</div><div class="pill"><i></i>No subscription</div><div class="pill"><i></i>Your data stays on your device</div></div>
+</section>
 
-  .kicker {
-    font-size: 42px;
-    font-weight: 800;
-    color: #14b8a6;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: 24px;
-  }
-  h1 {
-    font-size: 140px;
-    font-weight: 800;
-    color: #0f172a;
-    line-height: 1.1;
-    margin: 0 0 40px;
-    letter-spacing: -0.03em;
-  }
-  h1 span { color: #0d9488; }
-  p {
-    font-family: 'Inter', sans-serif;
-    font-size: 50px;
-    color: #475569;
-    line-height: 1.5;
-    margin: 0 auto;
-    max-width: 1800px;
-    font-weight: 400;
-  }
+<!-- 3 TEMPLATES -->
+<section class="slide">
+ <div class="hd" style="width:1180px"><div class="k">24 template styles</div><h2>Look <mark>hire-ready.</mark> Switch in one click.</h2><div class="sub" style="max-width:900px">3 layouts × 4 colours × 2 header styles. Your content stays put.</div></div>
+ <div class="ppr" style="left:84px;top:330px;width:300px;border-radius:16px"><img src="img2/tpl-panel.png"></div>
+ <div class="ppr" style="left:430px;top:340px;width:370px;transform:rotate(-2deg)"><img src="img2/pv-mint.png"></div>
+ <div class="ppr" style="left:660px;top:320px;width:370px;z-index:2"><img src="img2/pv-executive.png"></div>
+ <div class="ppr" style="left:900px;top:350px;width:370px;transform:rotate(3deg);z-index:3"><img src="img2/pv-sidebar.png"></div>
+ <div class="row" style="bottom:44px;z-index:4"><div class="pill"><i></i>Mint Modern</div><div class="pill"><i></i>Executive</div><div class="pill"><i></i>Professional Sidebar</div><div class="pill" style="background:var(--ind);color:#fff"><i style="background:#fff"></i>Text-based PDF ATS can read</div></div>
+</section>
 
-  /* Mockup Window */
-  .mockup {
-    position: absolute;
-    background: #ffffff;
-    border-radius: 24px;
-    box-shadow: 0 60px 120px rgba(15,23,42,0.2), 0 0 0 1px rgba(0,0,0,0.05);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-  }
-  .mockup-header {
-    height: 70px;
-    background: #f8fafc;
-    border-bottom: 1px solid #e2e8f0;
-    display: flex;
-    align-items: center;
-    padding: 0 30px;
-    gap: 16px;
-    flex: none;
-  }
-  .dot { width: 20px; height: 20px; border-radius: 50%; background: #e2e8f0; }
-  .dot.red { background: #ff5f56; }
-  .dot.yellow { background: #ffbd2e; }
-  .dot.green { background: #27c93f; }
+<!-- 4 TRACKER -->
+<section class="slide">
+ <div class="hd"><div class="k">Job tracker</div><h2>Know where <mark>every application</mark> stands.</h2><div class="sub">Your whole search on one board. No more lost spreadsheets.</div></div>
+ <div class="brw" style="left:500px;top:420px;width:900px"><img src="img2/job-tracker.png"></div>
+ <div class="tag" style="left:84px;top:520px"><div class="ic">1</div><div>Wishlist → Applied → Interviewing → Offer<small>Move each job as it progresses</small></div></div>
+ <div class="tag tl" style="left:84px;top:670px"><div class="ic">!</div><div>Follow-ups flagged<small>See what needs a nudge</small></div></div>
+ <div class="tag" style="left:84px;top:810px"><div class="ic">$</div><div>Salary and dates on each card<small>Compare at a glance</small></div></div>
+</section>
 
-  .mockup-body {
-    position: relative;
-    flex: 1;
-    overflow: hidden;
-    background: #f1f3f5;
-  }
+<!-- 5 HUB -->
+<section class="slide">
+ <div class="hd"><div class="k">Your hub</div><h2>Open it. <mark>Know your next step.</mark></h2><div class="sub">Your hub shows what to do today, so you spend time applying, not planning.</div></div>
+ <div class="brw" style="left:500px;top:420px;width:900px"><img src="img2/hub.png"></div>
+ <div class="tag" style="left:84px;top:560px"><div class="ic">→</div><div>Suggested next step<small>One clear action</small></div></div>
+ <div class="tag tl" style="left:84px;top:710px"><div class="ic">%</div><div>Resume readiness<small>See what's still missing</small></div></div>
+</section>
 
-  /* Magic classes */
-  .no-sidebar {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 122%; /* Pushes the 18% sidebar off the left edge */
-    height: auto;
-    object-fit: cover;
-    object-position: right top;
-  }
-  .has-sidebar {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-    object-position: top;
-  }
+<!-- 6 COVER -->
+<section class="slide">
+ <div class="hd"><div class="k">Cover letters</div><h2>A cover letter that <mark>matches.</mark></h2><div class="sub">Same template as your resume. Pick a tracked job and the company, role and contact fill in.</div></div>
+ <div class="brw" style="left:500px;top:430px;width:900px"><img src="img2/focus-cover.png"></div>
+ <div class="tag tl" style="left:84px;top:600px"><div class="ic">✓</div><div>Matches your resume<small>Same colours, fonts and header</small></div></div>
+ <div class="tag" style="left:84px;top:740px"><div class="ic">↺</div><div>Reuse for every job<small>Your words stay as you wrote them</small></div></div>
+</section>
 
-  /* Accents */
-  .badge {
-    position: absolute;
-    top: 140px;
-    right: 200px;
-    background: #0f172a;
-    color: white;
-    padding: 30px 50px;
-    border-radius: 100px;
-    font-size: 40px;
-    font-weight: 700;
-    transform: rotate(5deg);
-    box-shadow: 0 20px 40px rgba(15,23,42,0.3);
-    z-index: 20;
-  }
+<!-- 7 BANK -->
+<section class="slide">
+ <div class="hd"><div class="k">Experience bank</div><h2>Write it once. <mark>Reuse it for every job.</mark></h2><div class="sub">Store your roles, projects and skills. Choose what to show for each application.</div></div>
+ <div class="brw" style="left:500px;top:440px;width:900px"><img src="img2/experience-bank.png"></div>
+ <div class="ppr" style="left:84px;top:440px;width:330px;height:400px;border-radius:16px"><img src="img2/secs.png"></div>
+ <div class="tag tl" style="left:84px;top:860px;z-index:3"><div class="ic">✓</div><div>Tailor in clicks<small>Show, hide or reorder sections</small></div></div>
+</section>
 
-  /* List Styles for Slide 12 */
-  .steps-list {
-    text-align: left;
-    margin: 80px auto;
-    width: 1200px;
-  }
-  .step-item {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin-bottom: 60px;
-    background: rgba(255,255,255,0.05);
-    padding: 40px;
-    border-radius: 24px;
-    border: 1px solid rgba(255,255,255,0.1);
-  }
-  .step-num {
-    background: #14b8a6;
-    color: white;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 60px;
-    font-weight: 800;
-    flex: none;
-  }
-  .step-text h2 {
-    color: white;
-    font-size: 50px;
-    margin: 0 0 10px;
-  }
-  .step-text p {
-    color: #94a3b8;
-    font-size: 40px;
-  }
+<!-- 8 CONTACTS -->
+<section class="slide">
+ <div class="hd" style="width:1100px"><div class="k">Contacts</div><h2><mark>Never forget</mark> a follow-up.</h2><div class="sub">Keep recruiters and hiring managers in one list, with the date to reach out.</div></div>
+ <div class="ppr" style="left:84px;top:390px;width:1182px;border-radius:18px"><img src="img2/c-contacts.png"></div>
+ <div class="row" style="bottom:56px"><div class="pill"><i></i>Follow-up date on every contact</div><div class="pill"><i></i>Due soon, flagged</div><div class="pill"><i></i>Shows on your hub</div></div>
+</section>
 
-  /* New Hero CSS */
-  .teal-banner {
-    background: #0d9488;
-    color: white;
-    display: inline-block;
-    padding: 15px 40px;
-    border-radius: 100px;
-    font-size: 40px;
-    font-weight: 700;
-    margin-top: 10px;
-    box-shadow: 0 10px 20px rgba(13, 148, 136, 0.3);
-  }
-  
-  .circular-badge {
-    border-radius: 50%;
-    width: 280px;
-    height: 280px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    line-height: 1.2;
-    top: 80px;
-    right: 120px;
-    background: #ea580c !important; /* Bronze/Orange */
-    transform: rotate(12deg);
-    padding: 0;
-  }
-
-  .pill {
-    background: white;
-    padding: 20px 40px;
-    border-radius: 100px;
-    font-size: 32px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    color: #0f172a;
-    border: 1px solid #e2e8f0;
-  }
-  .pill-sub {
-    color: #64748b;
-    font-weight: 500;
-  }
-
-</style>
-</head>
-<body>
-
-  <!-- 1. Hero -->
-  <div class="slide bg-hero">
-    <div class="badge circular-badge">PAY ONCE<br><span style="font-size: 24px; margin-top: 8px;">NO SUBSCRIPTION</span></div>
-    
-    <div class="content" style="padding-top: 100px;">
-      <div class="kicker" style="color: #0d9488;">ALL-IN-ONE JOB SEARCH TOOLKIT</div>
-      <h1 style="color: #0f172a; margin-bottom: 20px;">Resume Builder + Job Tracker</h1>
-      <div class="teal-banner">+ Cover Letter Included</div>
-    </div>
-    
-    <!-- 3D Overlapping Stack -->
-    <div class="mockup-stack" style="position: absolute; top: 520px; left: 50%; transform: translateX(-50%); width: 2500px; height: 1200px;">
-      
-      <!-- ATS Callout -->
-      <div class="ats-callout" style="position: absolute; top: 40px; right: 350px; background: white; padding: 25px 40px; border-radius: 16px; box-shadow: 0 20px 40px rgba(0,0,0,0.15); z-index: 50; border-left: 8px solid #14b8a6; font-size: 32px; font-weight: 600; color: #334155;">
-        Clean, text-based PDF export.<br>
-        <span style="color: #14b8a6;">Built to pass ATS.</span>
-      </div>
-
-      <!-- Tablet (Left) - Job Tracker -->
-      <div class="mockup tablet" style="position: absolute; width: 850px; height: 1100px; left: 50px; top: 120px; z-index: 10; box-shadow: -20px 40px 80px rgba(0,0,0,0.3); border-radius: 32px; border: 16px solid #1e293b;">
-        <div class="mockup-body" style="border-radius: 16px;"><img src="images/tracker.png" class="no-sidebar" style="object-position: left top;"></div>
-      </div>
-      
-      <!-- Phone (Right) - Cover Letter -->
-      <div class="mockup phone" style="position: absolute; width: 550px; height: 1050px; right: 100px; top: 160px; z-index: 30; box-shadow: 20px 40px 80px rgba(0,0,0,0.3); border-radius: 48px; border: 16px solid #1e293b;">
-        <div class="mockup-body" style="border-radius: 32px;"><img src="images/cover-letter.png" class="no-sidebar" style="object-position: center top;"></div>
-      </div>
-
-      <!-- Laptop (Center) - Builder -->
-      <div class="mockup laptop" style="position: absolute; width: 1600px; height: 1000px; left: 50%; transform: translateX(-50%); top: 0; z-index: 20; box-shadow: 0 50px 100px rgba(0,0,0,0.4); border-radius: 24px; border: 8px solid #cbd5e1;">
-        <div class="mockup-header" style="height: 50px; padding: 0 20px;"><div class="dot red" style="width:14px;height:14px;"></div><div class="dot yellow" style="width:14px;height:14px;"></div><div class="dot green" style="width:14px;height:14px;"></div></div>
-        <div class="mockup-body"><img src="images/builder-light.png" class="no-sidebar" style="object-position: left top;"></div>
-      </div>
-    </div>
-    
-    <!-- Bottom Pills -->
-    <div class="pills-container" style="position: absolute; bottom: 80px; left: 0; width: 100%; display: flex; justify-content: center; gap: 30px; z-index: 40;">
-      <div class="pill">🟢 <strong>Stop the chaos</strong> <span class="pill-sub">(Job Tracker)</span></div>
-      <div class="pill">🟢 <strong>Look professional</strong> <span class="pill-sub">(3 Resume Layouts)</span></div>
-      <div class="pill">🟢 <strong>Never miss a follow-up</strong> <span class="pill-sub">(Application Reminders)</span></div>
-      <div class="pill">🟢 <strong>Works Offline</strong> <span class="pill-sub">(Private & Secure)</span></div>
-    </div>
-  </div>
-
-  <!-- 2. What's Included -->
-  <div class="slide bg-features split-left">
-    <div class="content" style="width: 1200px; padding-top: 150px;">
-      <div class="kicker">All-In-One System</div>
-      <h1>Everything you need<br>to succeed.</h1>
-      <p style="margin-bottom: 40px;">Stop using scattered spreadsheets and messy Word docs. Manage your entire career in one place.</p>
-      <ul style="font-size: 48px; color: #475569; line-height: 1.8; text-align: left; margin-left: 20px; font-family: 'Inter', sans-serif;">
-        <li>✅ <strong>ATS-Friendly Resume Builder</strong></li>
-        <li>✅ <strong>Visual Job Tracker</strong></li>
-        <li>✅ <strong>Matching Cover Letters</strong></li>
-        <li>✅ <strong>Experience & Skills Vault</strong></li>
-        <li>✅ <strong>Networking CRM</strong></li>
-        <li>✅ <strong>Expert Playbook Guide</strong></li>
-      </ul>
-    </div>
-    <div class="mockup" style="width: 1400px; height: 1600px; right: -100px; top: 200px;">
-      <div class="mockup-header"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
-      <div class="mockup-body"><img src="images/hub.png" class="has-sidebar" style="height: 100%;"></div>
-    </div>
-  </div>
-
-  <!-- 3. Compare Templates -->
-  <div class="slide bg-templates split-left">
-    <div class="content">
-      <div class="kicker">ATS-Friendly</div>
-      <h1>Premium<br>Templates</h1>
-      <p>Stand out with beautifully crafted designs built to pass screening software instantly.</p>
-    </div>
-    <div class="mockup" style="width: 1600px; height: 1100px; right: -200px; top: 150px; z-index: 2;">
-      <div class="mockup-header"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
-      <div class="mockup-body"><img src="images/builder-light.png" class="no-sidebar"></div>
-    </div>
-    <div class="mockup" style="width: 1500px; height: 1000px; right: 100px; bottom: -50px; z-index: 3;">
-      <div class="mockup-header"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
-      <div class="mockup-body"><img src="images/cover-letter.png" class="no-sidebar"></div>
-    </div>
-  </div>
-
-  <!-- 4. Fully Customizable -->
-  <div class="slide bg-custom split-right">
-    <div class="content">
-      <div class="kicker">Your Unique Style</div>
-      <h1>Fully<br>Customizable</h1>
-      <p>Easily swap between elegant accent colors, typography, and page sizes to fit your exact personal brand.</p>
-    </div>
-    <div class="mockup" style="width: 1800px; height: 1300px; left: -100px; bottom: -50px;">
-      <div class="mockup-header"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
-      <div class="mockup-body"><img src="images/builder-dark.png" class="no-sidebar"></div>
-    </div>
-  </div>
-
-  <!-- 5. Cover Letters -->
-  <div class="slide bg-cover split-left">
-    <div class="content">
-      <div class="kicker">Perfect Match</div>
-      <h1>Winning<br>Cover Letters</h1>
-      <p>Generate matching cover letters for every resume style. Includes built-in AI-friendly writing fields to guide your pitch.</p>
-    </div>
-    <div class="mockup" style="width: 1900px; height: 1200px; right: -150px; bottom: 50px;">
-      <div class="mockup-header"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
-      <div class="mockup-body"><img src="images/cover-letter.png" class="no-sidebar"></div>
-    </div>
-  </div>
-
-  <!-- 6. Dark & Light Mode -->
-  <div class="slide bg-darklight">
-    <div class="badge" style="background: white; color: #0f172a;">Eye Comfort 🌙</div>
-    <div class="content" style="padding-top: 100px;">
-      <div class="kicker" style="color: #38bdf8; text-shadow: 0 2px 10px rgba(0,0,0,0.2);">Stunning UI</div>
-      <h1 style="color: white; text-shadow: 0 4px 20px rgba(0,0,0,0.3);">Dark & Light Mode</h1>
-      <p style="color: #e2e8f0; text-shadow: 0 2px 10px rgba(0,0,0,0.2);">Work comfortably day or night with beautifully optimized visual themes.</p>
-    </div>
-    <div class="mockup" style="width: 1500px; height: 1200px; left: 100px; bottom: -100px; z-index: 5;">
-      <div class="mockup-header" style="background: #1e293b; border-color: #334155;"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
-      <div class="mockup-body" style="background: #0f172a;"><img src="images/builder-dark.png" class="no-sidebar"></div>
-    </div>
-    <div class="mockup" style="width: 1500px; height: 1200px; right: 100px; bottom: 100px; z-index: 4;">
-      <div class="mockup-header"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
-      <div class="mockup-body"><img src="images/builder-light.png" class="no-sidebar"></div>
-    </div>
-  </div>
-
-  <!-- 7. Job Tracker -->
-  <div class="slide bg-tracker split-right">
-    <div class="content">
-      <div class="kicker">Stay Organized</div>
-      <h1>Visual Job<br>Tracker</h1>
-      <p>Never lose track of an application. Organize every interview and offer visually on a Kanban board.</p>
-    </div>
-    <div class="mockup" style="width: 1800px; height: 1400px; left: -200px; bottom: -100px;">
-      <div class="mockup-header"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
-      <div class="mockup-body"><img src="images/tracker.png" class="no-sidebar"></div>
-    </div>
-  </div>
-  
-  <!-- 8. Experience Bank -->
-  <div class="slide bg-vault split-left">
-    <div class="content">
-      <div class="kicker">Your Career Vault</div>
-      <h1>The Experience<br>Bank</h1>
-      <p>Store all your past roles, skills, and projects in one secure vault. Instantly pull them into any resume.</p>
-    </div>
-    <div class="mockup" style="width: 1900px; height: 1300px; right: -150px; bottom: -50px;">
-      <div class="mockup-header"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
-      <div class="mockup-body"><img src="images/experience.png" class="no-sidebar"></div>
-    </div>
-  </div>
-
-  <!-- 9. Contacts -->
-  <div class="slide bg-contacts split-right">
-    <div class="content">
-      <div class="kicker">Network Smart</div>
-      <h1>Manage Your<br>Contacts</h1>
-      <p>Keep your recruiter and referral network organized so you know exactly who to follow up with.</p>
-    </div>
-    <div class="mockup" style="width: 1800px; height: 1200px; left: -100px; bottom: 50px;">
-      <div class="mockup-header"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
-      <div class="mockup-body"><img src="images/contacts.png" class="no-sidebar"></div>
-    </div>
-  </div>
-
-  <!-- 10. Playbook -->
-  <div class="slide bg-playbook split-left">
-    <div class="content">
-      <div class="kicker">Expert Guidance</div>
-      <h1>The 12 Golden<br>Rules</h1>
-      <p>Follow our expert playbook and step-by-step guides to write achievements that actually convert into interviews.</p>
-    </div>
-    <div class="mockup" style="width: 1900px; height: 1400px; right: -150px; bottom: -100px;">
-      <div class="mockup-header"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
-      <div class="mockup-body"><img src="images/playbook2.png" class="no-sidebar"></div>
-    </div>
-  </div>
-
-  <!-- 11. Privacy -->
-  <div class="slide bg-privacy">
-    <div class="badge" style="background: #15803d;">100% Private 🔒</div>
-    <div class="content" style="padding-top: 250px;">
-      <div class="kicker" style="color: #065f46;">No Cloud Required</div>
-      <h1>Your data stays on<br><span>your device.</span></h1>
-      <p style="color: #064e3b;">This tool runs entirely in your local browser. No data is sent to external servers, meaning your career history is 100% secure.</p>
-    </div>
-    <div class="mockup" style="width: 2000px; height: 900px; bottom: -100px; left: 50%; transform: translateX(-50%);">
-      <div class="mockup-header"><div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div></div>
-      <div class="mockup-body"><img src="images/hub.png" class="no-sidebar" style="object-position: center top;"></div>
-    </div>
-  </div>
-
-  <!-- 12. Purchase / Steps -->
-  <div class="slide bg-purchase dark-text">
-    <div class="content" style="padding-top: 150px;">
-      <div class="kicker">Pay once, use forever</div>
-      <h1>Ready to upgrade<br>your career?</h1>
-      
-      <div class="steps-list">
-        <div class="step-item">
-          <div class="step-num">1</div>
-          <div class="step-text">
-            <h2>Download instantly</h2>
-            <p>Get your ZIP file the moment you purchase.</p>
-          </div>
-        </div>
-        <div class="step-item">
-          <div class="step-num">2</div>
-          <div class="step-text">
-            <h2>Open in your browser</h2>
-            <p>Simply double-click the HTML file—no installation needed.</p>
-          </div>
-        </div>
-        <div class="step-item">
-          <div class="step-num">3</div>
-          <div class="step-text">
-            <h2>Build & Export</h2>
-            <p>Create your resumes and export them as pixel-perfect PDFs.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</body>
-</html>
+<!-- 9 PLAYBOOK -->
+<section class="slide">
+ <div class="hd" style="width:1100px"><div class="k">Playbook</div><h2>Write bullets that <mark>show results.</mark></h2><div class="sub">12 golden rules and tips built in. No guessing what to write.</div></div>
+ <div class="ppr" style="left:84px;top:400px;width:1182px;border-radius:18px"><img src="img2/c-play.png"></div>
+</section>
+<!-- 10 CLOSE -->
+<section class="slide dark">
+ <div class="hd" style="width:600px"><div class="k">Pay once</div><h2>Yours forever.<br>No monthly fee.</h2>
+  <ul class="chk">
+   <li><span>✓</span>No account, no login</li>
+   <li><span>✓</span>Works offline</li>
+   <li><span>✓</span>Data stays on your device</li>
+   <li><span>✓</span>Light &amp; dark mode</li>
+   <li><span>✓</span>Mac · Windows · Chromebook</li>
+  </ul></div>
+ <div class="steps">
+  <div class="st"><div class="n">1</div><div><b>Download</b><p>Instant ZIP after purchase</p></div></div>
+  <div class="st"><div class="n">2</div><div><b>Open in browser</b><p>Chrome, Safari, Edge or Firefox</p></div></div>
+  <div class="st"><div class="n">3</div><div><b>Build &amp; apply</b><p>Export PDF and send</p></div></div>
+ </div>
+</section>
+</body></html>
