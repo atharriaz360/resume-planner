@@ -7,7 +7,7 @@ ATS Resume Builder App, 24 Templates, Cover Letter & Job Tracker, Printable PDF 
 
 ## Tags (13)
 
-ats resume template, resume builder, resume template, cv template, cover letter, job tracker, job search planner, job application, modern resume, printable resume, professional resume, resume app, graduate resume
+ats resume template, ats friendly resume, resume template, cv template, cv builder, offline resume, job search planner, job application, modern resume, printable resume, professional resume, resume app, graduate resume
 
 ## Price
 
@@ -43,12 +43,17 @@ Resumes export as text-based PDFs, so applicant tracking systems can read the wo
 • Students and new grads
 • Anyone tired of juggling Canva, Docs and spreadsheets
 
+📁 FILES YOU GET
+• Career-Hub.zip (the app as one HTML file + Start Here PDF guide + licence)
+• Career-Hub-Start-Here.pdf (also attached on its own)
+
 📦 HOW IT WORKS
 1. Download the ZIP right after purchase
 2. Unzip and open the HTML file in Chrome, Safari, Edge or Firefox
 3. Fill in your details, export your PDF and apply
 
-💻 Works on Mac, Windows, Linux and Chromebook.
+💻 REQUIREMENTS
+A current browser (Chrome, Safari, Edge or Firefox) on Mac, Windows, Linux or Chromebook. A computer is best for setup and PDF export.
 
 ⚠️ GOOD TO KNOW
 This is an app you open in your browser, not a Word, Canva or Google Docs file. You edit inside the app and export PDF. Digital download only; nothing is shipped.
@@ -60,9 +65,9 @@ Q: Is it a subscription? No. One-time purchase, unlimited use.
 Q: Do I need internet? No, it works offline after download.
 Q: Can I edit later? Yes, edit and re-export as often as you like.
 
-Designed and built by me (KaelLabs). AI tools assisted with parts of the coding, images and listing copy. Every feature was reviewed and tested by hand. App screens in the photos are real screenshots with example data.
-
 💬 Questions? Message me. I usually reply within 24 hours.
+
+Designed and built by me (KaelLabs). AI tools assisted with parts of the coding, images and listing copy. Every feature was reviewed and tested by hand. App screens in the photos are real screenshots with example data.
 
 ## Images (upload in this order)
 
