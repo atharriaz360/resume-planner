@@ -91,3 +91,73 @@ Keep the video in slot 2 (it shows the real app moving). Old v1 images are in `i
 Hero: render `hero.html` (navy/gold, Cormorant font from npm @fontsource/cormorant-garamond) → `images/01-hero.png`. Others: `python3 3-ETSY-LISTING/cap.py` (Playwright) renders `generator.html` → `images/` at 2700×2026. Source screenshots in `3-ETSY-LISTING/img2/` — fresh captures of the current app (2-HOST-ONLINE/index.html, 6 Oct). Re-capture after any UI change.
 
 Do NOT claim a Word template bonus: none is included.
+
+########################################################################################################################################################################################### Latest
+
+# ATS Resume Builder — KIT
+Listing: https://www.etsy.com/listing/4588508397
+Priority: LOW. Off-niche for a planner shop. Buyers here mostly want Word / Google Docs / Canva templates.
+Decision: pause, OR keep with the copy below.
+Updated: 2026-10-07 | Status: live, 0 sales
+
+> CHECK: delete any feature line below that the app does not have.
+
+## Step 1 — Title (11 words)
+```
+ATS Resume Builder with 24 Templates, Cover Letter and Job Tracker
+```
+
+## Step 2 — Tags (13)
+```
+ats resume, resume builder, resume template, cover letter, job tracker, job search, modern resume, professional resume, resume pdf, cv template, job application, simple resume, graduate resume
+```
+
+## Step 3 — Description
+```
+ATS Resume Builder with 24 resume templates, cover letter builder and job application tracker. Fill in your details, pick a template, save as PDF. Buy once, no subscription.
+
+No Word or Canva needed. Works offline in your browser on computer, tablet or phone. No account. Your data stays on your device.
+
+━━ WHAT'S INSIDE ━━
+✔ 24 resume templates
+✔ ATS-friendly layouts
+✔ Cover letter builder
+✔ Job application tracker
+✔ Print or save as PDF
+
+━━ HOW IT WORKS ━━
+1. Buy and download instantly
+2. Open the file in Chrome, Safari or Edge
+3. Fill in your details, pick a template, save as PDF
+
+━━ GOOD TO KNOW ━━
+• Digital download. Nothing is shipped
+• Best on a computer for editing
+• Output is PDF, not a Word file
+• Data saves in your browser. Use Export/Backup often; clearing browser data can erase it
+• Personal use only
+• Questions? Message me, I reply fast
+
+Designed and built by me (KaelLabs). AI tools assisted with parts of the coding, images and listing copy. Every feature was reviewed and tested by hand. Photos show real app screens with example data.
+
+More from KaelLabs: https://kaellabs.etsy.com
+```
+
+## Step 4 — Price
+$9.99
+
+## Step 5 — Photos (10) + video
+1. Thumbnail: 3–4 resume previews fanned out, big text "24 ATS RESUME TEMPLATES"
+2–5. Template previews (6 per image)
+6. Editor screen
+7. Cover letter screen
+8. Job tracker screen
+9. "Save as PDF in 1 click"
+10. "How to use" 3 steps
+Video: 10 sec switching templates
+
+## Step 6 — Section: Career & Job Search
+
+## Change log
+- 2026-10-07: new title, tags, description, photo plan. Flagged as off-niche.
+- 2026-10-07: short title (Etsy tip). Added AI disclosure line.
