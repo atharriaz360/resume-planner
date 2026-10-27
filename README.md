@@ -1,28 +1,24 @@
 # Career Hub
 
-Resume builder, cover letters, experience bank and job tracker. Canonical app: `2-HOST-ONLINE/index.html`.
+Resume builder, cover letters, experience bank and job tracker. Canonical app: `2-HOST-ONLINE/index.html` (v1.1).
 
 ## Folders
 
-- `1-SELL-THIS/`: buyer HTML, two-page guide, licence and buyer ZIP.
-- `2-HOST-ONLINE/`: hosted app and required offline/PWA files.
-- `3-ETSY-LISTING/`: final ten images, interaction video and listing copy/alt text. Capture scripts and their required reference inputs remain alongside them.
+- `1-SELL-THIS/`: buyer HTML, two-page Start Here guide, licence and buyer ZIP.
+- `2-HOST-ONLINE/`: hosted app (private buyer link) with manifest + service worker for Add to Home Screen and offline use.
+- `3-ETSY-LISTING/`: listing images, interaction video and listing copy/alt text.
 - `4-BRAND/`: editable brand assets.
-- `5-SOURCE/`: maintained builders and checks. Test/render outputs are temporary and ignored.
+- `5-SOURCE/`: guide source (`guide/start-here.html`), builders and checks. Test/render outputs are temporary and ignored.
 
 ## Build and verify
 
-Install development dependencies with `npm ci`. Python guide generation needs reportlab; PDF text checks need pdfplumber/pypdf.
+Install development dependencies with `npm ci` (Puppeteer; Playwright is used for the guide when installed, Puppeteer otherwise).
 
-1. `python3 5-SOURCE/make-guide.py`
-2. `python3 5-SOURCE/build-release.py`
-3. `node 5-SOURCE/check-audit.cjs`
-4. `node 5-SOURCE/check-header-design.cjs`
-5. `node 5-SOURCE/check-document-sizes.cjs`
-6. `node 5-SOURCE/check-resume-pdf.cjs`
-7. `node 5-SOURCE/check-release.cjs`
-8. `python3 5-SOURCE/build-project.py`
+1. `node 5-SOURCE/make-start-here.cjs` — 2-page A4 guide → `1-SELL-THIS/Career-Hub-Start-Here.pdf`
+2. `python3 5-SOURCE/build-release.py` — copies the app and rebuilds `Career-Hub.zip`
+3. `for f in 5-SOURCE/check-*.cjs; do node "$f" || break; done` — 16 browser checks
+4. `python3 5-SOURCE/build-project.py`
 
-The buyer ZIP contains only the standalone HTML, PDF guide and licence. The project ZIP includes maintained source, final seller assets and buyer files; excludes Git, dependencies, secrets, drafts and test outputs.
+Phone layout (≤700px): bottom menu with Hub, Experience, Resume, Tracker and More (Cover Letter, Contacts, Playbook, Settings, appearance).
 
-The public website and downloaded app use separate browser storage. Use JSON backup/restore to transfer entries. Local edits are not deployed automatically.
+The private online link and the downloaded file use separate browser storage. Use Export/Restore backup to move a workspace. Deploy `2-HOST-ONLINE/` to Vercel after changes.

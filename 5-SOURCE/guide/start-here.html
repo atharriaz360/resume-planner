@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Career Hub — Start Here</title>
+<style>
+@page{size:A4;margin:0}
+:root{
+  --bg1:#0f1c36;--bg2:#0a1428;--card:rgba(255,255,255,.045);--card-2:rgba(255,255,255,.07);
+  --line:rgba(231,199,119,.28);--line-soft:rgba(255,255,255,.09);
+  --gold:#e7c777;--gold-2:#d4af6a;--ink:#eef1f7;--ink-2:#c3cad8;--ink-3:#8f99ad;
+  --indigo:#6366f1;--heart:#f08a6c;
+  --serif:Georgia,"Bitstream Charter","Charter",Caladea,"Times New Roman",serif;
+  --sans:Inter,-apple-system,"SF Pro Text","Segoe UI",Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+html,body{background:var(--bg2)}
+body{font-family:var(--sans);color:var(--ink);font-size:8.9pt;line-height:1.45}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;padding:13mm 14mm 0;
+  background:radial-gradient(120% 60% at 15% 0%,rgba(99,102,241,.16),transparent 60%),radial-gradient(90% 50% at 100% 100%,rgba(231,199,119,.07),transparent 60%),linear-gradient(180deg,var(--bg1),var(--bg2));
+  break-after:page;page-break-after:always}
+.page:last-child{break-after:auto;page-break-after:auto}
+.top{display:flex;align-items:center;justify-content:space-between;margin-bottom:7mm}
+.brand{display:flex;align-items:center;gap:12px}
+.mark{width:40px;height:40px;border-radius:11px;background:linear-gradient(145deg,#7c7ff7,#4f46e5);display:grid;place-items:center;box-shadow:0 6px 18px -6px rgba(99,102,241,.8),inset 0 1px 0 rgba(255,255,255,.25)}
+.mark svg{width:22px;height:22px}
+.brand b{display:block;font-family:var(--serif);font-weight:400;font-size:22pt;line-height:1;letter-spacing:-.01em}
+.brand small{display:block;margin-top:5px;color:var(--gold);font-size:6.6pt;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+.badge{display:flex;align-items:center;gap:9px;padding:6px 14px 6px 6px;border:1px solid var(--line);border-radius:99px;background:rgba(23,39,68,.7)}
+.badge img{width:26px;height:26px;border-radius:6px;display:block}
+.badge span{font-family:var(--serif);font-style:italic;color:var(--gold);font-size:10.5pt}
+h1{font-family:var(--serif);font-weight:400;font-size:26pt;line-height:1.1;letter-spacing:-.015em;margin-bottom:3mm}
+h1 em{color:var(--gold);font-style:italic}
+.lead{color:var(--ink-2);font-size:9.4pt;max-width:172mm;margin-bottom:5.5mm}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:4mm}
+.card{background:linear-gradient(180deg,var(--card-2),var(--card));border:1px solid var(--line);border-radius:12px;padding:3.8mm 4.6mm;box-shadow:0 10px 26px -18px rgba(0,0,0,.8),inset 0 1px 0 rgba(255,255,255,.04)}
+.card h2{font-family:var(--serif);font-weight:400;font-size:12.5pt;color:var(--gold);margin-bottom:2mm;letter-spacing:-.005em}
+.card ol,.card ul{padding-left:4.6mm}
+.card li{margin:0 0 1.1mm;color:var(--ink-2)}
+.card li::marker{color:var(--gold-2)}
+.card li b,.card p b{color:var(--ink);font-weight:650}
+.card p{color:var(--ink-2)}
+.mt{margin-top:4mm}
+.link{display:flex;align-items:center;justify-content:space-between;gap:6mm;border-color:rgba(231,199,119,.45);background:linear-gradient(120deg,rgba(99,102,241,.16),rgba(231,199,119,.06))}
+.eyebrow{color:var(--gold);font-size:6.8pt;font-weight:700;letter-spacing:.24em;text-transform:uppercase;margin-bottom:1.6mm}
+.url{font-size:13pt;font-weight:700;color:var(--ink);letter-spacing:-.005em;text-decoration:none}
+.btn{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;padding:3mm 5.4mm;border-radius:99px;background:linear-gradient(180deg,#f1d68e,#d9b464);color:#1b2338;font-weight:700;font-size:9.6pt;text-decoration:none;box-shadow:0 8px 18px -10px rgba(231,199,119,.9)}
+.small{font-size:8.4pt;color:var(--ink-3);margin-top:2mm}
+.rule{border-color:rgba(231,199,119,.55)}
+.steps{counter-reset:s;list-style:none;padding:0!important}
+.steps li{counter-increment:s;position:relative;padding-left:7.4mm;margin-bottom:1.5mm}
+.steps li::before{content:counter(s);position:absolute;left:0;top:.3mm;width:5.2mm;height:5.2mm;border-radius:50%;background:rgba(231,199,119,.14);border:1px solid rgba(231,199,119,.5);color:var(--gold);font-size:7pt;font-weight:700;display:grid;place-items:center;line-height:1}
+.foot{position:absolute;left:15mm;right:15mm;bottom:9mm;display:flex;justify-content:space-between;padding-top:3mm;border-top:1px solid var(--line-soft);color:var(--ink-3);font-size:7.6pt}
+.head2{display:flex;align-items:center;justify-content:space-between;margin-bottom:5mm}
+.head2 h1{font-size:24pt;margin:0}
+.col{display:flex;flex-direction:column;gap:4mm}
+.faq h3{font-size:8.9pt;color:var(--gold);font-weight:700;margin:2.2mm 0 .6mm}
+.faq h3:first-of-type{margin-top:0}
+.chips{display:flex;flex-wrap:wrap;gap:2mm;margin-top:1mm}
+.chip{padding:1.2mm 3mm;border-radius:99px;border:1px solid var(--line-soft);background:rgba(255,255,255,.05);color:var(--ink-2);font-size:8pt}
+.note{font-size:8.4pt;color:var(--ink-2)}
+.note b{color:var(--gold)}
+.thanks{text-align:center;padding:4.6mm 9mm;border-color:rgba(231,199,119,.5);background:radial-gradient(80% 120% at 50% 0%,rgba(231,199,119,.12),transparent 70%),linear-gradient(180deg,var(--card-2),var(--card))}
+.thanks h2{font-size:16pt;margin-bottom:2.4mm}
+.thanks p{max-width:150mm;margin:0 auto;color:var(--ink-2)}
+.hearts{display:flex;justify-content:center;gap:4mm;margin:2.6mm 0 1.8mm}
+.hearts svg{width:15px;height:15px}
+.path{font-size:8.2pt;color:var(--gold);letter-spacing:.04em}
+</style>
+</head>
+<body>
+<!-- ============ PAGE 1 ============ -->
+<section class="page">
+  <header class="top">
+    <div class="brand">
+      <div class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3.5"/><circle cx="12" cy="10" r="3"/><path d="M7 19v-1a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v1"/></svg></div>
+      <div><b>Career Hub</b><small>Resume · Cover Letter · Job Tracker</small></div>
+    </div>
+    <div class="badge"><img src="kaellabs-logo-cream.svg" alt="KaelLabs logo"><span>by KaelLabs</span></div>
+  </header>
+
+  <h1>Welcome to Career Hub.<br>Your next application, <em>ready in minutes.</em></h1>
+  <p class="lead">Thank you for your purchase. Your workspace opens in about a minute — no account, no subscription, nothing to install. Build your resume once, tailor it for every role and keep every application on track.</p>
+
+  <div class="grid">
+    <div class="card">
+      <h2>On your computer</h2>
+      <ol class="steps">
+        <li>Unzip <b>Career-Hub.zip</b> and keep the folder somewhere permanent, like <b>Documents</b>.</li>
+        <li>Double-click <b>Career-Hub.html</b>. It opens in Chrome, Edge, Safari or Firefox — fully offline.</li>
+        <li>Bookmark it and open it the same way each time, in the same browser.</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h2>On your phone or tablet</h2>
+      <ol class="steps">
+        <li>Tap your <b>private link</b> below in Safari (iPhone, iPad) or Chrome (Android).</li>
+        <li>Add it to your Home Screen: <b>Share → Add to Home Screen</b>, or <b>⋮ → Install app</b>.</li>
+        <li>Move around with the <b>bottom menu</b>: Hub, Experience, Resume, Tracker and More.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="card link mt">
+    <div>
+      <div class="eyebrow">Your private online link</div>
+      <a class="url" href="https://resume-planner-rouge.vercel.app/">resume-planner-rouge.vercel.app</a>
+      <p class="small">For your own use — please keep it private. Everything you enter is saved in that browser on your device. Nothing is uploaded to a server.</p>
+    </div>
+    <a class="btn" href="https://resume-planner-rouge.vercel.app/">Open Career Hub&nbsp;→</a>
+  </div>
+
+  <div class="card mt">
+    <h2>Your first minute</h2>
+    <ol class="steps">
+      <li><b>Experience Bank</b>: add your profile, roles, education and skills once. Every document reuses them.</li>
+      <li><b>Resume Builder</b>: choose from 3 layouts, 4 colours and 2 header styles. Adjust fonts, text size, spacing and A4 or US Letter.</li>
+      <li><b>Review</b>: follow the completion and formatting checks, then arrange or hide sections for each role.</li>
+      <li><b>Download PDF</b>: choose <b>Save as PDF</b>, scale <b>100%</b>, headers and footers off.</li>
+      <li><b>Cover Letter &amp; Tracker</b>: write a matching letter, add the job to your Tracker and set a follow-up date.</li>
+    </ol>
+    <p class="small">Just exploring? Go to <b style="color:var(--ink)">Settings → Load demo data</b>. Clear it anytime with <b style="color:var(--ink)">Remove all data</b>.</p>
+  </div>
+
+  <div class="card rule mt">
+    <h2>The one rule: your data lives in your browser</h2>
+    <p>Career Hub saves privately in the browser you use. Open it from the <b>same browser and file location</b> (or the same link) each time. Your computer file and online link keep separate workspaces — move between them with <b>Settings → Export backup</b> and <b>Restore backup</b>. Export a backup weekly and before changing devices.</p>
+  </div>
+
+  <footer class="foot"><span>Career Hub · Resume Builder &amp; Job Tracker</span><span>Page 1 of 2</span></footer>
+</section>
+
+<!-- ============ PAGE 2 ============ -->
+<section class="page">
+  <header class="head2">
+    <h1>Good to know</h1>
+    <div class="badge"><img src="kaellabs-logo-cream.svg" alt=""><span>Career Hub by KaelLabs</span></div>
+  </header>
+
+  <div class="grid">
+    <div class="col">
+      <div class="card">
+        <h2>What's inside</h2>
+        <ul>
+          <li><b>Hub</b>: next step, resume readiness and follow-ups.</li>
+          <li><b>Experience Bank</b>: profile, roles, projects, education, certifications, skills, awards.</li>
+          <li><b>Resume Builder</b>: Mint Modern, Executive and Professional Sidebar — 24 style combinations, drag-and-drop sections.</li>
+          <li><b>Review checks</b>: completion and format checks before you export.</li>
+          <li><b>Cover Letter</b>: matches your resume and fills in details from a tracked job.</li>
+          <li><b>Job Tracker</b>: Wishlist → Applied → Interviewing → Offer board.</li>
+          <li><b>Contacts</b>: recruiters and referrals with follow-up dates.</li>
+          <li><b>Playbook</b>: 12 golden rules, STAR, negotiation and networking scripts.</li>
+          <li><b>Settings</b>: light and dark mode, 5 accents, backup and restore.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Works with</h2>
+        <div class="chips"><span class="chip">Mac</span><span class="chip">Windows</span><span class="chip">Chromebook</span><span class="chip">iPhone &amp; iPad</span><span class="chip">Android</span><span class="chip">Chrome</span><span class="chip">Edge</span><span class="chip">Safari</span><span class="chip">Firefox</span></div>
+        <p class="small" style="color:var(--ink-2)">Exports a text-based PDF with selectable text. The single-column <b style="color:var(--ink)">Executive</b> layout is ideal for online application portals.</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card faq">
+        <h2>Troubleshooting</h2>
+        <h3>"My entries are gone!"</h3>
+        <p>You probably opened Career Hub in a different browser, moved the HTML file, or used private browsing. Open it the way you did before, or restore your latest backup.</p>
+        <h3>New phone or computer?</h3>
+        <p>On the old device: <b>Settings → Export backup</b>. On the new one: open Career Hub → <b>Settings → Restore backup</b>.</p>
+        <h3>PDF cut off or showing extra text?</h3>
+        <p>In the print window choose <b>Save as PDF</b>, scale <b>100%</b>, turn <b>headers and footers off</b> and keep <b>background graphics</b> on.</p>
+        <h3>Which layout for application portals?</h3>
+        <p>Choose <b>Executive</b> (one column), then copy the text from your PDF to confirm it reads in the right order.</p>
+        <h3>Dark mode or a different accent?</h3>
+        <p>Desktop: the moon and palette buttons at the top. Phone: <b>More → Appearance</b>.</p>
+        <h3>Need help?</h3>
+        <p>Message us on Etsy — we're happy to help.</p>
+      </div>
+      <div class="card"><p class="note"><b>Preparation tool.</b> Career Hub helps you organise your experience, documents and applications. Your content is your own, and hiring decisions rest with each employer. Personal use licence — please keep the file and link private.</p></div>
+    </div>
+  </div>
+
+  <div class="card thanks mt">
+    <h2>Thank you for supporting our small studio!</h2>
+    <p>We built Career Hub to make job searching calmer and more organised. If it helped you, <b style="color:var(--ink)">an honest review on Etsy</b> would mean the world to an independent maker — and helps other job seekers find it.</p>
+    <div class="hearts" aria-label="Five hearts">
+      <svg viewBox="0 0 24 24" fill="#f08a6c"><path d="M12 21s-7.5-4.6-9.6-9.2C1 8.6 3 5 6.5 5c2 0 3.4 1.1 5.5 3.2C14.1 6.1 15.5 5 17.5 5 21 5 23 8.6 21.6 11.8 19.5 16.4 12 21 12 21z"/></svg>
+      <svg viewBox="0 0 24 24" fill="#f08a6c"><path d="M12 21s-7.5-4.6-9.6-9.2C1 8.6 3 5 6.5 5c2 0 3.4 1.1 5.5 3.2C14.1 6.1 15.5 5 17.5 5 21 5 23 8.6 21.6 11.8 19.5 16.4 12 21 12 21z"/></svg>
+      <svg viewBox="0 0 24 24" fill="#f08a6c"><path d="M12 21s-7.5-4.6-9.6-9.2C1 8.6 3 5 6.5 5c2 0 3.4 1.1 5.5 3.2C14.1 6.1 15.5 5 17.5 5 21 5 23 8.6 21.6 11.8 19.5 16.4 12 21 12 21z"/></svg>
+      <svg viewBox="0 0 24 24" fill="#f08a6c"><path d="M12 21s-7.5-4.6-9.6-9.2C1 8.6 3 5 6.5 5c2 0 3.4 1.1 5.5 3.2C14.1 6.1 15.5 5 17.5 5 21 5 23 8.6 21.6 11.8 19.5 16.4 12 21 12 21z"/></svg>
+      <svg viewBox="0 0 24 24" fill="#f08a6c"><path d="M12 21s-7.5-4.6-9.6-9.2C1 8.6 3 5 6.5 5c2 0 3.4 1.1 5.5 3.2C14.1 6.1 15.5 5 17.5 5 21 5 23 8.6 21.6 11.8 19.5 16.4 12 21 12 21z"/></svg>
+    </div>
+    <div class="path">Etsy → You → Purchases &amp; Reviews → Leave a review</div>
+  </div>
+
+  <footer class="foot"><span>Career Hub v1.1 · KaelLabs · 2026</span><span>Page 2 of 2</span></footer>
+</section>
+</body>
+</html>
