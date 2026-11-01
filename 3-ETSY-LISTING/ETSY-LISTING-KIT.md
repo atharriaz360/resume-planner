@@ -1,7 +1,7 @@
 # Career Hub — Etsy listing kit
 
 Shop: KaelLabs · Listing: https://www.etsy.com/listing/4588508397 · Section: Career & Job Search
-Updated 2026-10-27: hero v4 added. v1.1 (phone bottom menu, offline private link, new Start Here guide). Claims aligned with the app.
+Updated 2026-11-01: hero v5 + 2 plain screenshots (Etsy real-preview rule), ATS honesty line, fixed image paths. 2026-10-27: hero v4 added. v1.1 (phone bottom menu, offline private link, new Start Here guide). Claims aligned with the app.
 
 ## Title (12 words)
 ```
@@ -18,56 +18,75 @@ $9.99
 
 ## Description
 ```
-Career Hub is a Resume Builder App with 3 layouts in 24 style combinations, a matching cover letter builder and a job application tracker. Fill in your details once, pick a style, save as PDF. Buy once, no subscription.
+Resume Builder App + Cover Letter + Job Tracker. 24 resume styles, text-based PDF. Pay once, no subscription, works offline.
 
-No design software needed. Works offline in your browser on your computer, plus a private link for phone and tablet with a bottom menu built for touch. No account. Your data stays on your device.
+Job hunt feeling scattered? Write your experience once, pick a style, save as PDF and track every application, all in one calm place.
 
 ━━ WHAT'S INSIDE ━━
-✔ 3 resume layouts · 4 colours · 2 header styles (24 combinations)
+✔ 24 resume styles: 3 layouts × 4 colours × 2 headers
 ✔ Single-column Executive layout for online application portals
-✔ Cover letter builder
-✔ Job application tracker
-✔ Print or save as PDF
+✔ Matching cover letter in the same fonts, colours and header
+✔ Job tracker board: Wishlist, Applied, Interviewing, Offer, Rejected
+✔ Experience bank: write it once, reuse it everywhere
+✔ Contacts with follow-up dates and reminder badges
+✔ Job search playbook with 12 golden rules
+✔ Career hub: your next step and follow-ups at a glance
+✔ Review checks before you export: completion and format
+✔ A4 or US Letter page size
 
 ━━ WHO IT'S FOR ━━
 • Job seekers, students and graduates who need a clean resume fast
+• Career changers rewriting their story
 • Anyone sending many applications who wants one place to track them
 
 ━━ YOU GET (INSTANT DOWNLOAD) ━━
-• Career-Hub.zip with the app (one HTML file), a Start Here PDF guide and the licence
+• Career-Hub.zip: the app (one HTML file), a Start Here PDF guide and the licence
+• Start Here PDF also as a separate file, easy to open on phone
+• A private online link for phone and tablet, with a touch-friendly bottom menu
 
 ━━ HOW IT WORKS ━━
 1. Buy and download instantly
-2. Unzip Career-Hub.zip and read the Start Here PDF
-3. Open the HTML file in Chrome, Edge, Safari or Firefox — or tap your private link on phone or tablet
-4. Fill in your details, pick a template, save as PDF
+2. Unzip Career-Hub.zip and open the Start Here PDF
+3. Open the HTML file in Chrome, Edge, Safari or Firefox, or tap your private link on phone or tablet
+4. Fill in your details, pick a style, save as PDF
 
 ━━ GOOD TO KNOW ━━
 • Digital download. Nothing is shipped
-• Works on computer, phone and tablet
-• Output is PDF, not a Word file
-• Data saves in your browser. Use Export backup often; clearing browser data can erase it
-• Text-based PDF with selectable text
-• Personal use only. No sharing or resale
+• Pay once, no subscription, no account
+• Your data stays on your device. Nothing you type is sent anywhere
+• Data saves in your browser. Export a backup often
+• File and private link keep separate data. Move it with Export / Restore backup
+• Output: text-based PDF, not Word, Google Docs or Canva
+• No resume tool can promise how every applicant tracking system reads a file. Follow each employer's file rules
+• Personal use only: for you and your household. No sharing or resale
 • Product name: Career Hub (by KaelLabs)
-• Questions? Message me on Etsy. I reply as soon as possible
 
-Designed and built by me (KaelLabs). AI tools assisted with parts of the coding, images and listing copy. Every feature was reviewed and tested by hand. Photos show real app screens with example data.
+Designed and built by me (KaelLabs). AI tools assisted with parts of the coding, images and listing copy, and every feature was reviewed and tested by hand. Photos show real Career Hub screens with example data inside AI-assisted lifestyle scenes. Devices are not included.
+
+Because this is a digital download, returns aren't accepted. If anything doesn't open or work, message me on Etsy and I'll help as soon as possible.
 ```
 
 ## Files to upload
 - `1-SELL-THIS/Career-Hub.zip` (app HTML + Start Here PDF + LICENSE.txt)
 - `1-SELL-THIS/Career-Hub-Start-Here.pdf` (also loose, for phones)
 
-## Hero v4 (main photo, `images-v3/`), updated 2026-10-27
-Use `images-v3/01-hero-v4.jpg` as photo 1. Keep `images-v3/01-hero.jpg` (v3) for an A/B test after about 2 weeks; keep the one with higher click-through in Etsy Stats. Photos 2-10 stay from `images-v2/`.
+## Hero v6 (main photo), updated 2026-11-01
+Photo 1 = `images-v3/01-hero-v6.jpg` (3000x2250, sRGB JPG, 921 KB). New Canva scene (`5-SOURCE/canva-bg/Background Image.jpg`, 2370 px): hands hold the iPhone on the Job Tracker, Resume Builder (fit width, 1512x982) on the MacBook, Professional Sidebar resume printed on the desk. Source: `5-SOURCE/hero-v5-source/` (s6.py, despill.py, hero6.html). v5 (`01-hero-v5.jpg`, no hands) is the backup.
+A/B: keep `images-v2/01-hero-v4.jpg` as the challenger. Swap after about 2 weeks; keep the one with higher click-through in Etsy Stats.
 
 | # | File | Alt text |
 |---|---|---|
-| 1 | images-v3/01-hero-v4.jpg | Resume builder app on a MacBook showing a real one-page resume for the example name Jordan Lee, while hands hold an iPhone open on the job tracker at a calm, candle-lit desk. Includes 24 resume styles, a cover letter builder and a job tracker. Pay once, no subscription. |
-| A/B | images-v3/01-hero.jpg (v3) | Resume builder app on a MacBook and an iPhone held in two hands, showing a real resume editor and job tracker on a warm, lamp-lit evening desk. Your whole job search in one calm place: 24 resume styles, cover letters and a job tracker. Pay once, no subscription. |
+| 1 | images-v3/01-hero-v6.jpg | Resume builder app on a MacBook showing a real one-page resume for the example name Jordan Lee, while hands in a cream sweater hold an iPhone open on the job tracker, with a printed resume on a dark, lamp-lit desk. Your whole job search in one calm place: 24 resume styles, cover letter and job tracker. Pay once, no subscription. |
+| A/B | images-v2/01-hero-v4.jpg | Resume builder app on a MacBook showing a real one-page resume for the example name Jordan Lee, while hands hold an iPhone open on the job tracker at a calm, candle-lit desk. 24 resume styles, cover letter and job tracker. Pay once, no subscription. |
 
-Hero text, word for word (v4): RESUME BUILDER / 24 styles · Cover letter · Job tracker / PAY ONCE · NO SUBSCRIPTION. No ATS, job promises, sales counts, stars or laurels.
+Hero text, word for word (v5 and v6): Resume Builder / Your whole job search, in one calm place. / 24 resume styles · Cover letter · Job tracker / seal: PAY ONCE · NO SUBSCRIPTION. No ATS, job or interview promises, sales counts, stars or laurels.
+
+## Plain previews (unedited screenshots, Etsy real-preview rule)
+| # | File | Alt text |
+|---|---|---|
+| 11 | images-v3/11-dashboard-plain.jpg | Unedited screenshot of the Career Hub dashboard with example data: resume readiness (demo scores, not an assessment), resume preview, application counts and follow-ups |
+| 12 | images-v3/12-resume-builder-plain.jpg | Unedited screenshot of the resume builder: template list, live resume preview and document completion checks |
+If your listing allows only 10 photos: put 11 in place of `07-every-screen.jpg` (its content overlaps photo 6).
 
 ## Photos v2 (10, `images-v2/`, upload in this order) + video
 All photos are 2700x2026 JPG (4:3) and show real Career Hub screens with example data. Old v1 set stays in `images/` as a backup.
@@ -89,11 +108,12 @@ All photos are 2700x2026 JPG (4:3) and show real Career Hub screens with example
 
 ## Rules
 - Hero: keep the headline, the laptop and the phone inside the centre 60% of the width (x 540-2160 on 2700 px); keep the bottom-right corner clear for the video play button. Etsy search crops the first photo (about 4:5 on desktop), so anything at the sides is cut. See `grid-before-after.jpg`.
-- Etsy photo rules (Oct 22, 2026): photos must show what buyers get. Keep real screens only; consider adding one plain, unedited screenshot.
+- Etsy photo rules (Oct 22, 2026): photos must show what buyers get. Keep real screens only; plain unedited screenshots are photos 11-12.
 - Do not claim a Word or Canva template: none is included.
 - Photos use real app screens only, no stars, reviews or "bestseller".
 - Say "24 styles / style combinations" (3 layouts × 4 colours × 2 headers), not "24 templates". Do not promise ATS approval, interviews or jobs.
-- v2 photos say "Text-based PDF", not "ATS-friendly".
+- v2 photos say "Text-based PDF", not "ATS-friendly". Never use "ATS-friendly resumes that get more interviews" or similar outcome lines.
+- Photo 09 shows a model photo (from the Canva background set). It is not a customer. Keep the AI disclosure in the description; replace it if Etsy asks or if you cannot confirm the image licence.
 
 ## Rebuild images
 v2: see `LISTING-V2-NOTES.md` (source in `5-SOURCE/listing-v2-source.zip`).
