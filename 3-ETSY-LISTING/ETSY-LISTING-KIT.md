@@ -3,6 +3,19 @@
 Shop: KaelLabs · Listing: https://www.etsy.com/listing/4588508397 · Section: Career & Job Search
 VERIFIED: Updated 2026-11-01 with the supplied resume listing audit: proposed title, 13 tags, plain description, hero brief and Canva background prompt. UNKNOWN: Product behavior was not re-tested in this edit.
 
+## Current hero and listing video — 2026-11-02
+
+- Final hero selected by user: `images/01-hero-premium-refined.jpg`. This supersedes older hero recommendations below.
+- Current video: `6-ETSY-LISTING/Career-Hub-Listing-Video-v9.mp4`; matching upload copy: `3-ETSY-LISTING/video/Career-Hub-Listing-Video.mp4`.
+- Caption: Real Career Hub interactions change a resume style, move a tracked application, fill cover-letter details from a job and preview PDF output, ending on the final listing hero.
+- VERIFIED: 14.80 seconds, 1440 × 1080, 4:3, 30 fps, H.264, yuv420p, faststart, no audio stream, 2,702,909 bytes.
+- VERIFIED: Real app capture: Jordan Lee example data, 24 design choices, Mint template selected, application dragged Applied → Interviewing, cover details filled from Summit Learning Centre (Demo), PDF print action invoked and PDF generated. No captured JavaScript errors.
+- VERIFIED: Final three seconds show the user-selected hero; final frame matches its composition within video compression. Source and QA: `5-SOURCE/listing-hero-v9/`.
+- VERIFIED: Previous video preserved at `6-ETSY-LISTING/archive/Career-Hub-Listing-Video-previous.mp4`.
+- INFERENCE: Immediate visible interaction and restrained pacing may help product understanding. UNKNOWN: conversion lift or ranking; not tested with buyers.
+- LIMITATION: Live interaction scenes use untouched real captures with motion overlays. The user-selected end hero contains AI-rendered screen text. No fake hiring results, reviews or countdowns added.
+- Policy checked: https://help.etsy.com/hc/en-us/articles/360053206073-How-to-Add-Listing-Videos (15-second maximum, 100 MB limit, silent listing playback, 1080px ideal). Other Etsy guidance uses a 5-second minimum; this 14.8-second file meets either duration statement. Their aspect-ratio wording is ambiguous; live acceptance/crop remains untested.
+
 ## Evidence status
 - VERIFIED: Updated 2026-11-01 using the user-supplied ATS Resume Builder audit for listing `4588508397`.
 - VERIFIED: Asset paths and earlier production notes below are preserved from the existing kit.
@@ -141,7 +154,7 @@ All photos are 2700x2026 JPG (4:3) and show real Career Hub screens with example
 | 9 | 09-experience-bank.jpg | Experience bank: write your roles, projects, skills and awards once and reuse them in every resume and cover letter |
 | 10 | 10-playbook-contacts.jpg | Job search playbook with 12 golden rules and a contacts list with follow-up dates and reminder badges |
 
-**Video (slot 2):** `video/Career-Hub-Listing-Video.mp4` (14.8 s, 1440x1080, no audio). Etsy has no alt text field for video. Timeline in `LISTING-V2-NOTES.md`.
+**Video (slot 2):** `6-ETSY-LISTING/Career-Hub-Listing-Video-v9.mp4` (14.8 s, 1440x1080, no audio). Upload copy: `video/Career-Hub-Listing-Video.mp4`. Current timeline and QA: `5-SOURCE/listing-hero-v9/README.md`.
 
 ## Rules — INFERENCE: production guidance; policy statements below need current checks
 - Hero: keep the headline, the laptop and the phone inside the centre 60% of the width (x 540-2160 on 2700 px); keep the bottom-right corner clear for the video play button. Etsy search crops the first photo (about 4:5 on desktop), so anything at the sides is cut. See `grid-before-after.jpg`.

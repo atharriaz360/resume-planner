@@ -1,0 +1,39 @@
+{
+  "templateClick": {
+    "x": 109,
+    "y": 309.484375
+  },
+  "template": {
+    "template": "mint",
+    "accent": "mint",
+    "name": "Jordan Lee",
+    "styles": 24
+  },
+  "trackerBefore": "Applied",
+  "drag": {
+    "start": {
+      "x": 594,
+      "y": 386.484375
+    },
+    "end": {
+      "x": 818,
+      "y": 381.484375
+    },
+    "box": {
+      "x": 501,
+      "y": 356.484375,
+      "height": 137.6875,
+      "width": 186
+    }
+  },
+  "trackerAfter": "Interviewing",
+  "cover": {
+    "company": "Summit Learning Centre (Demo)",
+    "role": "Programme Coordinator",
+    "name": "Jordan Lee",
+    "paper": "Jordan LeeOperations & Client Success Leader | Process Optimization · Team Developmentjordan.lee@example.com +1 (555) 010-4477 Boston, MA linkedin.com/in/jordanlee-exampleEdit name & contact2 Nov 2026Taylor, talent teamSummit Learning Centre (Demo)Re: Programme CoordinatorDear Hiring Team,I am interested in the Patient Services Coordinator role because it combines organised service delivery with thoughtful client support.In my sample experience, I coordinated schedules for 12 colleagues and helped improve on-time service delivery from 86% to 96%. I also handled 40 client enquiries daily and helped improve the appointment-booking process.Thank you for considering my application. I would welcome the opportunity to discuss how my coordination and service experience could support your team.Sincerely,Jordan Lee"
+  },
+  "printCalled": true,
+  "pdfBytes": 283087,
+  "errors": []
+}
