@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--navy:#0E1E3F;--cream:#F5F0E8;--gold:#C8A862;--sans:"Inter","Helvetica Neue",Arial,sans-serif}
+html,body{width:3000px;height:2250px;overflow:hidden}
+.s{position:relative;width:3000px;height:2250px;overflow:hidden;font-family:var(--sans);
+background:
+ radial-gradient(1500px 820px at 50% 74%,rgba(200,168,98,.30),transparent 70%),
+ radial-gradient(1800px 1100px at 12% 0%,rgba(60,86,150,.55),transparent 62%),
+ linear-gradient(180deg,#14284F 0%,#0E1E3F 55%,#0A1630 76%)}
+/* soft window light on the wall */
+.win{position:absolute;inset:0;background:linear-gradient(112deg,rgba(255,232,190,0) 18%,rgba(255,232,190,.10) 30%,rgba(255,232,190,0) 46%),radial-gradient(900px 700px at 8% 18%,rgba(255,226,180,.14),transparent 70%);-webkit-mask:linear-gradient(180deg,#000 0,#000 58%,transparent 75%)}
+/* walnut desk */
+.desk{position:absolute;left:0;right:0;top:1708px;bottom:0;background:linear-gradient(180deg,#6E4A30 0,#5A3B25 18%,#3F2919 100%)}
+.desk:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(178.5deg,rgba(255,220,180,.045) 0 4px,rgba(0,0,0,.05) 4px 11px)}
+.desk:after{content:"";position:absolute;left:0;right:0;top:0;height:12px;background:linear-gradient(180deg,rgba(255,214,160,.45),rgba(255,214,160,0))}
+.vig{position:absolute;inset:0;background:radial-gradient(2300px 1600px at 50% 46%,transparent 55%,rgba(0,0,0,.35))}
+/* logo: KaelLabs usage rule, right edge x=2360, top y=46, height 93 */
+.logo{position:absolute;top:46px;left:2138px;width:222px;height:93px;filter:drop-shadow(0 3px 14px rgba(0,0,0,.55))}
+.logo img{display:block;width:222px;height:93px}
+/* text */
+.k{position:absolute;top:150px;left:0;right:0;text-align:center;font:700 44px/1 var(--sans);letter-spacing:.34em;color:var(--gold)}
+h1{position:absolute;top:214px;left:0;right:0;text-align:center;font:700 184px/1 Georgia,"Times New Roman",serif;letter-spacing:-.02em;color:var(--cream);text-shadow:0 6px 30px rgba(0,0,0,.35)}
+.sb{position:absolute;top:438px;left:0;right:0;text-align:center;font:600 74px/1 var(--sans);color:#DCD3C3}
+.sb b{color:var(--gold);font-weight:800;margin:0 24px}
+/* laptop */
+.lap{position:absolute;left:684px;top:612px;width:1632px}
+.lid{position:relative;background:#07080B;border-radius:44px 44px 10px 10px;padding:36px 36px 46px;box-shadow:0 0 0 5px #C3C6CD,0 0 0 7px #8E929C,0 60px 90px -30px rgba(0,0,0,.6)}
+.lid:before{content:"";position:absolute;top:13px;left:50%;width:12px;height:12px;margin-left:-6px;border-radius:50%;background:#1E2230;box-shadow:inset 0 0 0 3px #2A3044}
+.scr{width:1560px;height:975px;border-radius:6px;overflow:hidden;background:#fff}
+.bar{height:52px;display:flex;align-items:center;gap:14px;padding:0 20px;background:#ECEEF2;border-bottom:1px solid #D7DAE0}
+.bar i{width:14px;height:14px;border-radius:50%;background:#C9CDD4}
+.bar .url{margin-left:22px;flex:0 0 640px;height:32px;border-radius:9px;background:#fff;border:1px solid #D7DAE0;display:flex;align-items:center;padding:0 16px;font:500 17px/1 var(--sans);color:#5A6072}
+.bar .url svg{width:15px;height:15px;margin-right:10px}
+.scr img,.ps img{display:block}
+.glare{position:absolute;inset:36px 36px 46px;border-radius:6px;background:linear-gradient(118deg,rgba(255,255,255,.10) 0,rgba(255,255,255,0) 28%);pointer-events:none}
+.base{position:relative;height:44px;margin:0 -86px;background:linear-gradient(180deg,#E6E8EC 0,#C8CBD2 45%,#9599A3 100%);border-radius:4px 4px 34px 34px;box-shadow:0 36px 50px -14px rgba(0,0,0,.7)}
+.base:before{content:"";position:absolute;top:0;left:50%;width:300px;margin-left:-150px;height:16px;background:linear-gradient(180deg,#A9ADB6,#C8CBD2);border-radius:0 0 18px 18px}
+/* phone */
+.ph{position:absolute;left:622px;top:1076px;width:452px;height:922px;border-radius:76px;padding:24px;background:#050608;
+ box-shadow:0 0 0 5px #9C9893,0 0 0 8px #6A6763,0 0 0 9px #2A2928,-20px 50px 80px -18px rgba(0,0,0,.75)}
+.ph:before{content:"";position:absolute;left:-12px;top:210px;width:5px;height:70px;border-radius:3px;background:#8C8984}
+.ph:after{content:"";position:absolute;right:-12px;top:260px;width:5px;height:110px;border-radius:3px;background:#8C8984}
+.ps{position:relative;width:404px;height:874px;border-radius:54px;overflow:hidden;background:#F7F6FB}
+.sbar{position:relative;height:56px;display:flex;align-items:center;justify-content:space-between;padding:6px 34px 0 46px;font:600 19px/1 -apple-system,var(--sans);color:#0B0B0F;letter-spacing:-.01em}
+.sbar .ic{display:flex;gap:7px;align-items:center}
+.di{position:absolute;top:12px;left:50%;width:124px;height:37px;margin-left:-62px;background:#000;border-radius:20px;z-index:2}
+.ps:after{content:"";position:absolute;inset:0;background:linear-gradient(125deg,rgba(255,255,255,.12),rgba(255,255,255,0) 35%);pointer-events:none}
+/* paper */
+.pg{position:absolute;left:1756px;top:1040px;width:640px;transform:rotate(2deg);transform-origin:50% 100%;background:#fff;border-radius:4px;box-shadow:0 44px 70px -20px rgba(0,0,0,.75),0 0 0 1px rgba(0,0,0,.08)}
+.pg img{display:block;width:640px;border-radius:4px}
+/* bottom */
+.chips{position:absolute;top:2022px;left:0;right:0;display:flex;justify-content:center;gap:26px}
+.chips span{padding:24px 44px;border-radius:999px;font:700 50px/1 var(--sans);color:var(--navy);background:var(--cream);box-shadow:0 12px 28px -10px rgba(0,0,0,.6)}
+.note{position:absolute;top:2172px;left:0;right:0;text-align:center;font:600 30px/1 var(--sans);letter-spacing:.06em;color:rgba(245,240,232,.85)}
+</style></head><body><section class="s">
+<div class="win"></div><div class="desk"></div><div class="vig"></div>
+<div class="logo"><img src="logo.svg" alt="KaelLabs"></div>
+<div class="k">CAREER HUB</div>
+<h1>Resume Builder</h1>
+<div class="sb">+ Cover Letter<b>·</b>Job Tracker</div>
+<div class="lap"><div class="lid"><div class="scr">
+ <div class="bar"><i></i><i></i><i></i><div class="url"><svg viewBox="0 0 16 16"><path d="M3 2h7l3 3v9H3z" fill="none" stroke="#7A8094" stroke-width="1.5"/></svg>Career-Hub.html</div></div>
+ <img src="laptop.png" width="1560" height="923"></div><div class="glare"></div></div><div class="base"></div></div>
+<div class="pg"><img src="pg-1.png"></div>
+<div class="ph"><div class="ps"><div class="di"></div>
+ <div class="sbar"><span>9:41</span><span class="ic">
+  <svg width="25" height="15" viewBox="0 0 25 15"><rect x="0" y="10" width="4.5" height="5" rx="1.2" fill="#0B0B0F"/><rect x="6.8" y="7" width="4.5" height="8" rx="1.2" fill="#0B0B0F"/><rect x="13.6" y="3.8" width="4.5" height="11.2" rx="1.2" fill="#0B0B0F"/><rect x="20.4" y="0" width="4.5" height="15" rx="1.2" fill="#0B0B0F"/></svg>
+  <svg width="22" height="16" viewBox="0 0 22 16"><path d="M11 15.5l3.4-3.5a4.8 4.8 0 0 0-6.8 0z" fill="#0B0B0F"/><path d="M4.9 9.3a8.6 8.6 0 0 1 12.2 0l-1.9 1.9a5.9 5.9 0 0 0-8.4 0z" fill="#0B0B0F"/><path d="M1.6 6a13.3 13.3 0 0 1 18.8 0l-1.9 1.9a10.6 10.6 0 0 0-15 0z" fill="#0B0B0F"/></svg>
+  <svg width="36" height="17" viewBox="0 0 36 17"><rect x=".75" y=".75" width="30" height="15.5" rx="4.5" fill="none" stroke="#0B0B0F" stroke-opacity=".4" stroke-width="1.5"/><rect x="3" y="3" width="23" height="11" rx="2.6" fill="#0B0B0F"/><path d="M33 6v5a2.6 2.6 0 0 0 0-5z" fill="#0B0B0F" fill-opacity=".45"/></svg>
+ </span></div>
+ <img src="phone.png" width="404" height="818"></div></div>
+<div class="chips"><span>24 resume designs</span><span>Text-based PDF</span><span>Pay once</span></div>
+<div class="note">Real app screens · Example data</div>
+</section></body></html>
